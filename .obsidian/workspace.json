@@ -170,6 +170,11 @@
   },
   "active": "339c86779985da79",
   "lastOpenFiles": [
+    "HTB/Easy/*nix/Bashed.md",
+    "HTB/Easy/*nix/NIbbles.md",
+    "HTB/Easy/*nix/Valetine.md",
+    "PLAN",
+    "HTB/Easy/*nix/Curling.md",
     "HTB/Easy/*nix/Teacher.md",
     "HTB/Easy/*nix/Irked.md",
     "HTB/Easy/*nix/Help.md",
@@ -192,10 +197,6 @@
     "HTB/Easy/*nix/Blunder.md",
     "HTB/Easy/*nix/Tabby.md",
     "HTB/Easy/*nix/Omni.md",
-    "HTB/Easy/*nix/Doctor.md",
-    "HTB/Easy/*nix/Academy.md",
-    "HTB/Easy/*nix/Luanne.md",
-    "HTB/Easy/*nix/Delivery.md",
-    "HTB/Easy/*nix/ScriptKiddie.md"
+    "HTB/Easy/*nix/Doctor.md"
   ]
 }
