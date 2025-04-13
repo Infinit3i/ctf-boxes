@@ -170,6 +170,15 @@
   },
   "active": "2034de2099e4c22e",
   "lastOpenFiles": [
+    "HTB/Easy/*nix/Delivery.md",
+    "HTB/Easy/*nix/ScriptKiddie.md",
+    "HTB/Easy/*nix/Spectra.md",
+    "HTB/Easy/*nix/Armageddon.md",
+    "HTB/Easy/*nix/Love.md",
+    "HTB/Easy/*nix/Knife.md",
+    "HTB/Easy/*nix/Cap.md",
+    "HTB/Easy/*nix/Explore.md",
+    "HTB/Easy/*nix/BountyHunter.md",
     "HTB/Easy/*nix/Previse.md",
     "HTB/Easy/*nix/Horizontall.md",
     "HTB/Easy/*nix/Secret.md",
@@ -186,15 +195,6 @@
     "HTB/Easy/*nix/MetaTwo.md",
     "HTB/Easy/*nix/Precious.md",
     "HTB/Easy/*nix/TwoMillion.md",
-    "HTB/Easy/*nix/Soccer.md",
-    "HTB/Easy/*nix/Stocker.md",
-    "HTB/Easy/*nix/Inject.md",
-    "HTB/Easy/*nix/Busqueda.md",
-    "HTB/Easy/*nix/MonitorsTwo.md",
-    "HTB/Easy/*nix/Wifinetic.md",
-    "HTB/Easy/*nix/PC.md",
-    "HTB/Easy/*nix/Topology.md",
-    "HTB/Easy/*nix/Sau.md",
-    "HTB/Easy/*nix/Pilgrimage.md"
+    "HTB/Easy/*nix/Soccer.md"
   ]
 }
