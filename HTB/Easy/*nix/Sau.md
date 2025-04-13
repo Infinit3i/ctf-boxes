@@ -1,7 +1,3 @@
-Got it! Here's a clean version of the command notes for **HTB: Sau**, grouped by stage and purpose, with no CVE code — just the link references:
-
----
-
 # 💎 HTB: Sau - Command Notes
 
 ## 🔍 Recon
@@ -77,7 +73,3 @@ sudo /usr/bin/systemctl status trail.service
 cat /home/puma/user.txt
 cat /root/root.txt
 ```
-
---- 
-
-Let me know if you want the same structure for another box! 🧩📜

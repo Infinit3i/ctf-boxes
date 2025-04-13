@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Easy/*nix/perfection.md",
+                "file": "HTB/Easy/*nix/analytics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "perfection"
+              "title": "analytics"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Easy/*nix/perfection.md",
+                "file": "HTB/Easy/*nix/analytics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for perfection"
+              "title": "Backlinks for analytics"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Easy/*nix/perfection.md",
+                "file": "HTB/Easy/*nix/analytics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from perfection"
+              "title": "Outgoing links from analytics"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Easy/*nix/perfection.md",
+                "file": "HTB/Easy/*nix/analytics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of perfection"
+              "title": "Outline of analytics"
             }
           }
         ]
@@ -170,14 +170,31 @@
   },
   "active": "2034de2099e4c22e",
   "lastOpenFiles": [
-    "HTB/Easy/*nix/Broker.md",
-    "HTB/Easy/*nix/Pilgrimage.md",
+    "HTB/Easy/*nix/Previse.md",
+    "HTB/Easy/*nix/Horizontall.md",
+    "HTB/Easy/*nix/Secret.md",
+    "HTB/Easy/*nix/Backdoor.md",
+    "HTB/Easy/*nix/Pandora.md",
+    "HTB/Easy/*nix/Paper.md",
+    "HTB/Easy/*nix/RouterSpace.md",
+    "HTB/Easy/*nix/Late.md",
+    "HTB/Easy/*nix/OpenSource.md",
+    "HTB/Easy/*nix/Trick.md",
+    "HTB/Easy/*nix/RedPanda.md",
+    "HTB/Easy/*nix/Shoppy.md",
+    "HTB/Easy/*nix/Photobomb.md",
+    "HTB/Easy/*nix/MetaTwo.md",
+    "HTB/Easy/*nix/Precious.md",
+    "HTB/Easy/*nix/TwoMillion.md",
+    "HTB/Easy/*nix/Soccer.md",
+    "HTB/Easy/*nix/Stocker.md",
+    "HTB/Easy/*nix/Inject.md",
+    "HTB/Easy/*nix/Busqueda.md",
+    "HTB/Easy/*nix/MonitorsTwo.md",
+    "HTB/Easy/*nix/Wifinetic.md",
+    "HTB/Easy/*nix/PC.md",
+    "HTB/Easy/*nix/Topology.md",
     "HTB/Easy/*nix/Sau.md",
-    "HTB/Easy/*nix/Keeper.md",
-    "HTB/Easy/*nix/headless.md",
-    "HTB/Easy/*nix/DevVortex.md",
-    "HTB/Easy/*nix/CozyHosting.md",
-    "HTB/Easy/*nix/analytics.md",
-    "HTB/Easy/*nix/bizness.md"
+    "HTB/Easy/*nix/Pilgrimage.md"
   ]
 }
