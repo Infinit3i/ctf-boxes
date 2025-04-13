@@ -170,6 +170,8 @@
   },
   "active": "339c86779985da79",
   "lastOpenFiles": [
+    "HTB/Easy/*nix/Shocker.md",
+    "Shocker.md",
     "HTB/Easy/*nix/Bashed.md",
     "HTB/Easy/*nix/NIbbles.md",
     "HTB/Easy/*nix/Valetine.md",
@@ -195,8 +197,6 @@
     "HTB/Easy/*nix/MonitorsTwo.md",
     "HTB/Easy/*nix/analytics.md",
     "HTB/Easy/*nix/Blunder.md",
-    "HTB/Easy/*nix/Tabby.md",
-    "HTB/Easy/*nix/Omni.md",
-    "HTB/Easy/*nix/Doctor.md"
+    "HTB/Easy/*nix/Tabby.md"
   ]
 }
