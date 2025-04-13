@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Easy/*nix/analytics.md",
+                "file": "HTB/Easy/*nix/Academy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "analytics"
+              "title": "Academy"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Easy/*nix/analytics.md",
+                "file": "HTB/Easy/*nix/Academy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for analytics"
+              "title": "Backlinks for Academy"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Easy/*nix/analytics.md",
+                "file": "HTB/Easy/*nix/Academy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from analytics"
+              "title": "Outgoing links from Academy"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Easy/*nix/analytics.md",
+                "file": "HTB/Easy/*nix/Academy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of analytics"
+              "title": "Outline of Academy"
             }
           }
         ]
@@ -168,33 +168,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2034de2099e4c22e",
+  "active": "339c86779985da79",
   "lastOpenFiles": [
+    "HTB/Easy/*nix/Teacher.md",
+    "HTB/Easy/*nix/Irked.md",
+    "HTB/Easy/*nix/Help.md",
+    "HTB/Easy/*nix/Swagshop.md",
+    "HTB/Easy/*nix/Writeup.md",
+    "HTB/Easy/*nix/Safe.md",
+    "HTB/Easy/*nix/Safemd",
+    "HTB/Easy/*nix/Haystack.md",
+    "HTB/Easy/*nix/Networked.md",
+    "HTB/Easy/*nix/Postman.md",
+    "HTB/Easy/*nix/Traverxec.md",
+    "HTB/Easy/*nix/OpenAdmin.md",
+    "HTB/Easy/*nix/Traceback.md",
+    "HTB/Easy/*nix/Admirer.md",
+    "HTB/Easy/*nix/TwoMillion.md",
+    "HTB/Easy/*nix/Wifinetic.md",
+    "HTB/Easy/*nix/OpenSource.md",
+    "HTB/Easy/*nix/MonitorsTwo.md",
+    "HTB/Easy/*nix/analytics.md",
+    "HTB/Easy/*nix/Blunder.md",
+    "HTB/Easy/*nix/Tabby.md",
+    "HTB/Easy/*nix/Omni.md",
+    "HTB/Easy/*nix/Doctor.md",
     "HTB/Easy/*nix/Academy.md",
     "HTB/Easy/*nix/Luanne.md",
     "HTB/Easy/*nix/Delivery.md",
-    "HTB/Easy/*nix/ScriptKiddie.md",
-    "HTB/Easy/*nix/Spectra.md",
-    "HTB/Easy/*nix/Armageddon.md",
-    "HTB/Easy/*nix/Love.md",
-    "HTB/Easy/*nix/Knife.md",
-    "HTB/Easy/*nix/Cap.md",
-    "HTB/Easy/*nix/Explore.md",
-    "HTB/Easy/*nix/BountyHunter.md",
-    "HTB/Easy/*nix/Previse.md",
-    "HTB/Easy/*nix/Horizontall.md",
-    "HTB/Easy/*nix/Secret.md",
-    "HTB/Easy/*nix/Backdoor.md",
-    "HTB/Easy/*nix/Pandora.md",
-    "HTB/Easy/*nix/Paper.md",
-    "HTB/Easy/*nix/RouterSpace.md",
-    "HTB/Easy/*nix/Late.md",
-    "HTB/Easy/*nix/OpenSource.md",
-    "HTB/Easy/*nix/Trick.md",
-    "HTB/Easy/*nix/RedPanda.md",
-    "HTB/Easy/*nix/Shoppy.md",
-    "HTB/Easy/*nix/Photobomb.md",
-    "HTB/Easy/*nix/MetaTwo.md",
-    "HTB/Easy/*nix/Precious.md"
+    "HTB/Easy/*nix/ScriptKiddie.md"
   ]
 }
