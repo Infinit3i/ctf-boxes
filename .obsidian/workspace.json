@@ -170,6 +170,8 @@
   },
   "active": "2034de2099e4c22e",
   "lastOpenFiles": [
+    "HTB/Easy/*nix/Academy.md",
+    "HTB/Easy/*nix/Luanne.md",
     "HTB/Easy/*nix/Delivery.md",
     "HTB/Easy/*nix/ScriptKiddie.md",
     "HTB/Easy/*nix/Spectra.md",
@@ -193,8 +195,6 @@
     "HTB/Easy/*nix/Shoppy.md",
     "HTB/Easy/*nix/Photobomb.md",
     "HTB/Easy/*nix/MetaTwo.md",
-    "HTB/Easy/*nix/Precious.md",
-    "HTB/Easy/*nix/TwoMillion.md",
-    "HTB/Easy/*nix/Soccer.md"
+    "HTB/Easy/*nix/Precious.md"
   ]
 }
