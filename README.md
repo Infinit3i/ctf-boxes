@@ -45,3 +45,9 @@ git repo to keep obsidian notes for oscp
 | OSEP | $1,649 |
 | CRTO II | **$800** |
 | **Total** | **💸 $6,497 (max cost)** |
+
+
+
+## start with windows machines
+### keep checklist below
+- [ ] Support
