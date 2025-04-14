@@ -11,10 +11,14 @@
             "id": "a5c4ea4835f27aa8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Medium/*nix/Agile.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agile"
             }
           }
         ]
@@ -164,8 +168,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5c4ea4835f27aa8",
+  "active": "339c86779985da79",
   "lastOpenFiles": [
+    "HTB/Medium/*nix/Interface.md",
+    "HTB/Medium/*nix/Bagel.md",
+    "Methodology/HTB.md",
+    "HTB/Medium/*nix/Agile.md",
+    "HTB/Medium/*nix",
+    "HTB/Medium",
     "HTB/Easy/Windows/Timelapse.md",
     "HTB/Easy/Windows/Support.md",
     "HTB/Easy/Windows/ServMon.md",
@@ -188,10 +198,6 @@
     "HTB/Easy/Windows/Bastion.md",
     "HTB/Easy/Windows/Arctic.md",
     "HTB/Easy/Windows/Active.md",
-    "HTB/Easy/Windows/Access.md",
-    "Methodology/Linux.md",
-    "HTB/Easy/*nix/Writeup.md",
-    "HTB/Easy/*nix/Wifinetic.md",
     "Untitled.canvas",
     "Untitled",
     "Methodology",
