@@ -125,7 +125,3 @@ type C:\Users\tolis\Desktop\user.txt
 ```bash
 type C:\Users\Administrator\Desktop\root.txt
 ```
-
----
-
-Let me know when you're ready to tackle the next box 👀 or want this in a document!
