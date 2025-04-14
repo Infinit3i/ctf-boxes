@@ -1,7 +1,3 @@
-Awesome work finishing HTB: Arctic! Here's your walkthrough-style command breakdown organized by phase, just the way you like it:
-
----
-
 # 🧊 HTB: Arctic Walkthrough
 
 ## 📍 Target Info

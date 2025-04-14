@@ -1,7 +1,7 @@
 # 🧠 HTB: Blunder — Walkthrough
 
-**OS:** Linux  
-**Difficulty:** Easy  
+**OS:** [Linux](Linux.md)
+**Difficulty:**  [HTB Easy](HTB Easy)  
 **Focus:** Bludit RCE, Web enumeration, LXD priv esc  
 **Tags:** OSCP Prep, TJNull List
 
@@ -29,7 +29,7 @@ ffuf -w /usr/share/wordlists/dirb/big.txt -u http://blunder.htb/FUZZ
 
 ---
 
-## 🌐 Web Enumeration
+## 🌐 [Web Enumeration](HTTP)
 
 - Found `/admin` login panel.
 - Bludit version found in HTML source: `3.9.2`

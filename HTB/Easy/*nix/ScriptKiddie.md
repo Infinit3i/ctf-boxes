@@ -3,7 +3,7 @@
 ## 📈 Box Info
 - **Name:** Script-Kiddie
 - **IP:** 10.10.10.226
-- **OS:** Linux
+- **OS:** [Linux](Linux)
 - **Difficulty:** Easy
 
 ---
@@ -14,7 +14,7 @@ nmap -sV -sC -oA scans/nmap-alltcp 10.10.10.226
 ```
 - **Open Ports:**
   - 22 (SSH)
-  - 5000 (HTTP - Werkzeug server)
+  - 5000 ([HTTP](HTTP) - Werkzeug server)
 
 ```bash
 gobuster dir -u http://10.10.10.226:5000/ -w /usr/share/dirb/wordlists/small.txt
@@ -56,7 +56,7 @@ reset
 export TERM=xterm-256color
 ```
 
-### SSH Persistence (Optional)
+### [SSH](SSH) Persistence (Optional)
 ```bash
 mkdir ~/.ssh
 echo "<your public key>" > ~/.ssh/authorized_keys

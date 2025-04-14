@@ -1,9 +1,9 @@
-# HTB: Previse — Command Cheatsheet
+# HTB: Previse
 
 ## 📌 Box Info
 - **Name:** Previse
 - **IP:** 10.10.11.104
-- **OS:** Linux
+- **OS:** [Linux](Linux)
 - **Difficulty:** Easy
 
 ---
@@ -34,7 +34,7 @@ nmap -p 22,80 -sCV -oA scans/nmap-tcpscripts 10.10.11.104
 
 ---
 
-## 🧪 Command Injection in logs.php
+## 🧪 Command Injection in [logs.php](HTTP)
 ### Without Source
 - Interact with `file_logs.php`
 - Modify POST request:

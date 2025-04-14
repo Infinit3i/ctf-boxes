@@ -1,7 +1,3 @@
-Here is a clean, **phase-organized command reference** for **HTB: ServMon**, matching your preferred format:
-
----
-
 ## 🔎 Recon
 
 ```bash
@@ -11,7 +7,7 @@ nmap -sV -sC -p 21,22,80,135,139,445,5040,5666,6063,6699,7680,8443 -oA scans/nma
 
 ---
 
-## 📁 FTP Enumeration
+## 📁 [FTP](FTP) Enumeration
 
 ```bash
 wget -r ftp://anonymous:@10.10.10.184
@@ -22,7 +18,7 @@ cat ftp/Users/Nathan/Notes\ to\ do.txt
 
 ---
 
-## 🌐 Web (TCP 80) – NVMS-1000
+## 🌐 [Web](HTTP) (TCP 80) – NVMS-1000
 
 ```bash
 searchsploit "nvms 1000"
@@ -59,7 +55,7 @@ crackmapexec smb 10.10.10.184 -u users -p passwords
 
 ---
 
-## 🐚 Shell as Nadine (SSH)
+## 🐚 Shell as Nadine [SSH](SSH)
 
 ```bash
 sshpass -p 'L1k3B1gBut7s@W0rk' ssh nadine@10.10.10.184

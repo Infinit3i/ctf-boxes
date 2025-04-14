@@ -2,7 +2,7 @@
 
 ## Box Info
 - **Name:** RouterSpace  
-- **OS:** Linux  
+- **OS:** [Linux](Linux.md)  
 - **Difficulty:** Easy  
 - **Release Date:** 26 Feb 2022  
 - **Retire Date:** 09 Jul 2022  

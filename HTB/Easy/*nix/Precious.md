@@ -17,7 +17,7 @@ nmap -p 22,80 -sCV 10.10.11.189
 echo "10.10.11.189 precious.htb" | sudo tee -a /etc/hosts
 ```
 
-### FFUF Subdomain Fuzzing
+### [FFUF](HTTP) Subdomain Fuzzing
 ```bash
 ffuf -u http://10.10.11.189 -H "Host: FUZZ.precious.htb" -w /opt/SecLists/Discovery/DNS/subdomains-top1million-20000.txt -mc all -ac
 ```
@@ -143,10 +143,3 @@ cat /root/root.txt
 ```bash
 echo "127.0.0.1 precious.htb" | sudo tee -a /etc/hosts
 ```
-
-### Result
-- PDF generation works for local URLs 🎉
-
----
-
-Let me know if you want this exported to a `.md` file or adapted for Obsidian / Notion, or if you'd like to keep going with more HTB boxes! 🧠💥

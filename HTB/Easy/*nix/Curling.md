@@ -23,8 +23,8 @@ Ports open:
 nmap -p 22,80 -sV -sC -oA nmap/scripts 10.10.10.150
 ```
 Identified:
-- Apache 2.4.29 (Ubuntu)
-- OpenSSH 7.6p1
+- [Apache](HTTP) 2.4.29 (Ubuntu)
+- [OpenSSH](SSH) 7.6p1
 - Joomla CMS on port 80
 
 ---

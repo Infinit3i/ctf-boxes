@@ -9,7 +9,7 @@
 nmap -p- --min-rate 10000 -oA scans/nmap-alltcp 10.10.10.115
 nmap -sC -sV -p 22,80,9200 -oA scans/nmap-scripts 10.10.10.115
 ```
-- Open ports: 22 (SSH), 80 (HTTP), 9200 (ElasticSearch/HTTP)
+- Open ports: 22 [SSH](SSH), 80 [HTTP](HTTP), 9200 (ElasticSearch/HTTP)
 
 #### Port 80 - Website
 - Basic HTML page with image: `needle.jpg`

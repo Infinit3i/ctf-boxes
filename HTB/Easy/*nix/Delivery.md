@@ -21,7 +21,7 @@ nmap -sV -p- -T4 -oA nmap/delivery-all 10.10.10.222
 ---
 
 ## 🏠 Web Enumeration
-- **Port 80:** Static homepage
+- **[Port 80](HTTP):** Static homepage
 - **Subdomain found:** helpdesk.delivery.htb
 - **Port 8065:** Mattermost interface at `http://delivery.htb:8065/`
 

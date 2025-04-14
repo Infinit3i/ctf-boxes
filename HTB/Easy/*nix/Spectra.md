@@ -23,7 +23,7 @@ echo "10.10.10.229 spectra.htb" | sudo tee -a /etc/hosts
 
 ---
 
-## 🔗 Enumerate WordPress
+## 🔗 Enumerate [WordPress](HTTP)
 ```bash
 # Look for .save file
 curl http://spectra.htb/testing/wp-config.php.save
@@ -82,7 +82,7 @@ cat /etc/autologin/passwd  # => SummerHereWeCome!!
 
 ---
 
-## 🔐 SSH as Katie
+## 🔐 [SSH](SSH) as Katie
 ```bash
 sshpass -p 'SummerHereWeCome!!' ssh katie@10.10.10.229
 ```

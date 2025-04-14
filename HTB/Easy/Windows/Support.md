@@ -4,7 +4,7 @@
 - **Name**: Support
 - **Release Date**: 30 Jul 2022
 - **Retire Date**: 17 Dec 2022
-- **OS**: Windows
+- **OS**: [Windows](Windows.md)
 - **Difficulty**: Easy (OSCP-like, OSEP-like)
 - **Points**: 20
 
@@ -17,11 +17,11 @@
 nmap -p- --min-rate 10000 10.10.11.174
 ```
 Key Ports:
-- 53 (DNS)
-- 88 (Kerberos)
-- 389 (LDAP)
-- 445 (SMB)
-- 5985 (WinRM)
+- 53 [DNS](DNS)
+- 88 [Kerberos](Kerberos)
+- 389 [LDAP](LDAP)
+- 445 [SMB](SMB)
+- 5985 [WinRM](WinRM.md)
 
 #### Named Contexts from LDAP
 ```

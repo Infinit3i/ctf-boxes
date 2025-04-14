@@ -9,7 +9,7 @@ nmap -p- --min-rate 10000 -oA scans/nmap-alltcp 10.10.10.180
 nmap -sV -sC -p 21,80,111,135,139,445,2049,5985,47001 -oA scans/nmap-tcpscripts 10.10.10.180
 ```
 
-## 🌐 **Web Enumeration**
+## 🌐 [**Web Enumeration**](HTTP)
 
 - No specific commands listed for web recon (manual browsing used).
 - Umbraco admin panel discovered at `/Umbraco`.
@@ -76,7 +76,7 @@ password = aes.decrypt(ciphertext).decode("utf-16").rstrip("\x00")
 print(f"[+] Found password: {password}")
 ```
 
-## 🪟 **Admin Access**
+## 🪟 [**Admin Access**](SMB)
 
 ```bash
 # Validate admin creds

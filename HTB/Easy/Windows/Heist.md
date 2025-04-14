@@ -36,7 +36,7 @@ Use online Cisco Type 7 decoder (e.g. https://insecure.org/sploits/cisco.passwor
 
 ## 👤 User Enumeration
 
-**RID Brute Force with CrackMapExec**
+**RID Brute Force with [CrackMapExec](SMB.md)**
 ```bash
 crackmapexec smb 10.10.10.149 --rid-brute
 ```

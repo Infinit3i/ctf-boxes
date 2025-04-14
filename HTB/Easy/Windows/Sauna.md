@@ -35,7 +35,7 @@ nmap -p 53,80,88,135,139,389,445,464,593,3268,3269,5985 -sC -sV -oA scans/tcpscr
 gobuster dir -u http://10.10.10.175/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -o scans/gobuster-root -t 40
 ```
 
-### 🖧 [SMB](SMB) Enumeration
+### 🖧 [SMB](SMB.md) Enumeration
 
 ```bash
 smbmap -H 10.10.10.175

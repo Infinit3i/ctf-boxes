@@ -7,7 +7,7 @@ nmap -p- --min-rate 10000 10.10.11.8
 nmap -p 22,5000 -sCV 10.10.11.8
 ```
 
-## 📂 Directory Brute Force
+## 📂 [Directory Brute Force](HTTP)
 
 ```bash
 feroxbuster -u http://10.10.11.8:5000
@@ -47,7 +47,7 @@ is_admin=ImFkbWluIg.dmzDkZNEm6CK0oyL1fbM-SnXpH0
 date=2023-09-15; id
 ```
 
-## 🔐 Generate SSH Key
+## 🔐 Generate [SSH](SSH) Key
 
 ```bash
 ssh-keygen -t ed25519 -f key

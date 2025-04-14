@@ -19,7 +19,7 @@ nmap -sV -sC -p 53,88,135,139,389,445,464,593,636,3268,3269,5722,9389,47001,4915
 nmap -sU -p- --min-rate 5000 -oA nmap/alludp 10.10.10.100
 ```
 
-Key open ports included [Kerberos](KERBEROS), [SMB](SMB), [LDAP](LDAP.md), and [HTTP](HTTP).
+Key open ports included [Kerberos](KERBEROS), [SMB](SMB.md), [LDAP](LDAP.md), and [HTTP](HTTP).
 
 ---
 

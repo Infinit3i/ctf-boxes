@@ -3,7 +3,7 @@
 ### Overview
 - **Machine Name:** Buff
 - **IP Address:** 10.10.10.198
-- **OS:** Windows
+- **OS:** [Windows](Windows)
 - **Difficulty:** Easy
 - **Points:** 20
 
@@ -17,7 +17,7 @@ nmap -p- --min-rate 10000 -oA scans/nmap-alltcp 10.10.10.198
 nmap -p 7680,8080 -sC -sV -oA scans/nmap-tcpscans 10.10.10.198
 ```
 - Ports Open:
-  - 8080: Apache httpd 2.4.43 (Win64) PHP/7.4.6
+  - 8080: Apache [httpd](HTTP) 2.4.43 (Win64) PHP/7.4.6
   - 7680: Unknown
 
 #### Gobuster

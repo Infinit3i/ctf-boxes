@@ -20,7 +20,7 @@ nmap -p 445,4386 -sC -sV -oA scripts/nmap-tcpscripts 10.10.10.178
 
 ---
 
-## 📁 Initial [SMB](SMB) Enumeration
+## 📁 Initial [SMB](SMB.md) Enumeration
 
 **Anonymous SMB Access**
 ```bash

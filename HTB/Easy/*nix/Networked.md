@@ -1,14 +1,8 @@
-Noted! Here’s your markdown-formatted walkthrough for **HTB: Networked**, organized by stage and packed with all the key commands and explanations 🔧📘
-
----
-
-# 🧠 HTB: Networked Walkthrough
+# 🧠 HTB: Networked
 
 ## 📦 Box Info
 - **OS**: Linux (CentOS 7)
 - **Difficulty**: Easy
-- **Points**: 20
-- **Creator**: guly
 - **Vector**: Web Upload → Cron Command Injection → Network Script Abuse
 
 ---
@@ -23,8 +17,8 @@ nmap -p 80,22,443 -sC -sV -oA scans/nmap-tcpscripts 10.10.10.146
 ```
 
 - **Ports open**:
-  - 22 → OpenSSH 7.4
-  - 80 → Apache 2.4.6 (PHP 5.4.16)
+  - [22](SSH) → OpenSSH 7.4
+  - [80](HTTP) → Apache 2.4.6 (PHP 5.4.16)
   - 443 → Closed
 
 ---

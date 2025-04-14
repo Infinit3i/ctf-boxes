@@ -3,7 +3,7 @@
 ## 📌 Box Info
 - **Name:** Secret
 - **IP:** 10.10.11.120
-- **OS:** Linux
+- **OS:** [Linux](Linux)
 - **Difficulty:** Easy
 - **Author:** z9fr
 
@@ -27,7 +27,7 @@ curl -d '{"name":"0xdf0xdf","email":"dfdfdfdf@secret.com","password":"password"}
 curl -d '{"email":"dfdfdfdf@secret.com","password":"password"}' -X POST http://10.10.11.120/api/user/login -H 'Content-Type: Application/json'
 ```
 
-## 📁 Directory Discovery
+## 📁 [Directory Discovery](HTTP)
 ```bash
 feroxbuster -u http://10.10.11.120
 ```
@@ -87,7 +87,7 @@ apport-unpack _opt_count.1000.crash /tmp/0xdf
 strings -n 30 /tmp/0xdf/CoreDump | less
 ```
 
-## 🔑 SSH as Root
+## 🔑 [SSH](SSH) as Root
 ```bash
 ssh -i root_id_rsa root@10.10.11.120
 ```

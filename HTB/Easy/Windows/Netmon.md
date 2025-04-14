@@ -28,7 +28,7 @@ ftp 10.10.10.152
 # Navigate and find user.txt
 ```
 
-### ⚠️ [SMB](SMB) Enumeration Attempt
+### ⚠️ [SMB](SMB.md) Enumeration Attempt
 ```bash
 # Attempted but failed without credentials
 ```
