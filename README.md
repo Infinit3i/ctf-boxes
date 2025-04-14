@@ -10,10 +10,6 @@ git repo to keep obsidian notes for oscp
 - nmap
 - gobuster
 - check genertic creds
-
-
-
-
 ---
 
 ## 🧠 Offensive Cybersecurity Certification Roadmap (20 Hours/Week)
@@ -51,3 +47,10 @@ git repo to keep obsidian notes for oscp
 ## start with windows machines
 ### keep checklist below
 - [ ] Support
+
+
+
+todo
+add all medium, hard and insane writeups
+add vulnhub low, easy, medium and hard
+add vulnyx
