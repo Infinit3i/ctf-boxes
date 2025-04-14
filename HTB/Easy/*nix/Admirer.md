@@ -26,7 +26,7 @@ nmap -p 21,22,80 -sC -sV -oA scans/nmap-tcpscripts 10.10.10.187
 
 ---
 
-## 🌐 Web Enum
+## 🌐 Web Enum [HTTP](HTTP.md)
 
 ### robots.txt
 

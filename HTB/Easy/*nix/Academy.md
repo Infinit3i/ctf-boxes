@@ -31,7 +31,7 @@ vi /etc/hosts
 
 ## 📁 Enumeration
 
-### HTTP (Port 80)
+### [HTTP](HTTP.md) (Port 80)
 
 ```bash
 gobuster dir --url http://academy.htb/ -w /usr/share/wordlists/dirb/common.txt

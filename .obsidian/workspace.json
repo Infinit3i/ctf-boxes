@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Easy/*nix/Academy.md",
+                "file": "HTB/Easy/Windows/Arctic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Academy"
+              "title": "Arctic"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Easy/*nix/Academy.md",
+                "file": "HTB/Easy/Windows/Arctic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Academy"
+              "title": "Backlinks for Arctic"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Easy/*nix/Academy.md",
+                "file": "HTB/Easy/Windows/Arctic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Academy"
+              "title": "Outgoing links from Arctic"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Easy/*nix/Academy.md",
+                "file": "HTB/Easy/Windows/Arctic.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Academy"
+              "title": "Outline of Arctic"
             }
           }
         ]
@@ -168,35 +168,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "339c86779985da79",
+  "active": "2034de2099e4c22e",
   "lastOpenFiles": [
-    "HTB/Easy/*nix/Shocker.md",
-    "Shocker.md",
-    "HTB/Easy/*nix/Bashed.md",
-    "HTB/Easy/*nix/NIbbles.md",
-    "HTB/Easy/*nix/Valetine.md",
-    "PLAN",
-    "HTB/Easy/*nix/Curling.md",
-    "HTB/Easy/*nix/Teacher.md",
-    "HTB/Easy/*nix/Irked.md",
-    "HTB/Easy/*nix/Help.md",
-    "HTB/Easy/*nix/Swagshop.md",
-    "HTB/Easy/*nix/Writeup.md",
-    "HTB/Easy/*nix/Safe.md",
-    "HTB/Easy/*nix/Safemd",
-    "HTB/Easy/*nix/Haystack.md",
-    "HTB/Easy/*nix/Networked.md",
-    "HTB/Easy/*nix/Postman.md",
-    "HTB/Easy/*nix/Traverxec.md",
-    "HTB/Easy/*nix/OpenAdmin.md",
-    "HTB/Easy/*nix/Traceback.md",
-    "HTB/Easy/*nix/Admirer.md",
-    "HTB/Easy/*nix/TwoMillion.md",
-    "HTB/Easy/*nix/Wifinetic.md",
-    "HTB/Easy/*nix/OpenSource.md",
-    "HTB/Easy/*nix/MonitorsTwo.md",
+    "Methodology/LDAP.md",
+    "HTB/Easy/Windows/Sauna.md",
+    "HTB/Easy/Windows/Remote.md",
+    "HTB/Easy/Windows/Optimum.md",
+    "HTB/Easy/Windows/Netmon.md",
+    "HTB/Easy/Windows/Nest.md",
+    "HTB/Easy/Windows/Jerry.md",
+    "HTB/Easy/Windows/Heist.md",
+    "HTB/Easy/Windows/Bastion.md",
+    "HTB/Easy/Windows/Arctic.md",
+    "HTB/Easy/Windows/Artic.md",
+    "HTB/Easy/Windows/Devel.md",
+    "HTB/Easy/Windows/Granny.md",
+    "HTB/Easy/Windows/Grandpa.md",
+    "HTB/Easy/Windows/Blue.md",
+    "HTB/Easy/Windows/Bounty.md",
+    "HTB/Easy/Windows/Active.md",
+    "HTB/Easy/Windows/Access.md",
+    "Methodology/HTTP.md",
+    "HTB/Easy/*nix/Bank.md",
+    "HTB/Easy/*nix/Backdoor.md",
+    "HTB/Easy/*nix/Armageddon.md",
     "HTB/Easy/*nix/analytics.md",
-    "HTB/Easy/*nix/Blunder.md",
-    "HTB/Easy/*nix/Tabby.md"
+    "HTB/Easy/*nix/Admirer.md",
+    "HTB/Easy/*nix/Academy.md",
+    "Methodology/FTP.md",
+    "Methodology",
+    "HTB/Easy/Windows",
+    "PLAN",
+    "HTB/Easy/*nix/Safemd"
   ]
 }
