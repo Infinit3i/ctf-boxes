@@ -78,7 +78,7 @@ hashcat -m 3200 joshua.hash rockyou.txt
 
 ---
 
-## 🔑 Privilege Escalation to Joshua
+## 🔑 [Privilege Escalation to Joshua](SSH)
 
 ```bash
 su - joshua                                    # Use cracked password

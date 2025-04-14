@@ -65,7 +65,7 @@ sqlite3 pilgrimage.sqlite
 SELECT * FROM users;
 ```
 
-## 🔐 Initial Shell as emily
+## 🔐 [Initial Shell as emily](SSH)
 
 ```bash
 sshpass -p abigchonkyboi123 ssh emily@pilgrimage.htb

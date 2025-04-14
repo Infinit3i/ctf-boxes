@@ -29,7 +29,7 @@ nmap -p 22,80 -sC -sV -oA scans/nmap-tcpscripts 10.10.10.165
 
 ---
 
-## 🌐 Web Enumeration
+## 🌐 [Web Enumeration](HTTP)
 
 ### Web Content
 
@@ -106,7 +106,7 @@ tar -xzf backup-ssh-identity-files.tgz
 
 Contains: Encrypted SSH key for david
 
-### Crack SSH Key
+### Crack [SSH](SSH) Key
 
 ```bash
 /opt/john/run/ssh2john.py id_rsa > id_rsa.john

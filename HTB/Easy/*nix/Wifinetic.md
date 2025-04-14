@@ -11,7 +11,7 @@ nmap -sU --top 10 10.10.11.247
 
 ---
 
-## 📁 FTP Enumeration
+## 📁 [FTP](FTP) Enumeration
 
 ### Anonymous Login
 ```bash
@@ -42,7 +42,7 @@ option key 'VeRyUniUqWiFIPasswrd1!'
 
 ---
 
-## 📡 DNS Recon (TCP/UDP 53)
+## 📡 [DNS](DNS) Recon (TCP/UDP 53)
 
 ### Add Hosts Entry
 ```bash
@@ -120,7 +120,7 @@ su -
 # Password: WhatIsRealAnDWhAtIsNot51121!
 ```
 
-### Or SSH as Root
+### Or [SSH](SSH) as Root
 ```bash
 sshpass -p 'WhatIsRealAnDWhAtIsNot51121!' ssh root@10.10.11.247
 ```

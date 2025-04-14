@@ -16,11 +16,11 @@ nmap -p 22,80 -sC -sV -oA scans/nmap-tcpscripts 10.10.10.171
 ```
 
 - Open ports: `22 (SSH)`, `80 (HTTP)`
-- Apache 2.4.29, OpenSSH 7.6 → Ubuntu 18.04
+- Apache 2.4.29, [OpenSSH 7.6](SSH) → Ubuntu 18.04
 
 ---
 
-## 🌐 Web Enumeration
+## 🌐 [Web Enumeration](HTTP)
 
 ### Gobuster
 

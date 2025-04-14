@@ -17,7 +17,7 @@ nmap -p 22,8080 -sCV 10.10.11.170
 echo "10.10.11.170 redpanda.htb" | sudo tee -a /etc/hosts
 ```
 
-### Feroxbuster for Paths
+### [Feroxbuster](HTTP) for Paths
 ```bash
 feroxbuster -u http://10.10.11.170:8080 -x java,class
 ```
@@ -145,7 +145,7 @@ cat /tmp/0xdf_creds.xml
 
 ---
 
-## 🗝️ SSH as Root
+## 🗝️ [SSH](SSH) as Root
 
 ### Save and Use Key
 ```bash

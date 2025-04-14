@@ -13,10 +13,10 @@
 nmap -sV -sC -oA scan/result $IP
 ```
 - Found services:
-  - HTTP (80, 5000)
+  - [HTTP](HTTP) (80, 5000)
   - HTTPS
-  - SMB
-  - MySQL
+  - [SMB](SMB)
+  - [MySQL](MySQL.md)
 
 Update `/etc/hosts`:
 ```bash

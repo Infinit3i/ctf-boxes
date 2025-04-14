@@ -29,7 +29,7 @@ nmap -p 22,80 -sC -sV -oA scans/nmap-tcpscripts 10.10.10.181
 
 ---
 
-## 🌐 Web Enumeration
+## 🌐 [Web Enumeration](HTTP)
 
 ### Webpage Source
 
@@ -83,7 +83,7 @@ mkdir ~/.ssh
 echo "your-ssh-pub-key" > ~/.ssh/authorized_keys
 ```
 
-Then SSH in:
+Then [SSH](SSH) in:
 
 ```bash
 ssh webadmin@10.10.10.181 -i ~/keys/id_rsa

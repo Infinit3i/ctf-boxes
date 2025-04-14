@@ -7,7 +7,7 @@ nmap -p 22,80 -sCV 10.10.11.208
 ```
 
 ### HTTP Service
-- Apache/2.4.52 + Flask (Werkzeug/2.1.2 Python/3.10.6).
+- [Apache/2.4.52](HTTP) + Flask (Werkzeug/2.1.2 Python/3.10.6).
 - Redirects to: `http://searcher.htb`
 
 ### Virtual Host

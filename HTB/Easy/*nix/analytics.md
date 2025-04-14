@@ -1,4 +1,4 @@
-# 💎 HTB: Analytics - Command Notes
+# 💎 HTB: Analytics
 
 ## 🔍 Phase 1: Scanning & Enumeration
 

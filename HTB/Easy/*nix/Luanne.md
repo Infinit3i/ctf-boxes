@@ -1,11 +1,8 @@
 **HTB: Luanne Walkthrough**
-
----
-
 ### Recon
 
 **Nmap Scan:**
-- Open ports: 22 (SSH), 80 (HTTP), 9001 (Supervisor Process Manager)
+- Open ports: 22 [SSH](SSH), 80 [HTTP](HTTP), 9001 (Supervisor Process Manager)
 - OS: NetBSD
 - TCP 9001 is running Supervisor Process Manager, protected by HTTP Basic Auth
 
@@ -110,12 +107,3 @@ httpd.write('"error": "unknown city: ' .. city .. '"}')
 - Initial foothold via Lua injection on weather API
 - User escalation via exposed SSH key in web directory
 - Root via encrypted backup revealing password used for `doas`
-
----
-
-**Flags:**
-- User: `ea5f0ce6...`
-- Root: `7a9b5c20...`
-
----
-

@@ -19,7 +19,7 @@ nmap -p- --min-rate 10000 10.10.11.243
 nmap -p 22,80,1883,5672,8161,39751,61613,61614,61616 -sCV 10.10.11.243
 ```
 
-- 80: nginx, requires HTTP Basic Auth (`admin:admin`)
+- [80](HTTP): nginx, requires HTTP Basic Auth (`admin:admin`)
 - 8161: Jetty webserver (ActiveMQ console)
 - 61616: ActiveMQ 5.15.15 (vulnerable)
 - MQTT, AMQP also running (ports 1883, 5672)

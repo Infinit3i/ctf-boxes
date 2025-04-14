@@ -29,7 +29,7 @@ wfuzz -u http://10.10.11.166 -H "Host: preprod-FUZZ.trick.htb" \
 
 ---
 
-## 📨 SMTP Enumeration
+## 📨 [SMTP](SMTP.md) Enumeration
 
 ### Manual
 ```bash

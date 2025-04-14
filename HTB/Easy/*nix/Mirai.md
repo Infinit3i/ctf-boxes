@@ -10,7 +10,7 @@ Here’s a clean, organized **walkthrough-style command reference** for **HTB: M
 ```bash
 nmap -p- --min-rate 10000 10.10.10.48
 ```
-> Scans all 65535 TCP ports with high speed. Found ports: 22 (SSH), 53 (DNS), 80 (HTTP), 1877 (UPnP), 32400 (Plex), 32469 (UPnP).
+> Scans all 65535 TCP ports with high speed. Found ports: 22 [SSH](SSH), 53 [DNS](DNS), 80 (HTTP), 1877 (UPnP), 32400 (Plex), 32469 (UPnP).
 
 ### 🔍 Targeted Service & Version Detection
 ```bash

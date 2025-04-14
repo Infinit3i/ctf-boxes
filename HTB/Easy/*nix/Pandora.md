@@ -24,14 +24,14 @@ sudo nmap -sU -top-ports=100 10.10.11.136
 feroxbuster -u http://10.10.11.136
 ```
 
-**WFuzz Subdomain Discovery:**
+**[WFuzz](HTTP) Subdomain Discovery:**
 ```bash
 wfuzz -u http://panda.htb -H "Host: FUZZ.panda.htb" \
   -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt \
   --hh 33560
 ```
 
-**SNMP Enumeration:**
+**[SNMP](SNMP) Enumeration:**
 ```bash
 snmpwalk -v 2c -c public 10.10.11.136 | tee snmp-full
 snmpbulkwalk -Cr1000 -c public -v2c 10.10.11.136 > snmp-full-bulk
@@ -52,7 +52,7 @@ Username: daniel
 Password: HotelBabylon23
 ```
 
-**SSH into Box:**
+**[SSH](SSH) into Box:**
 ```bash
 sshpass -p 'HotelBabylon23' ssh daniel@10.10.11.136
 ```

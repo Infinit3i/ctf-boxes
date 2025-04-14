@@ -1,9 +1,9 @@
-# HTB: Knife — Command Cheatsheet
+# HTB: Knife
 
 ## 📌 Box Info
 - **Name:** Knife
 - **IP:** 10.10.10.242
-- **OS:** Linux
+- **OS:** [Linux](Linux)
 - **Difficulty:** Easy
 
 ---
@@ -27,7 +27,7 @@ feroxbuster -u http://10.10.10.242 -o scans/feroxbuster-root-php
 
 ---
 
-## ⚔️ PHP Backdoor RCE (CVE-2021-XXXXX)
+## ⚔️ [PHP Backdoor RCE (CVE-2021-XXXXX)](HTTP)
 ```http
 # Send request with User-Agentt: zerodium
 # PHP code in header gets executed.

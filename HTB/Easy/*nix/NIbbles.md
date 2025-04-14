@@ -13,8 +13,8 @@
 sudo nmap -sV -sC -sS -oA scan/result $IP
 ```
 Discovered open ports:
-- **22/tcp** - SSH
-- **80/tcp** - HTTP
+- **22/tcp** - [SSH](SSH)
+- **80/tcp** - [HTTP](HTTP)
 
 ### 🌐 Web Enumeration
 Visiting the site on port 80 reveals a PHP-based web application. View page source shows a hidden directory:

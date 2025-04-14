@@ -10,8 +10,8 @@ nmap -p- --min-rate 10000 10.10.11.156
 nmap -p 22,80 -sCV 10.10.11.156
 ```
 - **Open Ports**:
-  - `22/tcp`: SSH - OpenSSH 7.6p1 (Ubuntu 18.04)
-  - `80/tcp`: HTTP - nginx 1.14.0
+  - `22/tcp`: [SSH](SSH) - OpenSSH 7.6p1 (Ubuntu 18.04)
+  - `80/tcp`: [HTTP](HTTP) - nginx 1.14.0
 
 ### Hosts File Entry
 ```bash

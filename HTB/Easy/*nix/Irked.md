@@ -37,7 +37,7 @@ wget http://10.10.10.117/irked.jpg
 
 ---
 
-## 💬 IRC Enumeration
+## 💬 [IRC](IRC.md) Enumeration
 
 ### 🧰 HexChat (GUI)
 Connect to:

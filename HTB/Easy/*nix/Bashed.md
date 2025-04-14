@@ -7,7 +7,7 @@ sudo nmap -sV -sC -sS -oA scan/result $IP
 ```
 The results show only port **80 (HTTP)** is open.
 
-### HTTP Enumeration
+### [HTTP](HTTP) Enumeration
 Visiting the website reveals a PHP-based web application. To discover hidden paths:
 ```bash
 gobuster dir --url "http://$IP" -w /usr/share/dirb/wordlists/small.txt

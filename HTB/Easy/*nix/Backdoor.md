@@ -1,8 +1,4 @@
-Here's a **Markdown-formatted cheatsheet** capturing the command flow from the HTB: Backdoor walkthrough by 0xdf. The content is grouped by logical phases for clarity.
-
----
-
-# 🛠️ HTB: Backdoor — Command Cheatsheet
+# 🛠️ HTB: Backdoor 
 
 ## 📌 Box Info
 - **IP**: `10.10.11.125`
@@ -29,7 +25,7 @@ curl 10.10.11.125:1337
 
 ---
 
-## 🌐 Website & WordPress Recon
+## 🌐 [Website & WordPress Recon](HTTP)
 
 ### /etc/hosts Update
 ```bash

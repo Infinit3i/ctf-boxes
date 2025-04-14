@@ -7,7 +7,7 @@ Here’s a **clean, Markdown-formatted command walkthrough** for **HTB: SwagShop
 ## 📋 Box Info
 - **IP**: `10.10.10.140`
 - **OS**: Ubuntu 16.04 (Xenial)
-- **Difficulty**: Easy
+- **Difficulty**: [Easy](Easy.md)
 - **Initial Access**: Magento authentication bypass + RCE
 - **Privilege Escalation**: `sudo vi` file escape
 

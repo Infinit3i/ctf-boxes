@@ -28,7 +28,7 @@ nmap -p 135,139,445 -sCV -oA scans/nmap-tcpscripts 10.10.10.40
 **Open Ports:**
 - `135` (MS RPC)
 - `139` (NetBIOS)
-- `445` (SMB)
+- `445` [SMB](SMB)
 - Several in `49152-49157`
 
 ### 🛑 Vulnerability Check for MS17-010

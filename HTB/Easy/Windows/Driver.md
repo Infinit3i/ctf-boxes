@@ -5,8 +5,8 @@
 nmap -p- -T4 10.10.11.106
 nmap -sC -sV -p80,135,445 10.10.11.106
 ```
-- Port 80: IIS HTTP, basic auth prompt ("MFP Firmware Update Center")
-- Port 135/445: Typical Windows services
+- Port [80](HTTP): IIS HTTP, basic auth prompt ("MFP Firmware Update Center")
+- Port 135/[445](SMB): Typical Windows services
 - `/etc/hosts` entry: `10.10.11.106 driver.htb`
 
 ### Web Brute-force

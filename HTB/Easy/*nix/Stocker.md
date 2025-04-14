@@ -7,7 +7,7 @@
 nmap -p- --min-rate 10000 10.10.11.196
 nmap -p 22,80 -sCV 10.10.11.196
 ```
-- Open Ports: 22 (SSH), 80 (HTTP)
+- Open Ports: 22 [SSH](SSH), 80 [HTTP](HTTP)
 - Hostname Redirects to: `stocker.htb`
 - Added `stocker.htb` and `dev.stocker.htb` to `/etc/hosts`
 

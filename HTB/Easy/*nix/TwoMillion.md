@@ -13,7 +13,7 @@ nmap -p 22,80 -sCV 10.10.10.11
 echo "10.10.10.11 2million.htb" | sudo tee -a /etc/hosts
 ```
 
-### FFUF – Subdomain Enumeration
+### [FFUF – Subdomain Enumeration](HTTP)
 ```bash
 ffuf -u http://10.10.10.11 -H "Host: FUZZ.2million.htb" -w /opt/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -mc all -ac
 ```
@@ -96,7 +96,7 @@ cat /var/www/html/.env
 # admin : SuperDuperPass123
 ```
 
-### SSH / su as admin
+### [SSH](SSH) / su as admin
 ```bash
 su - admin
 # or

@@ -3,7 +3,7 @@
 ## 📌 Box Info
 - **Name:** BountyHunter
 - **IP:** _Dynamic (HTB Hosted)_
-- **OS:** Linux
+- **OS:** [Linux](Linux)
 - **Difficulty:** Easy
 
 ---
@@ -16,7 +16,7 @@ nmap -p 22,80 -sCV -oA scans/nmap-tcpscripts <IP>
 
 ---
 
-## 🕵️ Web Enumeration
+## 🕵️ [Web Enumeration](HTTP)
 ```bash
 # Add to /etc/hosts
 <IP> bountyhunter.htb
@@ -73,7 +73,7 @@ cat result.b64 | base64 -d
 
 ---
 
-## 🔐 Shell as Development
+## 🔐 [Shell as Development](SSH)
 ```bash
 ssh development@<IP>
 # password: m19RoAU0hP41A1sTsq6K

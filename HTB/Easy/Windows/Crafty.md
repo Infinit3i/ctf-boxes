@@ -9,7 +9,7 @@
 nmap -p- --min-rate 10000 -oA nmap/alltcp 10.10.11.249
 nmap -p 80,25565 -sCV 10.10.11.249
 ```
-- HTTP (80): Microsoft IIS 10.0
+- [HTTP](HTTP) (80): Microsoft IIS 10.0
 - Minecraft (25565): Version 1.16.5 (Crafty Server)
 
 ### 🌐 Host Mapping

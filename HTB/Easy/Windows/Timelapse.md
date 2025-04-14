@@ -2,7 +2,7 @@
 
 ### Recon
 - **Nmap Scan:**
-  - Found 18 open ports including: SMB (445), Kerberos (88), LDAP (389), and WinRM (5986)
+  - Found 18 open ports including: SMB (445), [Kerberos](Kerberos) (88), [LDAP](LDAP) (389), and [WinRM](WinRM) (5986)
   - Domain: `timelapse.htb`
   - Hostname: `dc01.timelapse.htb`
 
@@ -16,7 +16,7 @@ nmap -p <interesting_ports> -sCV 10.10.11.152
 10.10.11.152 timelapse.htb dc01.timelapse.htb
 ```
 
-### SMB Enumeration
+### [SMB](SMB) Enumeration
 - SMB anonymous login was successful:
 ```bash
 smbclient -L //dc01.timelapse.htb -N

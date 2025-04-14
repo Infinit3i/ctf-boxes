@@ -7,7 +7,7 @@ nmap -p- --min-rate 10000 10.10.11.224  # Full TCP port scan
 nmap -p 22,55555 -sCV 10.10.11.224      # Service/version detection on discovered ports
 ```
 
-> Open ports: 22 (SSH), 55555 (HTTP - Request Baskets service)
+> Open ports: 22 [SSH](SSH), 55555 [(HTTP - Request Baskets service)](HTTP)
 
 ---
 
