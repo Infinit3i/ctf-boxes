@@ -1,9 +1,5 @@
-Here’s your walkthrough styled exactly how you wanted — plenty of emojis, structured, and reference-rich! 🎯🛠️📚
-
----
-
-# VENDOR: Agile  
-[HTB](HTB.md)
+# HTB: Agile  
+[HTB](HTB)
 
 ---
 
