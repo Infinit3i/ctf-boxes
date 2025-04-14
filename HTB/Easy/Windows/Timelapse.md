@@ -1,5 +1,9 @@
 ## HTB: Timelapse Walkthrough
 
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
+
 ### Recon
 - **Nmap Scan:**
   - Found 18 open ports including: SMB (445), [Kerberos](Kerberos) (88), [LDAP](LDAP) (389), and [WinRM](WinRM) (5986)

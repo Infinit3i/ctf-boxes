@@ -1,5 +1,9 @@
 # 💎 HTB: Sau - Command Notes
 
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+
 ## 🔍 Recon
 
 ```bash

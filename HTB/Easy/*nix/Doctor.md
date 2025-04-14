@@ -1,8 +1,8 @@
 # HTB: Doctor Walkthrough
 
-**Machine Info**
-- OS: Linux
-- Difficulty: Easy
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ---
 
@@ -117,10 +117,6 @@ os.system(f'/bin/curl --max-time 2 {url} -o {path}')
 Any user input containing `$(...)` or backticks can result in RCE.
 
 ---
-
-**Flags**
-- User: ✅
-- Root: ✅
 
 **Techniques**
 - Flask SSTI ➝ RCE

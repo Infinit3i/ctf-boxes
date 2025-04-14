@@ -5,7 +5,7 @@
 - **Release Date**: 30 Jul 2022
 - **Retire Date**: 17 Dec 2022
 - **OS**: [Windows](Windows.md)
-- **Difficulty**: Easy (OSCP-like, OSEP-like)
+- **Difficulty**: [Easy](Easy) (OSCP-like, OSEP-like)
 - **Points**: 20
 
 ---

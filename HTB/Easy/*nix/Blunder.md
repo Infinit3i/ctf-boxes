@@ -1,7 +1,7 @@
 # 🧠 HTB: Blunder — Walkthrough
 
 **OS:** [Linux](Linux.md)
-**Difficulty:**  [HTB Easy](HTB Easy)  
+**Difficulty:**  [Easy](Easy)
 **Focus:** Bludit RCE, Web enumeration, LXD priv esc  
 **Tags:** OSCP Prep, TJNull List
 

@@ -1,5 +1,9 @@
 ## HTB: Inject Walkthrough
 
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+
 ### Recon
 - **Ports**: [SSH](SSH) (22), [HTTP](HTTP) (8080)
 - **HTTP Tech Stack**: Apache Tomcat (based on error messages), likely Spring Boot based on site behavior and structure

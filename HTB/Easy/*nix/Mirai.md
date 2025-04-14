@@ -1,8 +1,8 @@
-Here’s a clean, organized **walkthrough-style command reference** for **HTB: Mirai**, grouped by stage and including explanations for each step:
-
----
-
 # 🧠 HTB: Mirai — Command Writeup
+
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ## 🛰️ Recon
 

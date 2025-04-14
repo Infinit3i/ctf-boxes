@@ -1,3 +1,8 @@
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
+
+
 ## 🔎 Recon
 
 ```bash

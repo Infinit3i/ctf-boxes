@@ -1,9 +1,8 @@
 ## 💘 HTB: Valentine Walkthrough
 
-**Machine:** Valentine  
-**Difficulty:** Easy  
-**OS:** Linux  
-**Author:** HackTheBox  
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 Valentine is an easy Linux box that demonstrates how memory leaks from vulnerabilities like Heartbleed can expose sensitive credentials. It requires a combination of exploit crafting, crypto handling, and privilege escalation via known Linux kernel exploits.
 

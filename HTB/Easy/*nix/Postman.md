@@ -1,11 +1,8 @@
-Here's your **Markdown-formatted walkthrough for HTB: Postman**, structured cleanly for Obsidian, GitHub, or local notes:
-
----
-
 # 📮 HTB: Postman — Walkthrough
 
-**OS:** Linux  
-**Difficulty:** Easy  
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 **Tags:** `redis`, `Webmin`, `ssh`, `key cracking`, `privesc`, `CVE-2019-12840`
 
 ---
@@ -20,8 +17,8 @@ nmap -p 22,80,6379,10000 -sC -sV -oA scans/nmap-tcpscripts 10.10.10.160
 ```
 
 - **Ports:**  
-  - `22/tcp`: OpenSSH 7.6  
-  - `80/tcp`: Apache 2.4.29  
+  - `22/tcp`: [OpenSSH 7.6](SSH)
+  - `80/tcp`: [Apache 2.4.29](HTTP)
   - `6379/tcp`: Redis 4.0.9  
   - `10000/tcp`: Webmin (MiniServ 1.910)  
 

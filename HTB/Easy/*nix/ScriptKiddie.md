@@ -1,10 +1,8 @@
 # HTB: Script-Kiddie — Command Cheatsheet
 
-## 📈 Box Info
-- **Name:** Script-Kiddie
-- **IP:** 10.10.10.226
-- **OS:** [Linux](Linux)
-- **Difficulty:** Easy
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ---
 

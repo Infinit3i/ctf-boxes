@@ -2,6 +2,10 @@
 
 ---
 
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+
 ## 🔍 Recon
 
 ### Nmap Full Scan

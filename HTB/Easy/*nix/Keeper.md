@@ -1,5 +1,9 @@
 # 💎 HTB: Keeper - Command Notes
 
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+
 ## 🔍 Recon
 
 ```bash
@@ -24,7 +28,7 @@ Password: password
 
 ---
 
-## 🧑‍💻 Shell as lnorgaard
+## 🧑‍💻 [Shell as lnorgaard](SSH)
 
 ```bash
 sshpass -p 'Welcome2023!' ssh lnorgaard@keeper.htb

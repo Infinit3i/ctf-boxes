@@ -1,12 +1,8 @@
-# HackTheBox: Tabby Walkthrough
+# HTB: Tabby 
 
-## Machine Info
-- **Name**: Tabby
-- **OS**: Linux
-- **Difficulty**: Easy
-- **Points**: 20
-- **Release**: 20 Jun 2020
-- **IP**: 10.10.10.194
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ---
 
@@ -17,7 +13,7 @@
 nmap -p- --min-rate 10000 -oA scans/nmap-alltcp 10.10.10.194
 nmap -p 80,8080,22 -sC -sV -oA scans/nmap-tcpscripts 10.10.10.194
 ```
-- Open ports: 22 (SSH), 80 (HTTP - Apache), 8080 (Tomcat)
+- Open ports: 22 [SSH](SSH), 80 [HTTP](HTTP - Apache), 8080 (Tomcat)
 
 ### Add to Hosts
 ```bash

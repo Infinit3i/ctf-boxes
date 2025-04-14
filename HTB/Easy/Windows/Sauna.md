@@ -1,6 +1,6 @@
-Here’s a **complete command list in order** for HTB: **Sauna**, based on 0xdf’s walkthrough. Tools, enumeration, and exploitation steps are included for clarity.
-
----
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 
 ## 🧰 Tools Used
 

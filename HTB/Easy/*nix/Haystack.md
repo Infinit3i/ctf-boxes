@@ -1,6 +1,8 @@
-## HTB: Haystack Walkthrough
-
+## HTB: Haystack
 ---
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ### 🧭 Recon
 

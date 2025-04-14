@@ -1,4 +1,6 @@
-# 🧾 HTB: Bizness - Command Notes
+# 🧾 HTB: Bizness 
+
+[Easy](Easy)
 
 ## 🔍 Enumeration
 

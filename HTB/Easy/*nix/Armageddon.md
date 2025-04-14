@@ -1,10 +1,8 @@
 # HTB: Armageddon — Command Cheatsheet
 
-## 📉 Box Info
-- **Name:** Armageddon
-- **IP:** 10.10.10.233
-- **OS:** Linux (CentOS)
-- **Difficulty:** Easy
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ---
 

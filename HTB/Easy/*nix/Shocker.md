@@ -1,9 +1,8 @@
 ## 🧨 HTB: Shocker Walkthrough
 
-### 📦 Machine Info
-- **Name**: Shocker
-- **OS**: Linux (Ubuntu 16.04)
-- **Difficulty**: Easy
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 - **Exploits**: CVE-2014-6271 (Shellshock)
 - **Ports**: 80 (HTTP), 2222 [SSH](SSH)
 

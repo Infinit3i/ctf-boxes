@@ -1,10 +1,8 @@
 # HTB: Knife
 
 ## 📌 Box Info
-- **Name:** Knife
-- **IP:** 10.10.10.242
-- **OS:** [Linux](Linux)
-- **Difficulty:** Easy
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ---
 

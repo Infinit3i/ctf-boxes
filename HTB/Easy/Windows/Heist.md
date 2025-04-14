@@ -1,8 +1,8 @@
-Here’s a structured, walkthrough-style command note for **HTB: Heist**, organized by attack phase:
-
----
-
 # 🧠 HTB: Heist – Walkthrough
+
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 
 ## ⚙️ Recon
 

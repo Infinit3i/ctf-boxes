@@ -3,8 +3,8 @@
 ## 📦 Box Info
 - **Release Date:** 09 Nov 2023
 - **IP:** 10.10.11.243
-- **Points:** 20
-- **OS:** Linux
+- **OS:** [Linux](Linux)
+- [Easy](Easy)
 - **Created by:** TheCyberGeek
 - **Notable CVEs:** 
   - CVE-2023-46604 (ActiveMQ RCE)

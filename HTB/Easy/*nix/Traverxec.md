@@ -1,11 +1,8 @@
-Here's a clean, organized **Markdown walkthrough** for **HTB: Traverxec**, grouped by exploitation stage with all essential commands and insights:
-
----
-
 # 🧠 HTB: Traverxec — Walkthrough
 
-**OS:** Linux  
-**Difficulty:** Easy  
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 **Tags:** `nostromo`, `webshell`, `sudo journalctl`, `ssh key`, `GTFObins`
 
 ---

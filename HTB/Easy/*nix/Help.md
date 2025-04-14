@@ -1,13 +1,10 @@
-Here is a **Markdown-formatted command walkthrough** for **HTB: Help**, cleanly organized by stage, with context and clarity throughout:
 
----
 
 # 🆘 HTB: Help – Command Walkthrough
 
-## 📦 Box Info
-- **IP**: `10.10.10.121`
-- **OS**: Ubuntu 16.04 (Xenial)
-- **Difficulty**: Easy
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 - **Initial Access**: GraphQL → HelpDeskZ Authenticated SQLi / Unauth File Upload
 - **Privilege Escalation**: Kernel Exploit (CVE-2017-16995, etc.)
 

@@ -1,8 +1,7 @@
-Here’s your clean, command-focused walkthrough for **HTB: Bank**, grouped by phase with full context and explanations:
-
----
 
 # 🏦 HTB: Bank — Command Writeup
+
+[Easy](Easy)
 
 ## 🛰️ Recon
 

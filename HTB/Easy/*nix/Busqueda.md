@@ -1,5 +1,6 @@
 ## 🛰️ Recon
 
+[Easy](Easy)
 ### Nmap
 ```bash
 nmap -p- --min-rate 10000 10.10.11.208

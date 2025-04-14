@@ -1,6 +1,6 @@
-Nice work on completing HTB: Nest! 🔥 Here's a full walkthrough with commands grouped by phase, as you like:
-
----
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 
 ## 🧭 Reconnaissance
 

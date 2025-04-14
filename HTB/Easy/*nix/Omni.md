@@ -3,10 +3,9 @@ Got it! Here's your **HTB: Omni** walkthrough with all relevant commands include
 ---
 
 # 🧠 HackTheBox: Omni Walkthrough
-
-> Difficulty: Easy  
-> OS: Windows IoT Core  
-> IP: `10.10.10.204`
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ---
 

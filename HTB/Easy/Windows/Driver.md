@@ -1,5 +1,9 @@
 ## HTB: Driver Walkthrough
 
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
+
 ### Recon
 ```bash
 nmap -p- -T4 10.10.11.106

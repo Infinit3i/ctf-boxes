@@ -1,5 +1,9 @@
 ## HTB: Stocker Walkthrough
 
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+
 ### Recon
 
 #### Nmap Scan

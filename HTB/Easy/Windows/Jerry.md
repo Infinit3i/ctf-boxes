@@ -1,6 +1,7 @@
-Here’s a clean, organized walkthrough for **HTB: Jerry**, formatted by phase, including all commands and logic used along the way:
 
----
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 
 ## 🧭 Recon
 

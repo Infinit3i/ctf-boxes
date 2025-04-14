@@ -1,16 +1,15 @@
-Here’s a clean, organized **walkthrough-style command reference** for **HTB: Blocky**, grouped by phase and including commands with brief explanations:
+# 🧠 HTB: Blocky
 
----
-
-# 🧠 HTB: Blocky — Command Writeup
-
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 ## 🛰️ Recon
 
 ### 🔍 Full TCP Port Scan
 ```bash
 nmap -p- --min-rate 10000 -oA scans/nmap-alltcp 10.10.10.37
 ```
-> Identifies ports 21 (FTP), 22 (SSH), 80 (HTTP), and 25565 (Minecraft, closed).
+> Identifies ports 21 [FTP](FTP), 22 [SSH](SSH), 80 [HTTP](HTTP), and 25565 (Minecraft, closed).
 
 ### 🔍 Targeted Service Enumeration
 ```bash

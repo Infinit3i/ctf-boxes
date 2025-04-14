@@ -1,6 +1,7 @@
-Here’s your walkthrough-style write-up for **HTB: Forest**, organized by stage and packed with relevant commands and explanations 👇
 
----
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 
 ## 🛰️ Recon
 

@@ -1,3 +1,7 @@
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
+
 ## 🔧 **Tools Used**
 - `nmap`
 - `smbmap`

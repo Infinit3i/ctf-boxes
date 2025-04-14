@@ -1,6 +1,8 @@
 # 🧬 HTB: MetaTwo
 
-
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 ## 🌐 Recon Phase
 
 ### Nmap Full Port Scan + Service Version Detection

@@ -1,8 +1,8 @@
-Here’s the **Markdown-formatted command walkthrough** for **HTB: Teacher**, structured and cleaned for easy reference:
-
----
-
 # 🎓 HTB: Teacher – Command Walkthrough
+
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ## 🔎 Reconnaissance
 
@@ -18,7 +18,7 @@ nmap -sC -sV -p 80 -oA scans/nmap_services 10.10.10.153
 
 ---
 
-## 🌐 Web Enumeration
+## 🌐 [Web Enumeration](HTTP)
 
 ### Directory Bruteforcing with Gobuster
 ```bash

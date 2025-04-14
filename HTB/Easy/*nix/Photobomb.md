@@ -1,8 +1,8 @@
-Here's your clean, organized, and markdown-formatted command and exploitation reference for **HTB: Photobomb** 🎞️💣 – perfectly structured for HTB prep or quick review:
-
----
-
 # 📸 HTB: Photobomb – Command & Exploitation Guide
+
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ## 🔍 Recon
 

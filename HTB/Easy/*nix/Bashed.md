@@ -1,4 +1,6 @@
-## HTB: Bashed Walkthrough
+## HTB: Bashed
+
+[Easy](Easy)
 
 ### Enumeration
 Start with a full Nmap scan to identify open ports:

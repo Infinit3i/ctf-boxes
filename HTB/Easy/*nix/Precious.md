@@ -1,8 +1,8 @@
-Here’s a complete Markdown-formatted command and exploitation guide for **HTB: Precious**, organized by phase and with clear explanations 🧠💻
-
----
-
 # 🧵 HTB: Precious – Command Cheat Sheet
+
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ## 🔍 Recon Phase
 

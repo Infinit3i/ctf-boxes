@@ -1,6 +1,6 @@
-Here’s the complete list of tools and commands used in Anans1’s [HTB Netmon Write-up](https://anans1.medium.com/htb-netmon-write-up-1fa67f3c7bcb), organized in the order they were used:
-
----
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 
 ## 🧰 Tools Used
 

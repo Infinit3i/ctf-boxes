@@ -1,6 +1,6 @@
-Here’s a clean, organized, and phase-based walkthrough of **HTB: Bounty**, with relevant commands and explanations preserved for reference. 🕵️‍♂️💣
-
----
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 
 ## 🧭 Reconnaissance
 
@@ -17,7 +17,7 @@ rustscan --ulimit 5000 -a $IP -- -A -sC -oN recon/$IP.scan.rustscan.txt
 
 ---
 
-## 🌐 Web Enumeration
+## 🌐 [Web Enumeration](HTTP)
 
 ### 📁 Directory Enumeration via ShortScan
 ```bash

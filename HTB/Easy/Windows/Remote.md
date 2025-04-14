@@ -1,6 +1,6 @@
-Here's a cleaned-up, **ordered list of all commands used** in the [HTB: Remote](https://0xdf.gitlab.io/2020/09/05/htb-remote.html) walkthrough by 0xdf:
-
----
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 
 ## 🔍 **Recon**
 

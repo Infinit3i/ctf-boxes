@@ -4,7 +4,7 @@
 - **Name:** BountyHunter
 - **IP:** _Dynamic (HTB Hosted)_
 - **OS:** [Linux](Linux)
-- **Difficulty:** Easy
+- **Difficulty:** [Easy](Easy)
 
 ---
 

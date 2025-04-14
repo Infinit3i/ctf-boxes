@@ -1,6 +1,7 @@
-Awesome job on completing HTB: Active! 🎉 Here's a full walkthrough-style write-up organized by phases, with all commands and relevant explanations included, and protocols hyperlinked where applicable:
 
----
+📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 
 ## 🧭 Recon
 

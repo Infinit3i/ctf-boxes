@@ -4,12 +4,9 @@ Here’s your complete **HTB: Academy Walkthrough** in Markdown format with **ev
 
 # 🎓 HackTheBox: Academy Walkthrough
 
-- **OS**: Linux  
-- **Difficulty**: Easy  
-- **IP**: `10.10.10.215`  
-- **Points**: 20  
-- **Date**: Feb 14, 2021  
-- **Author**: Mohamed Ezzat (converted and enhanced by ChatGPT)  
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ---
 

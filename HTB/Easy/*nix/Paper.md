@@ -1,5 +1,9 @@
 ## HTB: Paper - Command Notes
 
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+
 ### Recon
 ```bash
 nmap -p- --min-rate 10000 10.10.11.143
@@ -13,7 +17,7 @@ wfuzz -u http://office.paper -H "Host: FUZZ.office.paper" \
   -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt --hh 199691
 ```
 
-### WordPress Enumeration
+### [WordPress Enumeration](HTTP)
 ```bash
 wpscan --url http://office.paper --api-token $WPSCAN_API
 ```

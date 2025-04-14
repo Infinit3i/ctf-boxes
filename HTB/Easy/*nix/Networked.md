@@ -1,8 +1,8 @@
 # 🧠 HTB: Networked
 
-## 📦 Box Info
-- **OS**: Linux (CentOS 7)
-- **Difficulty**: Easy
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 - **Vector**: Web Upload → Cron Command Injection → Network Script Abuse
 
 ---

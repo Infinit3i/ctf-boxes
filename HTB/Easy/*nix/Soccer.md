@@ -1,4 +1,8 @@
-# 🧠 HTB: Soccer – Command Cheat Sheet
+# 🧠 HTB: Soccer
+
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ## 🔍 Recon
 
@@ -13,7 +17,7 @@ nmap -p 22,80,9091 -sCV 10.10.11.194
 ffuf -u http://10.10.11.194 -H "Host: FUZZ.soccer.htb" -w /opt/SecLists/Discovery/DNS/subdomains-top1million-20000.txt -mc all -ac
 ```
 
-### Feroxbuster
+### [Feroxbuster](HTTP)
 ```bash
 feroxbuster -u http://soccer.htb
 ```

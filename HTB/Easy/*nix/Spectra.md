@@ -1,10 +1,8 @@
 # HTB: Spectra — Command Cheatsheet
 
-## 📉 Box Info
-- **Name:** Spectra
-- **IP:** 10.10.10.229
-- **OS:** ChromeOS
-- **Difficulty:** Easy
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ---
 

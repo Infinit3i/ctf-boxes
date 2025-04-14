@@ -1,13 +1,10 @@
-Here's a **Markdown-formatted command reference** for the HTB machine **Writeup**, structured by phase with explanatory notes and clean formatting:
-
----
-
 # 🧭 HTB: Writeup – Command Walkthrough
 
+
+
 ## 📌 Box Info
-- **IP**: `10.10.10.138`
-- **OS**: Linux (Debian-based)
-- **Difficulty**: Easy
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 - **Initial Access**: Blind SQLi in CMS Made Simple
 - **Privilege Escalation**: PATH hijack via `run-parts`
 - **Extras**: Perl module hijack (Beyond Root)

@@ -1,10 +1,8 @@
 # HTB: Previse
 
 ## 📌 Box Info
-- **Name:** Previse
-- **IP:** 10.10.11.104
-- **OS:** [Linux](Linux)
-- **Difficulty:** Easy
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ---
 

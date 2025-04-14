@@ -1,6 +1,11 @@
 # HTB: Crafty 🤖 - Full Walkthrough
 
+
 ---
+
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 
 ## 🔎 Recon
 

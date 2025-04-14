@@ -1,11 +1,8 @@
-Here’s a full walkthrough for **HTB: Access** 🧠, organized by phase with all the necessary commands and links formatted per your preference.
-
----
-
 # 🧭 HTB: Access Walkthrough
 
-**Difficulty**: Easy  
-**OS**: Windows  
+## 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 **Skills**: FTP enumeration, PST extraction, Telnet login, credential dumping, DPAPI decryption
 
 ---

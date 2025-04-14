@@ -6,8 +6,8 @@ Absolutely! Here’s your clean, markdown-formatted walkthrough for **HTB: Grann
 
 **Machine Info:**
 - **IP**: `10.129.83.212`
-- **OS**: Windows Server 2003
-- **Difficulty**: Easy
+- **OS**: [Windows Server 2003](Windows)
+- **Difficulty**: [Easy](Easy)
 - **Exploits Used**:
   - [HTTP](HTTP) WebDAV PUT/MOVE
   - File extension bypass via `.txt → .aspx`

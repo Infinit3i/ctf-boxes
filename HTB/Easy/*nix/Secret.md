@@ -1,11 +1,9 @@
 # HTB: Secret — Command Walkthrough
 
 ## 📌 Box Info
-- **Name:** Secret
-- **IP:** 10.10.11.120
-- **OS:** [Linux](Linux)
-- **Difficulty:** Easy
-- **Author:** z9fr
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+
 
 ---
 

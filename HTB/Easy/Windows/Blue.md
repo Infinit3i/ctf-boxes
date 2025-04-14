@@ -1,11 +1,8 @@
-Here’s a clean and comprehensive walkthrough for **HTB: Blue**, structured and annotated for efficient review and future reference. This follows your preferred layout of phases and commands for HTB machine notes 📘.
-
----
-
 # 🧊 HTB: Blue Walkthrough
 
-**Machine Info:**
-- **IP**: `10.10.10.40`
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 - **OS**: Windows 7 Professional SP1 (x64)
 - **Difficulty**: Easy
 - **Exploit**: MS17-010 (ETERNALBLUE)

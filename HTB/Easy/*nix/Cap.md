@@ -4,7 +4,7 @@
 - **Name:** Cap
 - **IP:** 10.10.10.245
 - **OS:** Linux
-- **Difficulty:** Easy
+- **Difficulty:** [Easy](Easy)
 
 ---
 

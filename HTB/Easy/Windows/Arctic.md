@@ -1,9 +1,8 @@
 # 🧊 HTB: Arctic Walkthrough
 
-## 📍 Target Info
-- **IP**: 10.10.10.11
-- **OS**: Windows Server 2008 R2
-- **Difficulty**: Easy
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 - **User**: `tolis`
 - **Root Method**: MS10-059 exploit via Chimichurri
 
@@ -23,7 +22,7 @@ nmap -sC -sV -p 135,8500,49154 -oA nmap-service 10.10.10.11
 
 ---
 
-## 🌐 Web Enumeration
+## 🌐 [Web Enumeration](HTTP)
 
 ### 🌐 Port 8500 Analysis
 ```bash

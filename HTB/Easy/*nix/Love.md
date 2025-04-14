@@ -1,10 +1,8 @@
 # HTB: Love — Command Cheatsheet
 
 ## 📌 Box Info
-- **Name:** Love
-- **IP:** 10.10.10.245
-- **OS:** Windows
-- **Difficulty:** Easy
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ---
 

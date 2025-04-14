@@ -1,13 +1,10 @@
-Absolutely! Here's the updated **HTB: Grandpa** walkthrough with `[HTTP](HTTP)` references properly included 👇
-
----
 
 # 🧓 HTB: Grandpa Walkthrough
 
 **Machine Info:**
 - **IP**: `10.10.10.14`
-- **OS**: Windows Server 2003 R2 SP2 (IIS 6.0)
-- **Difficulty**: Easy
+- **OS**: [Windows Server 2003 R2 SP2 (IIS 6.0)](Windows)
+- **Difficulty**: [Easy](Easy)
 - **Exploits Used**:
   - [HTTP](HTTP) – WebDAV Support
   - **CVE-2017-7269** – [HTTP](HTTP) PROPFIND Buffer Overflow (RCE)

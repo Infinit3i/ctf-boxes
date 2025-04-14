@@ -1,11 +1,8 @@
 # 🛠️ HTB: Backdoor 
 
 ## 📌 Box Info
-- **IP**: `10.10.11.125`
-- **Name**: `Backdoor`
-- **OS**: Linux
-- **Difficulty**: Easy
-- **Author**: hkabubaker17
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ---
 

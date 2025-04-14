@@ -1,5 +1,7 @@
 # 🚨 HTB: Beep
 
+[Easy](Easy)
+
 ## 🛰️ Recon
 
 ### 🔍 Full TCP Port Scan

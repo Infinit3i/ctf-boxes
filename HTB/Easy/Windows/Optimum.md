@@ -1,12 +1,8 @@
-Here’s a clean walkthrough for **HTB: Optimum**, following your preferred structure with command sequences and annotations. ✅
-
----
-
-# 🚀 HTB: Optimum Walkthrough
+# 🚀 HTB: Optimum
 
 **Machine Info:**
 - **IP**: `10.10.10.8`
-- **OS**: Windows Server 2012 R2 (64-bit)
+- **OS**: [Windows Server 2012 R2 (64-bit)](Windows)
 - **Difficulty**: [Easy](Easy)
 - **Exploits Used**:
   - **RCE**: [CVE-2014-6287](https://nvd.nist.gov/vuln/detail/CVE-2014-6287) – Rejetto HFS 2.3.x

@@ -2,6 +2,10 @@
 
 ---
 
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+
 ### 🧰 Recon Phase
 
 **Nmap TCP Full Range Scan:**

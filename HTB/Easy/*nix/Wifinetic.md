@@ -1,5 +1,9 @@
 # 💻 HTB: Wifinetic – Command Notes
 
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+
 ## 🧭 Recon
 
 ### Nmap

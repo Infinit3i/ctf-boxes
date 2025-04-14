@@ -1,8 +1,8 @@
-Here’s your **HTB: RedPanda** command and exploitation walkthrough — neatly organized and markdown-ready for your notes 📓🐼:
-
----
-
 # 🐼 HTB: RedPanda – Command Guide
+
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ## 🔍 Recon
 

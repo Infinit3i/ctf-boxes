@@ -1,8 +1,8 @@
-Here’s your organized and markdown-formatted notes for **HTB: Shoppy** 🛒💥 – structured by phase, with all key commands and findings for your HTB arsenal:
-
----
-
 # 🛍️ HTB: Shoppy – Command & Exploitation Guide
+
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ## 🔍 Recon
 

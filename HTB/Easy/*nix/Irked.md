@@ -4,10 +4,9 @@ Here is the **Markdown-formatted command walkthrough** for **HTB: Irked**, organ
 
 # 💀 HTB: Irked – Command Walkthrough
 
-## 🧾 Box Info
-- **IP**: `10.10.10.117`
-- **OS**: Debian (Linux)
-- **Difficulty**: Easy
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 - **Initial Access**: IRC backdoor (UnrealIRCd 3.2.8.1)
 - **Privilege Escalation**: SUID binary misconfiguration + steganography
 

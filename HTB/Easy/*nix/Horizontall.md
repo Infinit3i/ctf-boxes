@@ -4,7 +4,7 @@
 - **Name:** Horizontall
 - **IP:** Dynamic (example: 10.129.61.76)
 - **OS:** [Linux](Linux)
-- **Difficulty:** Easy
+- **Difficulty:** [Easy](Easy)
 
 ---
 

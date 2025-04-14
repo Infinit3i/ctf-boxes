@@ -1,11 +1,9 @@
-Here’s a **clean, copy-ready markdown walkthrough for HTB: Admirer**, organized by stage with all relevant commands and brief explanations. You can paste this directly into your notes or GitHub:
-
----
 
 # 🔍 HTB: Admirer — Walkthrough
 
-**OS:** Linux  
-**Difficulty:** Easy  
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 **Tags:** `ftp`, `adminer`, `mysql`, `pythonpath`, `privesc`, `path hijack`
 
 ---

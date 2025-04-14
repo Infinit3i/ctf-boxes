@@ -1,6 +1,7 @@
-Nice work on finishing HTB: Devel! 🎉 Here's your **walkthrough-style command breakdown**, organized by phase for easy reference.
+# 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 
----
 
 ## 🧭 Reconnaissance
 
@@ -16,7 +17,7 @@ nmap -sV -sC -p 21,80 -oA scans/nmap-scripts 10.10.10.5
 
 ---
 
-## 🌐 Web & FTP Enumeration
+## 🌐 [Web](HTTP) & [FTP](FTP) Enumeration
 
 **Check FTP access (Anonymous allowed):**
 ```bash
@@ -62,7 +63,7 @@ whoami
 
 ---
 
-## 🐚 Reverse Shell (Multiple Methods)
+## 🐚 Reverse [Shell](SSH) (Multiple Methods)
 
 ### Option 1: Netcat
 

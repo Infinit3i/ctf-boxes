@@ -1,10 +1,8 @@
-# HTB: Delivery — Walkthrough
-
+# HTB: Delivery
 ## 📂 Box Info
 - **Name:** Delivery
-- **IP:** 10.10.10.222
-- **OS:** Linux
-- **Difficulty:** Easy
+- **OS:** [Linux](Linux)
+- **Difficulty:** [Easy](Easy)
 
 ---
 

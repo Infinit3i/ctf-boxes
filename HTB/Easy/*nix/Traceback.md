@@ -1,11 +1,8 @@
-Here’s a **clean, structured Markdown walkthrough** for **HTB: Traceback**, including all essential commands and explanations. You can copy and paste this directly into your notes, Obsidian, GitHub, or wherever you prefer:
-
----
-
 # 🔍 HTB: Traceback — Walkthrough
 
-**OS:** Linux  
-**Difficulty:** Easy  
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
 **Tags:** `webshell`, `lua`, `luvit`, `motd`, `ssh`, `cron privesc`
 
 ---
