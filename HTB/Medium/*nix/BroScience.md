@@ -13,8 +13,8 @@
 ### 🔍 Recon
 
 #### 🌐 Ports Discovered (via `nmap`):
-- **22/tcp** - OpenSSH 8.4p1 (Debian)
-- **80/tcp** - Apache 2.4.54, redirects to HTTPS
+- [**22/tcp** - OpenSSH 8.4p1 (Debian)](SSH)
+- [**80/tcp** - Apache 2.4.54, redirects to HTTPS](HTTP)
 - **443/tcp** - Apache 2.4.54 (SSL-enabled)
 
 ```bash

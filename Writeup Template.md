@@ -7,7 +7,7 @@
 - **OS**: Windows Server 2003
 - **Difficulty**: [Level](Level) ex. Easy
 - **Exploits Used**:
-  - [HTTP](HTTP) WebDAV PUT/MOVE
+  - [Protocol](Protocol) WebDAV PUT/MOVE
   - File extension bypass via `.txt → .aspx`
   - Local PrivEsc using `Churrasco.exe`
 open ports ex.

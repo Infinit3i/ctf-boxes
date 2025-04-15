@@ -12,7 +12,7 @@ Investigation is a Linux-based HTB machine that starts with a PHP-based image up
 nmap -p- --min-rate 10000 10.10.11.197
 nmap -p 22,80 -sCV 10.10.11.197
 ```
-- Open Ports: 22 (SSH), 80 (HTTP)
+- Open Ports: 22 [SSH](SSH), 80 [HTTP](HTTP)
 - Redirects to: `http://eforenzics.htb/`
 
 ### Hosts File

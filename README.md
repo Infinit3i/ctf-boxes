@@ -1,6 +1,10 @@
 
 - [x] [Lame](Lame.md)
-- [ ] 
+- [x] [Legacy](Legacy.md)
+TUESDAY
+- [ ] [Beep](Beep)
+- [ ] [Optimum](Optimum)
+- [ ] [Arctic](Arctic)
 
 
 
@@ -16,10 +20,8 @@
 
 
 
-
-
-
-
+# WILL DO LATER
+- [ ] [Devel](Devel)
 
 
 

