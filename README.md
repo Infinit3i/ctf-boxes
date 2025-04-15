@@ -1,5 +1,30 @@
-# oco
-git repo to keep obsidian notes for oscp
+
+- [ ] Lame
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 [mind map oco](https://orange-cyberdefense.github.io/ocd-mindmaps/img/mindmap_ad_dark_classic_2025.03.excalidraw.svg)
@@ -43,10 +68,6 @@ git repo to keep obsidian notes for oscp
 | **Total** | **💸 $6,497 (max cost)** |
 
 
-
-## start with windows machines
-### keep checklist below
-- [ ] Support
 
 
 
