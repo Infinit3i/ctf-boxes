@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Easy/*nix/Lame.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lame"
+              "title": "README"
             }
           }
         ]
@@ -168,10 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "339c86779985da79",
+  "active": "a5c4ea4835f27aa8",
   "lastOpenFiles": [
-    "README.md",
+    "Methodology/SMB.md",
     "HTB/Easy/*nix/Lame.md",
+    "README.md",
     "Untitled.md",
     "HTB/Insane",
     "HTB/Medium/*nix/BroScience.md",
@@ -198,7 +199,6 @@
     "HTB/Easy/Windows/Grandpa.md",
     "HTB/Easy/Windows/Forest.md",
     "HTB/Easy/Windows/Driver.md",
-    "HTB/Easy/Windows/Devel.md",
     "Untitled.canvas",
     "Methodology",
     "HTB/Easy/Windows",

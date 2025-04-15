@@ -1,5 +1,5 @@
 
-- [ ] [Lame](Lame.md)
+- [x] [Lame](Lame.md)
 - [ ] 
 
 
