@@ -3,7 +3,7 @@
 - [x] [Legacy](Legacy.md)
 
 TUESDAY
-- [ ] [Beep](Beep)
+- [x] [Beep](Beep)
 - [ ] [Optimum](Optimum)
 - [ ] [Arctic](Arctic)
 

