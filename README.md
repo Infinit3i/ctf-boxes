@@ -5,7 +5,7 @@
 - [x] [Optimum](Optimum)
 
 Wednesday
-- [ ] [Arctic](Arctic)
+- [x] [Arctic](Arctic)
 - [ ] [Bastion](Bastion)
 
 

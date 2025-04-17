@@ -1,3 +1,5 @@
+[Windows](Windows)
+
 Checking Null sessions
 ```bash
 smbmap -H 10.10.10.4

