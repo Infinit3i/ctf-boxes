@@ -3,11 +3,13 @@
 - [x] [Legacy](Legacy.md)
 - [x] [Beep](Beep)
 - [x] [Optimum](Optimum)
-
-Wednesday
 - [x] [Arctic](Arctic)
-- [ ] [Bastion](Bastion)
+- [x] [Bastion](Bastion)
 
+Thursday
+- [ ] Grandpa
+- [ ] Granny
+- [ ] SwagShop
 
 
 # WILL DO LATER

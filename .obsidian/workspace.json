@@ -11,10 +11,14 @@
             "id": "a5c4ea4835f27aa8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -166,13 +170,13 @@
   },
   "active": "a5c4ea4835f27aa8",
   "lastOpenFiles": [
+    "HTB/Easy/Windows/Bastion.md",
+    "README.md",
     "Methodology/WinRM.md",
     "Kerberos.md",
     "Methodology/SMB.md",
     "Methodology/Windows.md",
     "Methodology/LDAP.md",
-    "HTB/Easy/Windows/Bastion.md",
-    "README.md",
     "HTB/Easy/Windows/Arctic.md",
     "note.md",
     "HTB/Easy/Windows/Optimum.md",

