@@ -1,8 +1,7 @@
-# 🛐 HTB: Pilgrimage
-
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 
 ## 📡 Recon
 

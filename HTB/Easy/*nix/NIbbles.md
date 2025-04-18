@@ -1,8 +1,7 @@
-## HTB: Nibbles Walkthrough
-
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)](Easy)
 
 ---
 

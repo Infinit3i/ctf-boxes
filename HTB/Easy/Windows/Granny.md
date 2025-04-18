@@ -1,10 +1,8 @@
 [Done](Done)
-# 👵 HTB: Granny – Walkthrough
-
-**Machine Info:**
-- **IP**: `10.129.83.212`
-- **OS**: [Windows Server 2003](Windows)
+## 📌 Box Info
+- **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **Exploits Used**:
   - [HTTP](HTTP) WebDAV PUT/MOVE
   - File extension bypass via `.txt → .aspx`

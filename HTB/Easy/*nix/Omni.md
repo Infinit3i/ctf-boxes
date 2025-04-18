@@ -1,11 +1,7 @@
-Got it! Here's your **HTB: Omni** walkthrough with all relevant commands included and organized by phase for clarity.
-
----
-
-# 🧠 HackTheBox: Omni Walkthrough
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 
 ---
 

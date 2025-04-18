@@ -1,9 +1,8 @@
 
-# 🔍 HTB: Admirer — Walkthrough
-
-## 📌 Box Info
+## ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 **Tags:** `ftp`, `adminer`, `mysql`, `pythonpath`, `privesc`, `path hijack`
 
 ---

@@ -1,10 +1,7 @@
-# LinkVortex
-
-**Machine Info:**  
-- Platform: [HTB](HTB)  
-- **IP**: `10.10.11.47`  
-- **OS**: [Linux](Linux)  
-- **Difficulty**: [Easy](Easy)  
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **Exploits Used:**  
   - Ghost CMS Git repo leak  
   - CVE‑2023‑40028 Ghost “symlink‑in‑zip” file‑read  

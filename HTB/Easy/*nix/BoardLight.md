@@ -1,10 +1,7 @@
-# 🦋 HTB: BoardLight
-
-**Machine Info:**
-- **Platform**: [HackTheBox](https://www.hackthebox.com)  
-- **IP**: `10.10.11.11`  
-- **OS**: Ubuntu 20.04 LTS  
-- **Difficulty**: Easy  
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **Exploits Used**:
   - Default Dolibarr credentials 🆔  
   - PHP code injection via **CVE-2023-30253** 🔓  

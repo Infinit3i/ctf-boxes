@@ -1,10 +1,7 @@
-# HTB: Cap
-
 ## 📌 Box Info
-- **Name:** Cap
-- **IP:** 10.10.10.245
-- **OS:** Linux
-- **Difficulty:** [Easy](Easy)
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 
 ---
 

@@ -1,12 +1,7 @@
-Here is the **Markdown-formatted command walkthrough** for **HTB: Irked**, organized by phase and including command context for quick reference:
-
----
-
-# 💀 HTB: Irked – Command Walkthrough
-
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **Initial Access**: IRC backdoor (UnrealIRCd 3.2.8.1)
 - **Privilege Escalation**: SUID binary misconfiguration + steganography
 

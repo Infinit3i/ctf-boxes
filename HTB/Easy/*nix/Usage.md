@@ -1,9 +1,7 @@
-
-**Machine Info:**
-- Platform: [HTB](HTB)
-- **IP**: `10.10.11.18`
+## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **Exploits Used**:
   - Blind [SQL Injection](SQL Injection) in password reset  
   - PHP webshell upload via extension bypass in Laravel‑Admin over [HTTP](HTTP)  

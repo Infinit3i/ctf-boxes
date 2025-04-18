@@ -1,10 +1,8 @@
 [Done](Done)
-## ⚙️ Machine Info:
-
-- **Name**: Legacy
-- **IP**: `10.10.10.4`
-- **OS**: [Windows XP SP3](Windows)
+## 📌 Box Info
+- **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **Exploits Used**:
     - [SMB](SMB) vulnerability: **MS08-067 (CVE-2008-4250)** — Remote Code Execution
 - **Tools**:

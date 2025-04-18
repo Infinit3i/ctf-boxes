@@ -1,6 +1,7 @@
-# 📌 Box Info
+## 📌 Box Info
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)](Easy)
 
 ## 🧰 Tools Used
 

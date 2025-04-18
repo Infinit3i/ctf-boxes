@@ -1,10 +1,7 @@
-## HTB: Curling Walkthrough
-
-**Author**: 0xdf  
-**Box Name**: Curling  
-**OS**: Linux  
-**Difficulty**: Easy  
-**Creator**: L4mpje
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 
 ---
 

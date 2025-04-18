@@ -1,8 +1,7 @@
-# 🧠 HTB: OpenAdmin — Walkthrough
-
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 **Tags:** `OpenNetAdmin`, `webshell`, `password reuse`, `sudo nano`, `GTFObins`
 
 ---

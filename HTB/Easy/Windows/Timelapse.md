@@ -1,8 +1,7 @@
-## HTB: Timelapse Walkthrough
-
-# 📌 Box Info
+## 📌 Box Info
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 
 ### Recon
 - **Nmap Scan:**

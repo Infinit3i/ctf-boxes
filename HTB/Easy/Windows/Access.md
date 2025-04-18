@@ -1,8 +1,9 @@
-# 🧭 HTB: Access Walkthrough
+# 🧭 HTB: Access
 
 ## 📌 Box Info
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 **Skills**: FTP enumeration, PST extraction, Telnet login, credential dumping, DPAPI decryption
 
 ---

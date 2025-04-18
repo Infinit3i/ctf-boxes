@@ -1,8 +1,7 @@
-# 📮 HTB: Postman — Walkthrough
-
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)](Easy)
 **Tags:** `redis`, `Webmin`, `ssh`, `key cracking`, `privesc`, `CVE-2019-12840`
 
 ---

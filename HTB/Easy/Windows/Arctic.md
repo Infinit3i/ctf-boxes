@@ -1,9 +1,9 @@
 # 🧊 HTB: Arctic Walkthrough
 [Done](Done)
-# 📌 Box Info
+## 📌 Box Info
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
-- **User**: `tolis`
+- Platform: [HTB](HTB)
 - **Root Method**: MS10-059 exploit via Chimichurri
 
 https://www.youtube.com/watch?v=Gfus5di2EF4

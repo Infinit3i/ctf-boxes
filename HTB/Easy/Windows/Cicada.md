@@ -1,11 +1,9 @@
-```markdown
 # 🦋 HTB: Cicada
 
-**Machine Info:**
-- **Platform**: [HackTheBox](https://www.hackthebox.com)  
-- **IP**: `10.129.198.41`  
-- **OS**: [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)  
-- **Difficulty**: [Easy](https://www.hackthebox.com/home/machines/profile/366)  
+## 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **Exploits Used**:
   - Null‑session SMB enumeration 🗂️  
   - Password spray via `netexec` 🔧  

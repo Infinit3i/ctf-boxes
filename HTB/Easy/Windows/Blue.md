@@ -1,10 +1,10 @@
 # 🧊 HTB: Blue Walkthrough
 
-# 📌 Box Info
+## 📌 Box Info
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **OS**: Windows 7 Professional SP1 (x64)
-- **Difficulty**: Easy
 - **Exploit**: MS17-010 (ETERNALBLUE)
 - **Privilege Escalation**: Not needed – initial shell is SYSTEM 🎯
 

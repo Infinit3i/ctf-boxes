@@ -1,10 +1,7 @@
-# HTB: Horizontall — Command Cheatsheet
-
 ## 📌 Box Info
-- **Name:** Horizontall
-- **IP:** Dynamic (example: 10.129.61.76)
-- **OS:** [Linux](Linux)
-- **Difficulty:** [Easy](Easy)
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 
 ---
 

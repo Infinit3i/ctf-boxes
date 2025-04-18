@@ -1,9 +1,7 @@
-# 💻 HTB: PC – Command Notes
-
-
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)](Easy)
 ## 🧭 Recon
 
 ### Nmap Scan

@@ -1,10 +1,7 @@
-# Editorial
-
-**Machine Info:**  
-- Platform: [HTB](HTB)  
-- **IP:** `10.10.11.20`  
-- **OS:** [Linux](Linux)  
-- **Difficulty:** [Easy](Easy)  
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **Exploits Used:**  
   - SSRF in image upload to hit internal Flask API  
   - Internal API enumeration for dev SSH creds  

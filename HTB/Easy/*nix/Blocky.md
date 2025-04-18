@@ -1,8 +1,7 @@
-# 🧠 HTB: Blocky
-
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 ## 🛰️ Recon
 
 ### 🔍 Full TCP Port Scan

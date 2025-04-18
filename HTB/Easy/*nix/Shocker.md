@@ -1,8 +1,7 @@
-## 🧨 HTB: Shocker Walkthrough
-
-## 📌 Box Info
+## ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)](Easy)
 - **Exploits**: CVE-2014-6271 (Shellshock)
 - **Ports**: 80 (HTTP), 2222 [SSH](SSH)
 

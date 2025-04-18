@@ -1,9 +1,7 @@
-# 🖨️ HTB: Return
-
-**Machine Info:**
-- **Platform:** HackTheBox  
-- **IP:** `10.10.11.108`  
-- **OS:** Windows 10 / Server 2019  
+## 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **Difficulty:** Easy  
 - **Key Techniques:**  
   - Printer admin panel → LDAP creds  

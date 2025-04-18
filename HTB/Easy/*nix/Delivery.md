@@ -1,8 +1,7 @@
-# HTB: Delivery
-## 📂 Box Info
-- **Name:** Delivery
-- **OS:** [Linux](Linux)
-- **Difficulty:** [Easy](Easy)
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 
 ---
 

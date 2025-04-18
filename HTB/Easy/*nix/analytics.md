@@ -1,8 +1,7 @@
-# 💎 HTB: Analytics
-
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 
 ## 🔍 Phase 1: Scanning & Enumeration
 

@@ -1,10 +1,8 @@
 
-**Machine Info:**
-
-- Platform: [HTB](https://chatgpt.com/c/HTB)
-- **IP**: `10.10.11.14`
-- **OS**: [Windows](https://chatgpt.com/c/Windows)
-- **Difficulty**: [Easy](https://chatgpt.com/c/Easy)
+## 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **Exploits Used**:
     
     - File‑read/dir‑traversal via `download.php`

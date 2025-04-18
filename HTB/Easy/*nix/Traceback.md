@@ -1,8 +1,7 @@
-# 🔍 HTB: Traceback — Walkthrough
-
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 **Tags:** `webshell`, `lua`, `luvit`, `motd`, `ssh`, `cron privesc`
 
 ---

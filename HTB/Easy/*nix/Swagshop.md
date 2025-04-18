@@ -1,9 +1,8 @@
-# 🧢 HTB: SwagShop
 [Done](Done)
 ## 📌 Box Info
-- Platform [HTB](HTB)
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **Initial Access**: Magento authentication bypass + RCE
 - **Privilege Escalation**: `sudo vi` file escape
 

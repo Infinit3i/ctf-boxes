@@ -1,10 +1,8 @@
 
-# 🧓 HTB: Grandpa Walkthrough
-
-**Machine Info:**
-- **IP**: `10.10.10.14`
-- **OS**: [Windows Server 2003 R2 SP2 (IIS 6.0)](Windows)
+## 📌 Box Info
+- **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **Exploits Used**:
   - [HTTP](HTTP) – WebDAV Support
   - **CVE-2017-7269** – [HTTP](HTTP) PROPFIND Buffer Overflow (RCE)

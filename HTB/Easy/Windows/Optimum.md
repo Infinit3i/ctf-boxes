@@ -1,10 +1,8 @@
 [Done](Done)
-[HTB](HTB)
-
-**Machine Info:**
-- **IP**: `10.10.10.8`
-- **OS**: [Windows Server 2012 R2 (64-bit)](Windows)
+## 📌 Box Info
+- **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **Exploits Used**:
   - **RCE**: [CVE-2014-6287](https://nvd.nist.gov/vuln/detail/CVE-2014-6287) – Rejetto HFS 2.3.x
   - **PrivEsc**: [CVE-2016-0099](https://nvd.nist.gov/vuln/detail/CVE-2016-0099) – MS16-032

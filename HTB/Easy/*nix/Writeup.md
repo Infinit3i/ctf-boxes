@@ -1,10 +1,7 @@
-# 🧭 HTB: Writeup – Command Walkthrough
-
-
-
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 - **Initial Access**: Blind SQLi in CMS Made Simple
 - **Privilege Escalation**: PATH hijack via `run-parts`
 - **Extras**: Perl module hijack (Beyond Root)

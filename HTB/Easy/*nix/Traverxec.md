@@ -1,8 +1,7 @@
-# 🧠 HTB: Traverxec — Walkthrough
-
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 **Tags:** `nostromo`, `webshell`, `sudo journalctl`, `ssh key`, `GTFObins`
 
 ---

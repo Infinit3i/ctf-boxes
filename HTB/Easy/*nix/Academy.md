@@ -1,12 +1,7 @@
-Here’s your complete **HTB: Academy Walkthrough** in Markdown format with **every relevant command** grouped by stage (Recon, Foothold, User Shell, PrivEsc, Root), formatted cleanly for documentation, reuse, or future reference:
-
----
-
-# 🎓 HackTheBox: Academy Walkthrough
-
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 
 ---
 

@@ -1,11 +1,9 @@
 ## HTB: Buff Walkthrough
 
-### Overview
-- **Machine Name:** Buff
-- **IP Address:** 10.10.10.198
-- **OS:** [Windows](Windows)
-- **Difficulty:** [Easy](Easy)
-- **Points:** 20
+## 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 
 ---
 

@@ -1,12 +1,7 @@
-## HTB: Support Walkthrough
-
-### Box Info
-- **Name**: Support
-- **Release Date**: 30 Jul 2022
-- **Retire Date**: 17 Dec 2022
-- **OS**: [Windows](Windows.md)
-- **Difficulty**: [Easy](Easy) (OSCP-like, OSEP-like)
-- **Points**: 20
+## ## 📌 Box Info
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 
 ---
 

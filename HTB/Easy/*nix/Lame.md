@@ -1,14 +1,7 @@
-## 🧠 HTB: Lame [Done](Done)
-
----
-
-### 📦 Box Info
-
-- **Name:** Lame
-- **Release Date:** 14 Mar 2017
-- **OS:** [Linux](Linux)
-- **Difficulty:** Easy [20 pts]
-- **Creator:** ch4p
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Easy](Easy)
+- Platform: [HTB](HTB)
 
 ---
 
