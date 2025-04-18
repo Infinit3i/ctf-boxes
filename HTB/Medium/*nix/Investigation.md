@@ -1,7 +1,7 @@
-## HTB: Investigation (Linux)
-
-### 🧠 Box Summary
-Investigation is a Linux-based HTB machine that starts with a PHP-based image upload portal vulnerable to command injection via ExifTool (CVE-2022-23935). Upon exploitation, a `.msg` file reveals user credentials through Event Log analysis. Privilege escalation is achieved by abusing a root-executable binary that downloads and executes scripts with Perl.
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Medium](Medium)
+- Platform: [HTB
 
 ---
 

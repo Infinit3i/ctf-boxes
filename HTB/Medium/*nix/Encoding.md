@@ -1,4 +1,7 @@
-# HTB: Encoding
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Medium](Medium)
+- Platform: [HTB](HTB)
 
 ## Recon
 

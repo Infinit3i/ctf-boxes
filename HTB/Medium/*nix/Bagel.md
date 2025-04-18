@@ -1,9 +1,7 @@
-Here’s your walkthrough for **HTB: Bagel**, using your custom template — full of juicy 💡 insights, solid 🛠️ commands, and of course, emojis galore! 🥯💥
-
----
-
-# VENDOR: Bagel  
-[HTB](HTB)
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Medium](Medium)
+- Platform: [HTB
 
 ---
 

@@ -1,5 +1,7 @@
-# HTB: Agile  
-[HTB](HTB)
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Medium](Medium)
+- Platform: [HTB
 
 ---
 

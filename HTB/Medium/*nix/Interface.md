@@ -1,11 +1,7 @@
-# HTB: Interface Walkthrough
-
-## 🧠 Box Overview
-**Name**: Interface  
-**IP**: `10.10.11.200`  
-**OS**: [Linux](Linux) 🐧  
-**Difficulty**: Medium [30 Points]  
-**Creator**: irogir  
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Medium](Medium)
+- Platform: [HTB
 
 ### 💡 Summary
 - Initial foothold via **Dompdf** file-write vulnerability (CVE-2022-28368) 📝

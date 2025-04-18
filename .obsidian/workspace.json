@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Easy/*nix/Writeup.md",
+                "file": "HTB/Medium/*nix/Investigation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writeup"
+              "title": "Investigation"
             }
           }
         ]
@@ -170,6 +170,13 @@
   },
   "active": "a5c4ea4835f27aa8",
   "lastOpenFiles": [
+    "HTB/Medium/*nix/Interface.md",
+    "HTB/Medium/*nix/Encoding.md",
+    "HTB/Medium/*nix/BroScience.md",
+    "HTB/Medium/*nix/Bagel.md",
+    "HTB/Medium/*nix/Agile.md",
+    "Methodology/Easy.md",
+    "HTB/Easy/*nix/Writeup.md",
     "HTB/Easy/*nix/Wifinetic.md",
     "HTB/Easy/*nix/Valetine.md",
     "HTB/Easy/*nix/Usage.md",
@@ -189,13 +196,6 @@
     "HTB/Easy/*nix/Secret.md",
     "HTB/Easy/*nix/ScriptKiddie.md",
     "HTB/Easy/*nix/Sau.md",
-    "HTB/Easy/*nix/Safe.md",
-    "HTB/Easy/*nix/RouterSpace.md",
-    "HTB/Easy/*nix/RedPanda.md",
-    "HTB/Easy/*nix/Previse.md",
-    "HTB/Easy/*nix/Precious.md",
-    "HTB/Easy/*nix/Postman.md",
-    "HTB/Easy/*nix/Pilgrimage.md",
     "HTB/Insane",
     "HTB/Medium/*nix",
     "HTB/Medium",

@@ -1,12 +1,7 @@
-## 🧠 HTB: BroScience Walkthrough
-
-### 📦 Box Info
-- **Name:** BroScience
-- **OS:** Linux
-- **Difficulty:** Medium [30 pts]
-- **Release Date:** 07 Jan 2023
-- **Retirement:** 08 Apr 2023
-- **Creator:** bmdyy
+## 📌 Box Info
+- **OS**: [Linux](Linux)
+- **Difficulty**: [Medium](Medium)
+- Platform: [HTB
 
 ---
 
