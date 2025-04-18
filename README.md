@@ -1,35 +1,55 @@
+# Friday
+[BoardLight](BoardLight)  
+[Broker](Broker)  
+[Busqueda](Busqueda)  
+# Saturday
+[CozyHosting](CozyHosting)  
+[Editorial](Editorial)  
+[Help](Help)  
+[Keeper](Keeper)  
+[LinkVortex](LinkVortex)  
+# Sunday
+[Networked](Networked)  
+[Pandora](Pandora)  
+[Sau](Sau)  
+[Soccer](Soccer)  
+[Usage](Usage.md)  
+# Monday
+[Access](Access)  
+[Mailing](Mailing.md)  
+[Servmon](Servmon)  
+# Tuesday
+[Support](Support)  
+[Active](Active)  
+[Cicada](Cicada)  
+# Wednesday
+[Forest](Forest)  
+[Return](Return)  
+[Sauna](Sauna)  
+# Thursday
+[Timelapse](Timelapse)  
+[Mailing](Mailing.md)
 
-- [x] [Lame](Lame.md)
-- [x] [Legacy](Legacy.md)
-- [x] [Beep](Beep)
-- [x] [Optimum](Optimum)
-- [x] [Arctic](Arctic)
-- [x] [Bastion](Bastion)
 
-Thursday
-- [ ] Grandpa
-- [ ] Granny
-- [ ] SwagShop
+
 
 
 # WILL DO LATER
 - [ ] [Devel](Devel)
+- [ ] [Grandpa](Grandpa)
+
 
 
 [mind map oco](https://orange-cyberdefense.github.io/ocd-mindmaps/img/mindmap_ad_dark_classic_2025.03.excalidraw.svg)
 
-
 # Recon
-
 - nmap
 - gobuster
 - check genertic creds
 ---
 
 ## 🧠 Offensive Cybersecurity Certification Roadmap (20 Hours/Week)
-
 ### 📅 Start Date: **April 13, 2025**
-
 ### 📈 Study Time: **20 hrs/week** → **~86.7 hrs/month**
 
 | Order | Certification / Reward                   | Total Study Time     | Max Cost (USD)                 | Start Date   | Target Completion |

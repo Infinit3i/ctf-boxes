@@ -16,7 +16,7 @@
 
 ### 🔍 Nmap Scan
 ```bash
-nmap -sV -sC -oA scan/result 10.10.10.14
+nmap -sV -sC -oA grandpa 10.10.10.14
 ```
 
 **Result:**
@@ -45,7 +45,7 @@ No upload capability, but [HTTP](HTTP) verbs like `PROPFIND`, `SEARCH`, and `LOC
 
 ---
 
-## 🧨 Initial Foothold – CVE-2017-7269 (PROPFIND RCE)
+## 🧨 Initial Foothold – [CVE-2017-7269 (PROPFIND RCE)](https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269/tree/master)
 
 ### 🛠️ Clone Exploit
 ```bash

@@ -1,6 +1,7 @@
 # 📌 Box Info
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
+[Done](Done)
 
 ## 🔧 **Tools Used**
 - `nmap`

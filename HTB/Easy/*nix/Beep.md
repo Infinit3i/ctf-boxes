@@ -1,6 +1,7 @@
 # 🚨 HTB: Beep
 
 [Easy](Easy)
+[Done](Done)
 
 ## 🛰️ Recon
 

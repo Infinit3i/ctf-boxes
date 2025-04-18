@@ -1,4 +1,4 @@
-## 🧠 HTB: Lame - Full Walkthrough
+## 🧠 HTB: Lame [Done](Done)
 
 ---
 

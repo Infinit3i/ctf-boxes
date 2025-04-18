@@ -1,8 +1,6 @@
-**HTB: Pandora - Command Reference**
-
----
 
 ## 📌 Box Info
+- Platform: [HTB](HTB)
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
 

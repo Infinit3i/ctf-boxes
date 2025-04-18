@@ -1,11 +1,10 @@
-# VENDOR: (BOX NAME)
-
-[Vendor](Vendor) ex. HTB
+#  (BOX NAME)
 
 **Machine Info:**
+- Platform: [HTB](HTB)
 - **IP**: `10.129.83.212`
-- **OS**: Windows Server 2003
-- **Difficulty**: [Level](Level) ex. Easy
+- **OS**: [Windows](Windows)
+- **Difficulty**: [Easy](Easy)
 - **Exploits Used**:
   - [Protocol](Protocol) WebDAV PUT/MOVE
   - File extension bypass via `.txt → .aspx`

