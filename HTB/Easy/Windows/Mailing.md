@@ -2,7 +2,7 @@
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
-- Prep: [OSCP](OSCP)
+- Prep: [OSCP](OSCP.md)
 - **Exploits Used**:
     
     - File‑read/dir‑traversal via `download.php`

@@ -2,7 +2,6 @@
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Medium](Medium)
 - Platform: [HTB](HTB)
-- Prep: [OSCP](OSCP)
 - **Exploits Used**:
     
     - RID Cycling (user SID enumeration)

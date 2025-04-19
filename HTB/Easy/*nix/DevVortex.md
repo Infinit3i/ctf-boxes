@@ -2,7 +2,7 @@
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
-- Prep: [OSCP](OSCP)
+- Prep: [OSCP](OSCP.md)
 
 ```bash
 nmap -p- --min-rate 10000 10.10.11.242

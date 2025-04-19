@@ -2,7 +2,7 @@
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
-- Prep: [OSCP](OSCP)
+- Prep: [OSCP](OSCP.md)
 - **OS**: Windows 7 Professional SP1 (x64)
 - **Exploit**: MS17-010 (ETERNALBLUE)
 - **Privilege Escalation**: Not needed – initial shell is SYSTEM 🎯

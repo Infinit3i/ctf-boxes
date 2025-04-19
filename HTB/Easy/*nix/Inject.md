@@ -2,7 +2,7 @@
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
-- Prep: [OSCP](OSCP)
+- Prep: [OSCP](OSCP.md)
 
 ### Recon
 - **Ports**: [SSH](SSH) (22), [HTTP](HTTP) (8080)

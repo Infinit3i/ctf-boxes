@@ -2,7 +2,6 @@
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Medium](Medium)
 - Platform: [HTB](HTB)
-- Prep: [OSCP](OSCP)
 - **Exploits Used**:
     
     - 🎨 **ThemeBleed** (CVE‑2023‑38146) – race‑condition on `.msstyles` _vrf.dll loading

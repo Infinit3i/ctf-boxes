@@ -3,7 +3,7 @@
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
-- Prep: [OSCP](OSCP)
+- Prep: [OSCP](OSCP.md)
 - **Exploits Used**:
     - [SMB](SMB) vulnerability: **MS08-067 (CVE-2008-4250)** — Remote Code Execution
 - **Tools**:

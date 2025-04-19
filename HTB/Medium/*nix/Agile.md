@@ -2,7 +2,7 @@
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Medium](Medium)
 - Platform: [HTB](HTB)
-- Prep: [OSCP](OSCP)
+- Prep: [OSCP](OSCP.md)
 - **Exploits Used**:
   - [HTTP](HTTP) File Read Vulnerability via `/download?fn=...`
   - Flask Debug Mode Code Execution via Werkzeug PIN Bypass

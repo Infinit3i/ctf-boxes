@@ -2,7 +2,7 @@
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Medium](Medium)
 - Platform: [HTB](HTB)
-- Prep: [OSCP](OSCP)
+- Prep: [OSCP](OSCP.md)
 - **Exploits Used**:
   - [HTTP](HTTP) File Read via Flask route `?page=`
   - Python `proc` analysis to leak source

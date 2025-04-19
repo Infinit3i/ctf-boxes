@@ -2,7 +2,6 @@
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Medium](Medium)
 - Platform: [HTB](HTB)
-- Prep: [OSCP](OSCP)
 - **Exploits Used**:
   - 🔓 **Assume Breach**: `WriteOwner` → DACL abuse → Shadow Credential  
   - 🔑 **ADCS ESC9**: UPN swap + no‑security‑ext template  

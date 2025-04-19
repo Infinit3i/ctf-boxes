@@ -4,7 +4,7 @@
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
-- Prep: [OSCP](OSCP)
+- Prep: [OSCP](OSCP.md)
 **Skills**: FTP enumeration, PST extraction, Telnet login, credential dumping, DPAPI decryption
 
 ---

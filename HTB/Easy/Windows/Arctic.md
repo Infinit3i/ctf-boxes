@@ -2,7 +2,7 @@
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
-- Prep: [OSCP](OSCP)
+- Prep: [OSCP](OSCP.md)
 - **Root Method**: MS10-059 exploit via Chimichurri
 
 https://www.youtube.com/watch?v=Gfus5di2EF4
