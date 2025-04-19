@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Easy/*nix/Broker.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Broker"
+              "title": "README"
             }
           }
         ]
@@ -170,7 +170,9 @@
   },
   "active": "a5c4ea4835f27aa8",
   "lastOpenFiles": [
+    "Done.md",
     "README.md",
+    "HTB/Easy/*nix/Broker.md",
     "Writeup Template.md",
     "HTB/Easy/*nix/BoardLight.md",
     "Methodology/HTTP.md",
@@ -194,8 +196,6 @@
     "HTB/Easy/*nix/Tabby.md",
     "HTB/Easy/*nix/Swagshop.md",
     "HTB/Easy/*nix/Stocker.md",
-    "HTB/Easy/*nix/Spectra.md",
-    "HTB/Easy/*nix/Soccer.md",
     "HTB/Insane",
     "HTB/Medium/*nix",
     "HTB/Medium",

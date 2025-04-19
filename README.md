@@ -1,13 +1,11 @@
-# Friday
-- [x] [BoardLight](BoardLight)  
+# Saturday
 - [ ] [Broker](Broker)  
 - [ ] [Busqueda](Busqueda)  
-# Saturday
-[CozyHosting](CozyHosting)  
-[Editorial](Editorial)  
-[Help](Help)  
-[Keeper](Keeper)  
-[LinkVortex](LinkVortex)  
+- [ ] [CozyHosting](CozyHosting)  
+- [ ] [Editorial](Editorial)  
+- [ ] [Help](Help)  
+- [ ] [Keeper](Keeper)
+- [ ] [LinkVortex](LinkVortex)  
 # Sunday
 [Networked](Networked)  
 [Pandora](Pandora)  
