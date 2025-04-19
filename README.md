@@ -1,7 +1,7 @@
 # Friday
-[BoardLight](BoardLight)  
-[Broker](Broker)  
-[Busqueda](Busqueda)  
+- [x] [BoardLight](BoardLight)  
+- [ ] [Broker](Broker)  
+- [ ] [Busqueda](Busqueda)  
 # Saturday
 [CozyHosting](CozyHosting)  
 [Editorial](Editorial)  

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Medium/*nix/Investigation.md",
+                "file": "HTB/Easy/*nix/Broker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Investigation"
+              "title": "Broker"
             }
           }
         ]
@@ -170,6 +170,11 @@
   },
   "active": "a5c4ea4835f27aa8",
   "lastOpenFiles": [
+    "README.md",
+    "Writeup Template.md",
+    "HTB/Easy/*nix/BoardLight.md",
+    "Methodology/HTTP.md",
+    "HTB/Medium/*nix/Investigation.md",
     "HTB/Medium/*nix/Interface.md",
     "HTB/Medium/*nix/Encoding.md",
     "HTB/Medium/*nix/BroScience.md",
@@ -191,11 +196,6 @@
     "HTB/Easy/*nix/Stocker.md",
     "HTB/Easy/*nix/Spectra.md",
     "HTB/Easy/*nix/Soccer.md",
-    "HTB/Easy/*nix/Shoppy.md",
-    "HTB/Easy/*nix/Shocker.md",
-    "HTB/Easy/*nix/Secret.md",
-    "HTB/Easy/*nix/ScriptKiddie.md",
-    "HTB/Easy/*nix/Sau.md",
     "HTB/Insane",
     "HTB/Medium/*nix",
     "HTB/Medium",
