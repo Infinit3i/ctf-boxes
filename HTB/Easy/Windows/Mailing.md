@@ -1,8 +1,8 @@
-
 ## 📌 Box Info
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
 - **Exploits Used**:
     
     - File‑read/dir‑traversal via `download.php`

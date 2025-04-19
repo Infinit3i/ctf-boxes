@@ -1,8 +1,8 @@
-
 ## 📌 Box Info
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
 - **Exploits Used**:
   - [HTTP](HTTP) – WebDAV Support
   - **CVE-2017-7269** – [HTTP](HTTP) PROPFIND Buffer Overflow (RCE)

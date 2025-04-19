@@ -1,9 +1,8 @@
-# 🧊 HTB: Arctic Walkthrough
-[Done](Done)
 ## 📌 Box Info
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
 - **Root Method**: MS10-059 exploit via Chimichurri
 
 https://www.youtube.com/watch?v=Gfus5di2EF4

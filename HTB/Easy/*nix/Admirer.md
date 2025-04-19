@@ -1,8 +1,8 @@
-
-## ## 📌 Box Info
+## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
 **Tags:** `ftp`, `adminer`, `mysql`, `pythonpath`, `privesc`, `path hijack`
 
 ---

@@ -1,7 +1,8 @@
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
-- Platform: [HTB](HTB)](Easy)
+- Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
 **Focus:** Bludit RCE, Web enumeration, LXD priv esc  
 **Tags:** OSCP Prep, TJNull List
 

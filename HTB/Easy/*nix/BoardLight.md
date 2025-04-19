@@ -2,6 +2,8 @@
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
+[Done](Done)
 - **Exploits Used**:
   - Default Dolibarr credentials 🆔  
   - PHP code injection via **CVE-2023-30253** 🔓  

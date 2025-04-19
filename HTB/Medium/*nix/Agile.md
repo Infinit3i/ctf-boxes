@@ -1,14 +1,8 @@
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Medium](Medium)
-- Platform: [HTB
-
----
-
-**Machine Info:**
-- **IP**: `10.10.11.203`
-- **OS**: Linux 🐧
-- **Difficulty**: [Medium](Medium)
+- Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
 - **Exploits Used**:
   - [HTTP](HTTP) File Read Vulnerability via `/download?fn=...`
   - Flask Debug Mode Code Execution via Werkzeug PIN Bypass

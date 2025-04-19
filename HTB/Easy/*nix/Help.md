@@ -1,9 +1,9 @@
-
-
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
+
 - **Initial Access**: GraphQL → HelpDeskZ Authenticated SQLi / Unauth File Upload
 - **Privilege Escalation**: Kernel Exploit (CVE-2017-16995, etc.)
 

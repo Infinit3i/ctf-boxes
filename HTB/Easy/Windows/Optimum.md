@@ -3,6 +3,7 @@
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
 - **Exploits Used**:
   - **RCE**: [CVE-2014-6287](https://nvd.nist.gov/vuln/detail/CVE-2014-6287) – Rejetto HFS 2.3.x
   - **PrivEsc**: [CVE-2016-0099](https://nvd.nist.gov/vuln/detail/CVE-2016-0099) – MS16-032

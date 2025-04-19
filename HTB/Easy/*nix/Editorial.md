@@ -2,6 +2,8 @@
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
+
 - **Exploits Used:**  
   - SSRF in image upload to hit internal Flask API  
   - Internal API enumeration for dev SSH creds  

@@ -2,7 +2,9 @@
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
-- **Created by:** TheCyberGeek
+- Prep: [OSCP](OSCP)
+
+
 - **Notable CVEs:** 
   - CVE-2023-46604 (ActiveMQ RCE)
   - CVE-2022-41347 (Zimbra-like LD_PRELOAD abuse)

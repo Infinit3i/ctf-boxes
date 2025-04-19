@@ -2,6 +2,8 @@
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
+
 - **Initial Access**: IRC backdoor (UnrealIRCd 3.2.8.1)
 - **Privilege Escalation**: SUID binary misconfiguration + steganography
 

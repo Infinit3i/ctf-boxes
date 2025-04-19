@@ -1,14 +1,8 @@
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Medium](Medium)
-- Platform: [HTB
-
----
-
-**Machine Info:**
-- **IP**: `10.10.11.201`
-- **OS**: Linux 🐧
-- **Difficulty**: [Medium](Medium)
+- Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
 - **Exploits Used**:
   - [HTTP](HTTP) File Read via Flask route `?page=`
   - Python `proc` analysis to leak source

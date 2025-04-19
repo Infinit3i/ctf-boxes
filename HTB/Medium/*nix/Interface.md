@@ -1,9 +1,11 @@
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Medium](Medium)
-- Platform: [HTB
+- Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
 
 ### 💡 Summary
+
 - Initial foothold via **Dompdf** file-write vulnerability (CVE-2022-28368) 📝
 - RCE achieved through a poisoned font file + PHP shell 💥
 - Privilege escalation through **arithmetic expression injection** in a Bash cleanup script 👑

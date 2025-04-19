@@ -2,6 +2,7 @@
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
 
 ### Enumeration
 Start with a full Nmap scan to identify open ports:

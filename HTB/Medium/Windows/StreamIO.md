@@ -1,9 +1,8 @@
-# STREAMIO
-
 ## 📌 Box Info
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Medium](Medium)
 - Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
 - **Exploits Used:**  
   - SQL Injection (stacked queries) on `/search.php` 🐍  
   - Remote File Include via `debug` parameter for RCE 📝  

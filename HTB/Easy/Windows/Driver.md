@@ -2,7 +2,7 @@
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
-
+- Prep: [OSCP](OSCP)
 ### Recon
 ```bash
 nmap -p- -T4 10.10.11.106

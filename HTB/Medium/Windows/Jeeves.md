@@ -1,9 +1,8 @@
-# JEEVES
-
 ## 📌 Box Info
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Medium](Medium)
 - Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
 - **Key Techniques:**  
   1. Unauthenticated Jenkins RCE  
   2. Exfil KeePass DB via Jenkins workspace  

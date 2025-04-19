@@ -1,7 +1,8 @@
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Medium](Medium)
-- Platform: [HTB
+- Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
 
 ---
 

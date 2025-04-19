@@ -1,9 +1,8 @@
-# INTELLIGENCE
-
 ## 📌 Box Info
 - **OS**: [Windows](Windows)
 - **Difficulty**: [Medium](Medium)
 - Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
 - **Key Exploits:**  
   - PDF metadata & URL fuzzing → default creds  
   - Password spraying  

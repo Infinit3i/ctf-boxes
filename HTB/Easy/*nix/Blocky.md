@@ -2,6 +2,8 @@
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
 - Platform: [HTB](HTB)
+- Prep: [OSCP](OSCP)
+
 ## 🛰️ Recon
 
 ### 🔍 Full TCP Port Scan
