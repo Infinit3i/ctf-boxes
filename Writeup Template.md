@@ -12,6 +12,10 @@
 open ports ex.
 [HTTP](HTTP)
 
+TLDR
+
+go over how each exploit is found and what they do
+
 [Tools](Tools)
 
 commands to solve box

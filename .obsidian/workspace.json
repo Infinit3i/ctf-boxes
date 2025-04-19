@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Writeup Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Writeup Template"
             }
           }
         ]
@@ -170,8 +170,8 @@
   },
   "active": "a5c4ea4835f27aa8",
   "lastOpenFiles": [
-    "Done.md",
     "README.md",
+    "Done.md",
     "HTB/Easy/*nix/Broker.md",
     "Writeup Template.md",
     "HTB/Easy/*nix/BoardLight.md",
