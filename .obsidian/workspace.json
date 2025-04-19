@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Administrator.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "4a2dc3fe688c910f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "title": "Administrator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,8 +168,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a2dc3fe688c910f",
+  "active": "a5c4ea4835f27aa8",
   "lastOpenFiles": [
+    "HTB/Medium/Windows/Certified.md",
+    "Certified.md",
+    "Certified",
+    "README.md",
+    "Administrator.md",
+    "HTB/Medium/Windows/Aero.md",
+    "HTB/Medium/Windows/Escape.md",
+    "Writeup Template.md",
+    "HTB/Medium/Windows/Manager.md",
     "HTB/Medium/Windows/Jeeves.md",
     "HTB/Medium/Windows/Intelligence.md",
     "HTB/Hard/Windows/Blackfield.md",
@@ -192,10 +186,8 @@
     "HTB/Hard",
     "StreamIO.md",
     "HTB/Medium/Windows/StreamIO.md",
-    "README.md",
     "Done.md",
     "Vulnlab/*nix/Data.md",
-    "HTB/Medium/Windows/Escape.md",
     "HTB/Medium/Windows",
     "Vulnlab/Windows/Bruno.md",
     "Vulnlab/Windows/Escape.md",
@@ -211,16 +203,9 @@
     "Vulnlab/Windows",
     "Vulnlab/*nix",
     "Vulnlab",
-    "HTB/Easy/*nix/Broker.md",
-    "Writeup Template.md",
-    "HTB/Easy/*nix/BoardLight.md",
-    "Methodology/HTTP.md",
-    "HTB/Medium/*nix/Investigation.md",
-    "HTB/Medium/*nix/Interface.md",
     "HTB/Insane",
     "HTB/Medium/*nix",
     "HTB/Medium",
-    "Untitled.canvas",
-    "Methodology"
+    "Untitled.canvas"
   ]
 }

@@ -3,36 +3,45 @@
 - [ ] [Busqueda](Busqueda)  
 - [ ] [CozyHosting](CozyHosting) 
 
-
+---
 
 - [ ] [Editorial](Editorial)  
 - [ ] [Help](Help)  
 - [ ] [Keeper](Keeper)
-- [ ] [LinkVortex](LinkVortex)  
+
+- [ ] [LinkVortex](LinkVortex) 
 - [ ] [Networked](Networked)  
 - [ ] [Pandora](Pandora)  
+
 - [ ] [Sau](Sau)  
 - [ ] [Soccer](Soccer)  
 - [ ] [Usage](Usage.md)  
+
 - [ ] [Access](Access)  
 - [ ] [Mailing](Mailing.md)  
 - [ ] [Servmon](Servmon)  
-- [ ] [Support](Support)  
+
 - [ ] [Active](Active)  
 - [ ] [Cicada](Cicada)  
 - [ ] [Forest](Forest)  
+
+- [ ] [Support](Support)
 - [ ] [Return](Return)  
 - [ ] [Sauna](Sauna)  
+
 - [ ] [Timelapse](Timelapse)  
 - [ ] [Mailing](Mailing.md)
 - [ ] [Escape](Escape)
+
 - [ ] [StreamIO](StreamIO)
 - [ ] [Blackfield](Blackfield)
 - [ ] [Intelligence](Intelligence)
+
 - [ ] [Jeeves](Jeeves)
-[Manager](Manager)
-[Aero](Aero)
-[Administrator](Administrator)
+- [ ] [Manager](Manager.md)
+- [ ] [Aero](Aero.md)
+
+
 [Certified](Certified)
 
 # WILL DO LATER
