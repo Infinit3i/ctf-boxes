@@ -1,36 +1,39 @@
 # Saturday
 - [ ] [Broker](Broker)  
 - [ ] [Busqueda](Busqueda)  
-- [ ] [CozyHosting](CozyHosting)  
+- [ ] [CozyHosting](CozyHosting) 
+
+
+
 - [ ] [Editorial](Editorial)  
 - [ ] [Help](Help)  
 - [ ] [Keeper](Keeper)
 - [ ] [LinkVortex](LinkVortex)  
-# Sunday
-[Networked](Networked)  
-[Pandora](Pandora)  
-[Sau](Sau)  
-[Soccer](Soccer)  
-[Usage](Usage.md)  
-# Monday
-[Access](Access)  
-[Mailing](Mailing.md)  
-[Servmon](Servmon)  
-# Tuesday
-[Support](Support)  
-[Active](Active)  
-[Cicada](Cicada)  
-# Wednesday
-[Forest](Forest)  
-[Return](Return)  
-[Sauna](Sauna)  
-# Thursday
-[Timelapse](Timelapse)  
-[Mailing](Mailing.md)
-
-
-
-
+- [ ] [Networked](Networked)  
+- [ ] [Pandora](Pandora)  
+- [ ] [Sau](Sau)  
+- [ ] [Soccer](Soccer)  
+- [ ] [Usage](Usage.md)  
+- [ ] [Access](Access)  
+- [ ] [Mailing](Mailing.md)  
+- [ ] [Servmon](Servmon)  
+- [ ] [Support](Support)  
+- [ ] [Active](Active)  
+- [ ] [Cicada](Cicada)  
+- [ ] [Forest](Forest)  
+- [ ] [Return](Return)  
+- [ ] [Sauna](Sauna)  
+- [ ] [Timelapse](Timelapse)  
+- [ ] [Mailing](Mailing.md)
+- [ ] [Escape](Escape)
+- [ ] [StreamIO](StreamIO)
+- [ ] [Blackfield](Blackfield)
+- [ ] [Intelligence](Intelligence)
+- [ ] [Jeeves](Jeeves)
+[Manager](Manager)
+[Aero](Aero)
+[Administrator](Administrator)
+[Certified](Certified)
 
 # WILL DO LATER
 - [ ] [Devel](Devel)
@@ -52,9 +55,9 @@
 
 | Order | Certification / Reward                   | Total Study Time     | Max Cost (USD)                 | Start Date   | Target Completion |
 | ----- | ---------------------------------------- | -------------------- | ------------------------------ | ------------ | ----------------- |
-| 1️⃣   | **GPEN** (GIAC Pen Tester)               | 180 hrs (9 weeks)    | $0 (Free via training voucher) | Apr 13, 2025 | Jun 15, 2025      |
+| 1️⃣   | **GPEN** (GIAC Pen Tester)               | 180 hrs (9 weeks)    | $0 (Free via training voucher) | Apr 13, 2025 | Jun 1, 2025       |
 | 🎁    | **Maldev Academy** (Reward)              | ⏳ No limit           | **$700**                       | After GPEN   | When deserved     |
-| 2️⃣   | **CISSP** (Security Professional)        | 150 hrs (7.5 weeks)  | $0 (Free via training voucher) | Jun 16, 2025 | Aug 3, 2025       |
+| 2️⃣   | **CISSP** (Security Professional)        | 150 hrs (7.5 weeks)  | $0 (Free via training voucher) | Jun 2, 2025  | Aug 3, 2025       |
 | 🎁    | **Invoke RE** (Reward)                   | ⏳ No limit           | $300                           | After CISSP  | When deserved     |
 | 3️⃣   | **OSCP** (OffSec Certified Professional) | 600 hrs (30 weeks)   | **$1,599**                     | Aug 4, 2025  | Feb 22, 2026      |
 | 4️⃣   | **CRTO** (Certified Red Team Operator)   | 120 hrs (6 weeks)    | **$800**                       | Feb 23, 2026 | Apr 5, 2026       |
