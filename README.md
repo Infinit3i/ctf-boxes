@@ -1,12 +1,10 @@
-# Saturday
-- [ ] [Broker](Broker)  
-- [ ] [CozyHosting](CozyHosting) 
-
----
+# Sunday
 
 - [ ] [Editorial](Editorial)  
 - [ ] [Help](Help)  
 - [ ] [Keeper](Keeper)
+
+---
 
 - [ ] [LinkVortex](LinkVortex) 
 - [ ] [Networked](Networked)  
@@ -46,7 +44,7 @@
 # WILL DO LATER
 - [ ] [Devel](Devel)
 - [ ] [Grandpa](Grandpa)
-
+- [ ] [CozyHosting](CozyHosting) 
 
 
 [mind map oco](https://orange-cyberdefense.github.io/ocd-mindmaps/img/mindmap_ad_dark_classic_2025.03.excalidraw.svg)

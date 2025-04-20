@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Easy/*nix/CozyHosting.md",
+                "file": "HTB/Easy/*nix/Editorial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CozyHosting"
+              "title": "Editorial"
             }
           }
         ]
@@ -171,11 +171,12 @@
   "active": "a5c4ea4835f27aa8",
   "lastOpenFiles": [
     "README.md",
+    "Done.md",
+    "HTB/Easy/*nix/Broker.md",
     "Writeup Template.md",
     "HTB/Easy/*nix/CozyHosting.md",
+    "note.md",
     "Methodology/HTB.md",
-    "HTB/Easy/*nix/Broker.md",
-    "Done.md",
     "HTB/Easy/*nix/Busqueda.md",
     "HTB/Medium/Windows/StreamIO.md",
     "HTB/Medium/Windows/Manager.md",
@@ -187,7 +188,6 @@
     "Methodology/FTP.md",
     "Methodology/Easy.md",
     "Methodology/OSCP.md",
-    "note.md",
     "Administrator.md",
     "Certified.md",
     "Certified",
