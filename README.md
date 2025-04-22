@@ -1,7 +1,7 @@
 # Sunday
 
-- [ ] [Editorial](Editorial)  
-- [ ] [Help](Help)  
+
+
 - [ ] [Keeper](Keeper)
 
 ---
@@ -37,7 +37,7 @@
 - [ ] [Jeeves](Jeeves)
 - [ ] [Manager](Manager.md)
 - [ ] [Aero](Aero.md)
-
+- [ ] [Editorial](Editorial)  
 
 [Certified](Certified)
 

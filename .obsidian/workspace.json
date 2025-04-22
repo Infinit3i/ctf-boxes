@@ -13,15 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Easy/*nix/Editorial.md",
+                "file": "HTB/Easy/*nix/Help.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Editorial"
+              "title": "Help"
+            }
+          },
+          {
+            "id": "2a36b85cae94805b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,10 +179,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5c4ea4835f27aa8",
+  "active": "2a36b85cae94805b",
   "lastOpenFiles": [
+    "HTB/Easy/*nix/Keeper.md",
     "README.md",
     "Done.md",
+    "HTB/Easy/*nix/Help.md",
+    "Aliases.md",
+    "HTB/Easy/*nix/Editorial.md",
     "HTB/Easy/*nix/Broker.md",
     "Writeup Template.md",
     "HTB/Easy/*nix/CozyHosting.md",
@@ -195,11 +210,7 @@
     "HTB/Hard/Windows",
     "HTB/Hard",
     "StreamIO.md",
-    "Vulnlab/*nix/Data.md",
     "HTB/Medium/Windows",
-    "Vulnlab/Windows/Bruno.md",
-    "Vulnlab/Windows/Escape.md",
-    "Vulnlab/Windows/Lock.md",
     "Vulnlab/Windows",
     "Vulnlab/*nix",
     "Vulnlab",

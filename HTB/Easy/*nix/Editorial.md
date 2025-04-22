@@ -21,9 +21,14 @@ nmap, ffuf, feroxbuster, Burp Suite, curl, git‑dumper, git, unzip/zip, Python�
 
 ## Recon 🔍  
 ```bash
-# Scan for services
 nmap -p- --min-rate 10000 10.10.11.20
+```
+
+```
 nmap -p 22,80 -sCV       10.10.11.20
+```
+
+```
 
 # Fuzz internal ports via SSRF endpoint
 ffuf -u http://editorial.htb/upload-cover \

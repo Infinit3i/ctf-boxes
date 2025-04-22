@@ -13,12 +13,12 @@
 
 ### 🔎 Full TCP Scan
 ```bash
-nmap -sT -p- --min-rate 10000 -oA nmap/alltcp 10.10.10.121
+nmap -sT -p- --min-rate 10000 -oA nmap/help_tcp 10.10.10.121
 ```
 
 ### 🔍 Service Detection
 ```bash
-nmap -sC -sV -p 22,80,3000 -oA nmap/scripts 10.10.10.121
+nmap -sCV -p 22,80,3000 -oA nmap/help_svc 10.10.10.121
 ```
 
 ---
