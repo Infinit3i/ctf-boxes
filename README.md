@@ -1,4 +1,4 @@
-- [ ] [Networked](Networked)  
+
 - [ ] [Pandora](Pandora)  
 
 

