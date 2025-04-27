@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a5c4ea4835f27aa8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Easy/*nix/Help.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Help"
-            }
-          },
-          {
             "id": "2a36b85cae94805b",
             "type": "leaf",
             "state": {
@@ -35,8 +21,7 @@
               "title": "README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,9 +172,12 @@
   "lastOpenFiles": [
     "Done.md",
     "README.md",
-    "HTB/Easy/*nix/Soccer.md",
     "note.md",
+    "HTB/Easy/*nix/Usage.md",
     "Aliases.md",
+    "Pasted image 20250427112542.png",
+    "HTB/Easy/*nix/Sau.md",
+    "HTB/Easy/*nix/Soccer.md",
     "HTB/Easy/*nix/Pandora.md",
     "Methodology/SNMP.md",
     "HTB/Easy/*nix/Networked.md",
@@ -208,9 +196,6 @@
     "HTB/Medium/Windows/Jeeves.md",
     "HTB/Medium/Windows/Intelligence.md",
     "HTB/Medium/Windows/Escape.md",
-    "HTB/Medium/Windows/Certified.md",
-    "HTB/Medium/Windows/Aero.md",
-    "Methodology/FTP.md",
     "Certified",
     "HTB/Hard/Windows",
     "HTB/Hard",

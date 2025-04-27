@@ -8,7 +8,8 @@ htbscan() {
 
     IP="$1"
     BOX="$2"
-    NMAP_DIR="nmap"
+    CURRENT_USER=$(whoami)
+    NMAP_DIR="/home/${CURRENT_USER}/HTB/${BOX}/nmap"
     mkdir -p "$NMAP_DIR"
 
     echo "[+] Running full TCP port scan on $IP..."

