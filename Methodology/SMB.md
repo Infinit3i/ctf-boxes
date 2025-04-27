@@ -23,4 +23,12 @@ smbclient //10.10.10.100/<share_name> -U ""%""
     mget *
 ```
 
+```bash
+nxc smb 10.10.11.35 -u guest -p '' --shares
+```
+
+```bash
+ldapdomaindump -u cicada.htb\\michael.wrightson -p 'Cicada$M6Corpb*@Lp#nZp!8' 10.10.11.35 -o ldapdump
+```
+
 https://github.com/abatchy17/WindowsExploits

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "HTB/Easy/Windows/Cicada.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Cicada"
             }
           }
         ]
@@ -170,8 +170,12 @@
   },
   "active": "2a36b85cae94805b",
   "lastOpenFiles": [
-    "Done.md",
     "README.md",
+    "Methodology/SMB.md",
+    "HTB/Easy/Windows/Cicada.md",
+    "Methodology/OSCP.md",
+    "Methodology/Kerberos.md",
+    "Done.md",
     "note.md",
     "HTB/Easy/*nix/Usage.md",
     "Aliases.md",
@@ -193,9 +197,6 @@
     "HTB/Easy/*nix/Busqueda.md",
     "HTB/Medium/Windows/StreamIO.md",
     "HTB/Medium/Windows/Manager.md",
-    "HTB/Medium/Windows/Jeeves.md",
-    "HTB/Medium/Windows/Intelligence.md",
-    "HTB/Medium/Windows/Escape.md",
     "Certified",
     "HTB/Hard/Windows",
     "HTB/Hard",
