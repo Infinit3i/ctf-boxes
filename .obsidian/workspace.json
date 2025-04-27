@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Easy/*nix/Pandora.md",
+                "file": "HTB/Easy/*nix/Soccer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pandora"
+              "title": "Soccer"
             }
           }
         ],
@@ -186,10 +186,12 @@
   "active": "2a36b85cae94805b",
   "lastOpenFiles": [
     "README.md",
+    "note.md",
     "Done.md",
+    "HTB/Easy/*nix/Pandora.md",
+    "Methodology/SNMP.md",
     "HTB/Easy/*nix/Networked.md",
     "Methodology/HTTP.md",
-    "note.md",
     "HTB/Easy/*nix/LinkVortex.md",
     "HTB/Easy/*nix/Keeper.md",
     "HTB/Easy/*nix/Help.md",
@@ -209,8 +211,6 @@
     "HTB/Medium/Windows/Aero.md",
     "Methodology/FTP.md",
     "Methodology/Easy.md",
-    "Methodology/OSCP.md",
-    "Administrator.md",
     "Certified",
     "HTB/Hard/Windows",
     "HTB/Hard",

