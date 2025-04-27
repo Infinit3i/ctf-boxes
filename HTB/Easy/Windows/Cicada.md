@@ -135,3 +135,5 @@ whoami /priv
 - **LDAP dump**: [ldapdomaindump](https://github.com/BloodHoundAD/ldapdomaindump)  
 - **WinRM**: [`evil-winrm`](https://github.com/Hackplayers/evil-winrm)  
 - **Priv‑Esc**: [`impacket`](https://github.com/SecureAuthCorp/impacket)  
+
+https://www.youtube.com/watch?v=21Z_byocGhI
