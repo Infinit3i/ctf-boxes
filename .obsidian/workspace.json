@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Easy/*nix/Soccer.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Soccer"
+              "title": "README"
             }
           }
         ],
@@ -185,9 +185,11 @@
   },
   "active": "2a36b85cae94805b",
   "lastOpenFiles": [
-    "README.md",
-    "note.md",
     "Done.md",
+    "README.md",
+    "HTB/Easy/*nix/Soccer.md",
+    "note.md",
+    "Aliases.md",
     "HTB/Easy/*nix/Pandora.md",
     "Methodology/SNMP.md",
     "HTB/Easy/*nix/Networked.md",
@@ -195,7 +197,6 @@
     "HTB/Easy/*nix/LinkVortex.md",
     "HTB/Easy/*nix/Keeper.md",
     "HTB/Easy/*nix/Help.md",
-    "Aliases.md",
     "HTB/Easy/*nix/Editorial.md",
     "HTB/Easy/*nix/Broker.md",
     "Writeup Template.md",
@@ -210,7 +211,6 @@
     "HTB/Medium/Windows/Certified.md",
     "HTB/Medium/Windows/Aero.md",
     "Methodology/FTP.md",
-    "Methodology/Easy.md",
     "Certified",
     "HTB/Hard/Windows",
     "HTB/Hard",

