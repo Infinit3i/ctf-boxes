@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Easy/Windows/Cicada.md",
+                "file": "HTB/Easy/Windows/Forest.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cicada"
+              "title": "Forest"
             }
           }
         ]
@@ -172,13 +172,15 @@
   "lastOpenFiles": [
     "README.md",
     "note.md",
+    "Done.md",
+    "HTB/Easy/Windows/Forest.md",
+    "Aliases.md",
+    "Methodology/RPC.md",
     "HTB/Easy/Windows/Cicada.md",
     "Methodology/SMB.md",
     "Methodology/OSCP.md",
     "Methodology/Kerberos.md",
-    "Done.md",
     "HTB/Easy/*nix/Usage.md",
-    "Aliases.md",
     "Pasted image 20250427112542.png",
     "HTB/Easy/*nix/Sau.md",
     "HTB/Easy/*nix/Soccer.md",
@@ -195,8 +197,6 @@
     "HTB/Easy/*nix/CozyHosting.md",
     "Methodology/HTB.md",
     "HTB/Easy/*nix/Busqueda.md",
-    "HTB/Medium/Windows/StreamIO.md",
-    "HTB/Medium/Windows/Manager.md",
     "Certified",
     "HTB/Hard/Windows",
     "HTB/Hard",

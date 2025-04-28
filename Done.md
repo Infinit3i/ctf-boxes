@@ -17,3 +17,4 @@
 - [x] [Pandora](Pandora)  
 - [x] [Soccer](Soccer)  
 - [x] [Usage](Usage.md)  
+- [x] [Cicada](Cicada)  

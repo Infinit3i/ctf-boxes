@@ -1,23 +1,3 @@
-- [ ] [Cicada](Cicada)  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -39,7 +19,6 @@
 - [ ] [Mailing](Mailing.md)  
 - [ ] [Servmon](Servmon)  
 - [ ] [Active](Active)  
-- [ ] [Forest](Forest)  
 - [ ] [Support](Support)
 - [ ] [Return](Return)  
 - [ ] [Sauna](Sauna)  
@@ -59,7 +38,7 @@
 - [ ] [Devel](Devel)
 - [ ] [Grandpa](Grandpa)
 - [ ] [CozyHosting](CozyHosting) 
-
+- [x] [Forest](Forest)  
 
 [mind map oco](https://orange-cyberdefense.github.io/ocd-mindmaps/img/mindmap_ad_dark_classic_2025.03.excalidraw.svg)
 
@@ -69,7 +48,7 @@
 - check genertic creds
 ---
 
-todo
+# todo
 add all medium, hard and insane writeups
 add vulnhub low, easy, medium and hard
 add vulnyx
