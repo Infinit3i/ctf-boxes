@@ -1,9 +1,10 @@
+
 - [ ] [Active](Active)  
 - [ ] [Admirer](Admirer)  
 - [x] [Arctic](Arctic)  
 - [ ] [Bankrobber](Bankrobber)  
 - [ ] [Bart](Bart)  
-- [ ] [Bashed](Bashed)  
+- [x] [Bashed](Bashed)  
 - [ ] [Bastard](Bastard)  
 - [x] [Bastion](Bastion)  
 - [x] [Beep](Beep)  

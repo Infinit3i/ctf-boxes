@@ -14,7 +14,7 @@ The results show only port **80 (HTTP)** is open.
 ### [HTTP](HTTP) Enumeration
 Visiting the website reveals a PHP-based web application. To discover hidden paths:
 ```bash
-gobuster dir --url "http://$IP" -w /usr/share/dirb/wordlists/small.txt
+gobuster dir --url "http://10.10.10.68" -w /usr/share/dirb/wordlists/small.txt
 ```
 The `/dev/` directory contains accessible files — one allows command execution via the web.
 
@@ -87,8 +87,3 @@ Retrieve the root flag:
 ```bash
 cat /root/root.txt
 ```
-
----
-
-🎉 Congrats, you rooted **HTB: Bashed**!
-

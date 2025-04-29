@@ -4,105 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a24b5947937a39af",
+        "id": "bbebf88915e0ea8e",
         "type": "tabs",
         "children": [
           {
-            "id": "4ef7a9f3f72bf274",
+            "id": "9720b207ea101769",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP.md",
+                "file": "Aliases.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSCP"
-            }
-          },
-          {
-            "id": "1fde5cf03f793df3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bastard.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bastard"
-            }
-          },
-          {
-            "id": "8bfabc71ed73b152",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Easy/*nix/Bashed.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bashed"
-            }
-          },
-          {
-            "id": "ac7b05e53d151a8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bart.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bart"
-            }
-          },
-          {
-            "id": "4b36d760bf72e3d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bankrobber.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bankrobber"
-            }
-          },
-          {
-            "id": "c5d3021f190546dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Easy/*nix/Admirer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Admirer"
-            }
-          },
-          {
-            "id": "3c1233a26058d572",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Easy/Windows/Arctic.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Arctic"
+              "title": "Aliases"
             }
           }
         ]
@@ -252,21 +168,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ef7a9f3f72bf274",
+  "active": "9720b207ea101769",
   "lastOpenFiles": [
-    "README.md",
-    "OSCP.md",
-    "Aliases.md",
     "Bankrobber.md",
     "Bart.md",
     "Bastard.md",
     "note.md",
-    "Done.md",
-    "HTB/Easy/*nix/Admirer.md",
-    "HTB/Easy/Windows/Active.md",
-    "HTB/Easy/*nix/Beep.md",
+    "README.md",
+    "OSCP.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
     "HTB/Easy/*nix/Bashed.md",
     "HTB/Easy/Windows/Arctic.md",
+    "HTB/Easy/*nix/Admirer.md",
+    "Aliases.md",
+    "Done.md",
+    "HTB/Easy/Windows/Active.md",
+    "HTB/Easy/*nix/Beep.md",
     "HTB/Easy/Windows/Forest.md",
     "Methodology/RPC.md",
     "HTB/Easy/Windows/Cicada.md",
@@ -280,7 +198,6 @@
     "Methodology/SNMP.md",
     "HTB/Easy/*nix/Networked.md",
     "Methodology/HTTP.md",
-    "HTB/Easy/*nix/LinkVortex.md",
     "Certified",
     "HTB/Hard/Windows",
     "HTB/Hard",
@@ -290,7 +207,6 @@
     "Vulnlab",
     "HTB/Insane",
     "HTB/Medium/*nix",
-    "HTB/Medium",
-    "Untitled.canvas"
+    "HTB/Medium"
   ]
 }
