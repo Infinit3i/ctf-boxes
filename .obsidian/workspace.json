@@ -170,6 +170,10 @@
   },
   "active": "9720b207ea101769",
   "lastOpenFiles": [
+    "Assets/puppy_img_1.png",
+    "Assets/Pasted image 20250522011631.png",
+    "Assets",
+    "Pasted image 20250522011631.png",
     "Methodology/Easy.md",
     "Methodology/FTP.md",
     "Methodology/HTB.md",
@@ -197,7 +201,6 @@
     "Untitled.canvas",
     "HTB/Easy/*nix/Bashed.md",
     "HTB/Easy/Windows/Arctic.md",
-    "HTB/Easy/*nix/Admirer.md",
     "Pasted image 20250427112542.png",
     "Certified",
     "HTB/Hard/Windows",
@@ -207,7 +210,6 @@
     "Vulnlab/*nix",
     "Vulnlab",
     "HTB/Insane",
-    "HTB/Medium/*nix",
-    "HTB/Medium"
+    "HTB/Medium/*nix"
   ]
 }
