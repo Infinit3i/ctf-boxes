@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aliases.md",
+                "file": "HTB/Medium/Windows/Puppy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aliases"
+              "title": "Puppy"
             }
           }
         ]
@@ -170,6 +170,23 @@
   },
   "active": "9720b207ea101769",
   "lastOpenFiles": [
+    "Methodology/Easy.md",
+    "Methodology/FTP.md",
+    "Methodology/HTB.md",
+    "Methodology/HTTP.md",
+    "Methodology/IRC.md",
+    "Methodology/Kerberos.md",
+    "Methodology/LDAP.md",
+    "Methodology/Linux.md",
+    "Methodology/MySQL.md",
+    "Methodology/WinRM.md",
+    "Methodology/Windows.md",
+    "Methodology/SSH.md",
+    "Methodology/SNMP.md",
+    "Methodology/SMTP.md",
+    "Methodology/SMB.md",
+    "Methodology/RPC.md",
+    "Aliases.md",
     "Bankrobber.md",
     "Bart.md",
     "Bastard.md",
@@ -181,23 +198,7 @@
     "HTB/Easy/*nix/Bashed.md",
     "HTB/Easy/Windows/Arctic.md",
     "HTB/Easy/*nix/Admirer.md",
-    "Aliases.md",
-    "Done.md",
-    "HTB/Easy/Windows/Active.md",
-    "HTB/Easy/*nix/Beep.md",
-    "HTB/Easy/Windows/Forest.md",
-    "Methodology/RPC.md",
-    "HTB/Easy/Windows/Cicada.md",
-    "Methodology/SMB.md",
-    "Methodology/Kerberos.md",
-    "HTB/Easy/*nix/Usage.md",
     "Pasted image 20250427112542.png",
-    "HTB/Easy/*nix/Sau.md",
-    "HTB/Easy/*nix/Soccer.md",
-    "HTB/Easy/*nix/Pandora.md",
-    "Methodology/SNMP.md",
-    "HTB/Easy/*nix/Networked.md",
-    "Methodology/HTTP.md",
     "Certified",
     "HTB/Hard/Windows",
     "HTB/Hard",

