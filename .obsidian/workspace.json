@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bbebf88915e0ea8e",
+        "id": "b3e9fb95a4432cc8",
         "type": "tabs",
         "children": [
           {
-            "id": "9720b207ea101769",
+            "id": "1fde46897ef4683d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -168,8 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9720b207ea101769",
+  "active": "1fde46897ef4683d",
   "lastOpenFiles": [
+    "Methodology/DPAPI.md",
+    "HTB/Medium/Windows/Puppy.md",
+    "Methodology/SSH.md",
     "Assets/puppy_img_1.png",
     "Assets/Pasted image 20250522011631.png",
     "Assets",
@@ -185,7 +188,6 @@
     "Methodology/MySQL.md",
     "Methodology/WinRM.md",
     "Methodology/Windows.md",
-    "Methodology/SSH.md",
     "Methodology/SNMP.md",
     "Methodology/SMTP.md",
     "Methodology/SMB.md",
@@ -200,7 +202,6 @@
     "Untitled 1.canvas",
     "Untitled.canvas",
     "HTB/Easy/*nix/Bashed.md",
-    "HTB/Easy/Windows/Arctic.md",
     "Pasted image 20250427112542.png",
     "Certified",
     "HTB/Hard/Windows",

