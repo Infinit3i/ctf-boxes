@@ -15,7 +15,7 @@ nmap -p 22,80,8089 -sCV -oA scans/nmap-tcpscripts 10.10.10.209
 
 - Ports:
   - 22: [SSH](SSH) (OpenSSH 8.2p1)
-  - 80: [HTTP](HTTP) (Apache/2.4.41)
+  - 80: [HTTP](HTTP.md) (Apache/2.4.41)
   - 8089: HTTPS (Splunkd)
 
 Discovered a subdomain: `doctors.htb`

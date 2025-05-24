@@ -24,7 +24,7 @@ ffuf -u http://10.10.11.182 -H "Host: FUZZ.photobomb.htb" \
 
 ---
 
-## 🌐 [Website Enumeration](HTTP)
+## 🌐 [Website Enumeration](HTTP.md)
 
 ### Locate JavaScript with Creds
 Check source for:

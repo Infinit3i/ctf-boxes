@@ -10,7 +10,7 @@
 ```bash
 nmap -p- --min-rate 10000 -oA scans/nmap-alltcp 10.10.10.37
 ```
-> Identifies ports 21 [FTP](FTP), 22 [SSH](SSH), 80 [HTTP](HTTP), and 25565 (Minecraft, closed).
+> Identifies ports 21 [FTP](FTP), 22 [SSH](SSH), 80 [HTTP](HTTP.md), and 25565 (Minecraft, closed).
 
 ### 🔍 Targeted Service Enumeration
 ```bash

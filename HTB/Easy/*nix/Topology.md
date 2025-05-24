@@ -36,7 +36,7 @@ feroxbuster -u http://10.10.11.217 -x html
 $\lstinputlisting{/etc/passwd}$
 ```
 
-### [Apache vhost + .htpasswd Enumeration](HTTP)
+### [Apache vhost + .htpasswd Enumeration](HTTP.md)
 ```latex
 # View vhost config
 $\lstinputlisting{/etc/apache2/sites-enabled/000-default.conf}$

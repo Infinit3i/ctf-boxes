@@ -15,7 +15,7 @@ nmap -p 21,22,80 -sCV 10.10.11.186
 echo "10.10.11.186 metapress.htb" | sudo tee -a /etc/hosts
 ```
 
-### [Wfuzz for Subdomains](HTTP)
+### [Wfuzz for Subdomains](HTTP.md)
 ```bash
 wfuzz -u http://10.10.11.186 -H "Host: FUZZ.metapress.htb" \
 -w /opt/SecLists/Discovery/DNS/subdomains-top1million-5000.txt --hh 145

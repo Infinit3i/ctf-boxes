@@ -10,7 +10,7 @@
 
 #### 🌐 Ports Discovered (via `nmap`):
 - [**22/tcp** - OpenSSH 8.4p1 (Debian)](SSH)
-- [**80/tcp** - Apache 2.4.54, redirects to HTTPS](HTTP)
+- [**80/tcp** - Apache 2.4.54, redirects to HTTPS](HTTP.md)
 - **443/tcp** - Apache 2.4.54 (SSL-enabled)
 
 ```bash

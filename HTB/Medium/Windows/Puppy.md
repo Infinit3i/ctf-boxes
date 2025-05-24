@@ -133,7 +133,7 @@ look to see chain from ant.edwards to domain admin
 install bloodyad
 
 ```
-sudo apt install bloodAD
+sudo apt install bloodyAD
 ```
 
 ```bash

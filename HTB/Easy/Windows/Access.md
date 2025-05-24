@@ -19,7 +19,7 @@ nmap -sV -sC -p 21,23,80 -oA nmap/scripts 10.10.10.98
 **Findings**:
 - [FTP](FTP) (21): Anonymous login allowed
 - [Telnet](TELNET) (23)
-- [HTTP](HTTP) (80): Microsoft IIS 7.5
+- [HTTP](HTTP.md) (80): Microsoft IIS 7.5
 
 ---
 

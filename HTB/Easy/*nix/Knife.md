@@ -25,7 +25,7 @@ feroxbuster -u http://10.10.10.242 -o scans/feroxbuster-root-php
 
 ---
 
-## ⚔️ [PHP Backdoor RCE (CVE-2021-XXXXX)](HTTP)
+## ⚔️ [PHP Backdoor RCE (CVE-2021-XXXXX)](HTTP.md)
 ```http
 # Send request with User-Agentt: zerodium
 # PHP code in header gets executed.

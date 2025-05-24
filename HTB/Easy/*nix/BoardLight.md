@@ -23,7 +23,7 @@ nmap -p 22,80 -sCV 10.10.11.11 -oA boardlight-scv
 ```
 
 - **[SSH](SSH)** (22)  
-- **[HTTP](HTTP)** (80) → Apache 2.4.41 on Ubuntu  
+- **[HTTP](HTTP.md)** (80) → Apache 2.4.41 on Ubuntu  
 - Webroot hosts **Dolibarr v17.0.0** at `crm.board.htb`
 
 # Directory / subdomain fuzzing

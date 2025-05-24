@@ -22,7 +22,7 @@ echo "10.129.61.76 horizontall.htb" | sudo tee -a /etc/hosts
 ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt -u http://10.129.61.76 -H "Host: FUZZ.horizontall.htb" --fs 194
 ```
 
-### [Gobuster on API Virtual Host](HTTP)
+### [Gobuster on API Virtual Host](HTTP.md)
 ```bash
 gobuster dir -u http://api-prod.horizontall.htb/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,txt -t 100 -o gobuster_api-prod.horizontall_medium_php-html-txt.txt
 ```

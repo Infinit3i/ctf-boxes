@@ -22,7 +22,7 @@ curl 10.10.11.125:1337
 
 ---
 
-## 🌐 [Website & WordPress Recon](HTTP)
+## 🌐 [Website & WordPress Recon](HTTP.md)
 
 ### /etc/hosts Update
 ```bash

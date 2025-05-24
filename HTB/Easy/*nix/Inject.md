@@ -5,7 +5,7 @@
 - Prep: [OSCP](OSCP.md)
 
 ### Recon
-- **Ports**: [SSH](SSH) (22), [HTTP](HTTP) (8080)
+- **Ports**: [SSH](SSH) (22), [HTTP](HTTP.md) (8080)
 - **HTTP Tech Stack**: Apache Tomcat (based on error messages), likely Spring Boot based on site behavior and structure
 - **Website**:
   - Main page shows upload, register, and blog sections

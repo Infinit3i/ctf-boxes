@@ -4,12 +4,12 @@
 - Platform: [HTB](HTB)
 - **Exploits Used**:
   - Blind [SQL Injection](SQL Injection) in password reset  
-  - PHP webshell upload via extension bypass in Laravel‑Admin over [HTTP](HTTP)  
+  - PHP webshell upload via extension bypass in Laravel‑Admin over [HTTP](HTTP.md)  
   - 7‑Zip wildcard symlink exploit for file read  
 
 **Open Ports:**
 - [SSH](SSH) 22/tcp  
-- [HTTP](HTTP) 80/tcp  
+- [HTTP](HTTP.md) 80/tcp  
 
 **Tools:**
 - [nmap](nmap)  

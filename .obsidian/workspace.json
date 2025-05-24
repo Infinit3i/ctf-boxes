@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Medium/Windows/Puppy.md",
+                "file": "Methodology/HTTP/HTTP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Puppy"
+              "title": "HTTP"
             }
           }
         ]
@@ -168,10 +168,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1fde46897ef4683d",
+  "active": "339c86779985da79",
   "lastOpenFiles": [
-    "Methodology/DPAPI.md",
+    "Methodology/HTTP/webserver.md",
+    "HTB/Easy/*nix/Spectra.md",
+    "Methodology/HTTP/HTTP.md",
+    "Methodology/HTTP/CMS/Wordpress.md",
+    "Methodology/HTTP/CMS",
+    "Methodology/HTTP/Wordpress.md",
+    "Methodology/HTTP",
+    "HTB/Easy/*nix/Titanic.md",
+    "T.md",
+    "HTB/Easy/*nix/Topology.md",
+    "HTB/Easy/*nix/Traceback.md",
+    "HTB/Easy/*nix/Traverxec.md",
+    "HTB/Easy/*nix/Trick.md",
+    "HTB/Easy/*nix/Admirer.md",
     "HTB/Medium/Windows/Puppy.md",
+    "Methodology/DPAPI.md",
     "Methodology/SSH.md",
     "Assets/puppy_img_1.png",
     "Assets/Pasted image 20250522011631.png",
@@ -180,7 +194,6 @@
     "Methodology/Easy.md",
     "Methodology/FTP.md",
     "Methodology/HTB.md",
-    "Methodology/HTTP.md",
     "Methodology/IRC.md",
     "Methodology/Kerberos.md",
     "Methodology/LDAP.md",
@@ -189,19 +202,8 @@
     "Methodology/WinRM.md",
     "Methodology/Windows.md",
     "Methodology/SNMP.md",
-    "Methodology/SMTP.md",
-    "Methodology/SMB.md",
-    "Methodology/RPC.md",
-    "Aliases.md",
-    "Bankrobber.md",
-    "Bart.md",
-    "Bastard.md",
-    "note.md",
-    "README.md",
-    "OSCP.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "HTB/Easy/*nix/Bashed.md",
     "Pasted image 20250427112542.png",
     "Certified",
     "HTB/Hard/Windows",
@@ -209,8 +211,6 @@
     "HTB/Medium/Windows",
     "Vulnlab/Windows",
     "Vulnlab/*nix",
-    "Vulnlab",
-    "HTB/Insane",
-    "HTB/Medium/*nix"
+    "Vulnlab"
   ]
 }

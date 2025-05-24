@@ -49,7 +49,7 @@ curl -s 10.10.10.121:3000/graphql -H "Content-Type: application/json" \
 
 ---
 
-## 🌐 Web Recon – Port 80 [(Apache)](HTTP)
+## 🌐 Web Recon – Port 80 [(Apache)](HTTP.md)
 
 ### 🧭 Directory Brute Force
 ```bash

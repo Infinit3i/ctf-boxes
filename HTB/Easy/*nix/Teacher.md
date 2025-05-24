@@ -17,7 +17,7 @@ nmap -sC -sV -p 80 -oA scans/nmap_services 10.10.10.153
 
 ---
 
-## 🌐 [Web Enumeration](HTTP)
+## 🌐 [Web Enumeration](HTTP.md)
 
 ### Directory Bruteforcing with Gobuster
 ```bash

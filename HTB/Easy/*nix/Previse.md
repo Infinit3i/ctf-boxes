@@ -31,7 +31,7 @@ nmap -p 22,80 -sCV -oA scans/nmap-tcpscripts 10.10.11.104
 
 ---
 
-## 🧪 Command Injection in [logs.php](HTTP)
+## 🧪 Command Injection in [logs.php](HTTP.md)
 ### Without Source
 - Interact with `file_logs.php`
 - Modify POST request:

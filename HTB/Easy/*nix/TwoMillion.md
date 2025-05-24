@@ -16,7 +16,7 @@ nmap -p 22,80 -sCV 10.10.10.11
 echo "10.10.10.11 2million.htb" | sudo tee -a /etc/hosts
 ```
 
-### [FFUF – Subdomain Enumeration](HTTP)
+### [FFUF – Subdomain Enumeration](HTTP.md)
 ```bash
 ffuf -u http://10.10.10.11 -H "Host: FUZZ.2million.htb" -w /opt/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -mc all -ac
 ```

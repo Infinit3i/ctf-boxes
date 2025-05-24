@@ -15,7 +15,7 @@ nmap -p- --min-rate 10000 10.10.11.230
 nmap -p 22,80 -sCV 10.10.11.230
 ```
 
-- Open ports: **22 [SSH](SSH)**, **80 [HTTP](HTTP)**
+- Open ports: **22 [SSH](SSH)**, **80 [HTTP](HTTP.md)**
 - Web server: nginx 1.18.0
 - Redirect to `cozyhosting.htb` confirms host-based routing
 

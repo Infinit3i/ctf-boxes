@@ -17,7 +17,7 @@ nmap -p 80,2222 -sCV -oA scans/scripts 10.10.10.56
 
 ---
 
-### 🌐 [Web Enumeration](HTTP)
+### 🌐 [Web Enumeration](HTTP.md)
 ```bash
 feroxbuster -u http://10.10.10.56 -x php,html -f -n
 ```

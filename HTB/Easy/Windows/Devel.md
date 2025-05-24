@@ -19,7 +19,7 @@ nmap -sV -sC -p 21,80 -oA scans/nmap-scripts 10.10.10.5
 
 ---
 
-## 🌐 [Web](HTTP) & [FTP](FTP) Enumeration
+## 🌐 [Web](HTTP.md) & [FTP](FTP) Enumeration
 
 **Check FTP access (Anonymous allowed):**
 ```bash

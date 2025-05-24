@@ -12,7 +12,7 @@ nmap -p 22,80 -sCV 10.10.11.156
 ```
 - **Open Ports**:
   - `22/tcp`: [SSH](SSH) - OpenSSH 7.6p1 (Ubuntu 18.04)
-  - `80/tcp`: [HTTP](HTTP) - nginx 1.14.0
+  - `80/tcp`: [HTTP](HTTP.md) - nginx 1.14.0
 
 ### Hosts File Entry
 ```bash

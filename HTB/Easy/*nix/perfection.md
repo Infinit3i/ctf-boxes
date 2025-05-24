@@ -9,7 +9,7 @@
 nmap -p- -T4 10.10.11.X  # Full port scan to discover open services
 ```
 
-> Only port [80](HTTP) was relevant and led to the vulnerable web page.
+> Only port [80](HTTP.md) was relevant and led to the vulnerable web page.
 
 ---
 

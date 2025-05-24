@@ -17,7 +17,7 @@ nmap -p 22,80,6379,10000 -sC -sV -oA scans/nmap-tcpscripts 10.10.10.160
 
 - **Ports:**  
   - `22/tcp`: [OpenSSH 7.6](SSH)
-  - `80/tcp`: [Apache 2.4.29](HTTP)
+  - `80/tcp`: [Apache 2.4.29](HTTP.md)
   - `6379/tcp`: Redis 4.0.9  
   - `10000/tcp`: Webmin (MiniServ 1.910)  
 

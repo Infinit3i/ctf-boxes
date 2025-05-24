@@ -31,7 +31,7 @@ nmap -p- --min-rate 10000 10.10.10.175
 nmap -p 53,80,88,135,139,389,445,464,593,3268,3269,5985 -sC -sV -oA scans/tcpscripts 10.10.10.175
 ```
 
-### 🌐 [Web Enumeration](HTTP)
+### 🌐 [Web Enumeration](HTTP.md)
 
 ```bash
 gobuster dir -u http://10.10.10.175/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -o scans/gobuster-root -t 40

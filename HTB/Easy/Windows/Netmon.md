@@ -35,7 +35,7 @@ ftp 10.10.10.152
 # Attempted but failed without credentials
 ```
 
-### 🌐 [Web Enumeration](HTTP)
+### 🌐 [Web Enumeration](HTTP.md)
 ```text
 # Visit http://10.10.10.152 and observe PRTG login page
 # Try default creds: prtgadmin:prtgadmin (fails)

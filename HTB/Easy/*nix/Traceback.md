@@ -25,7 +25,7 @@ nmap -p 22,80 -sC -sV -oA scans/nmap-tcpscripts 10.10.10.181
 
 ---
 
-## 🌐 [Web Enumeration](HTTP)
+## 🌐 [Web Enumeration](HTTP.md)
 
 ### Webpage Source
 

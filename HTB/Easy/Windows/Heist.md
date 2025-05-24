@@ -14,7 +14,7 @@ nmap -p- --min-rate 10000 -oA nmap-alltcp 10.10.10.149
 
 ---
 
-## 🌐 [Web Enumeration](HTTP)
+## 🌐 [Web Enumeration](HTTP.md)
 
 **Browse Web Portal**
 - Navigate to: `http://10.10.10.149`

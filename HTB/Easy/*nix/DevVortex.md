@@ -11,7 +11,7 @@ nmap -p 22,80 -sCV 10.10.11.242
 ffuf -u http://10.10.11.242 -H 'Host: FUZZ.devvortex.htb' -w /opt/SecLists/Discovery/DNS/subdomains-top1million-20000.txt -mc all -ac
 
 ```
-## [Feroxbuster](HTTP)
+## [Feroxbuster](HTTP.md)
 ```
 feroxbuster -u http://devvortex.htb -x html
 ```

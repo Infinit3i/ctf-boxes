@@ -20,7 +20,7 @@ nmap -p 80,22,443 -sC -sV -oA networked-tcpscripts 10.10.10.146
 
 - **Ports open**:
   - [22](SSH) → OpenSSH 7.4
-  - [80](HTTP) → Apache 2.4.6 (PHP 5.4.16)
+  - [80](HTTP.md) → Apache 2.4.6 (PHP 5.4.16)
   - 443 → Closed
 
 ---

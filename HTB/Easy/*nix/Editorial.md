@@ -12,7 +12,7 @@
 
 **Open Ports:**  
 - [SSH](SSH) 22/tcp  
-- [HTTP](HTTP) 80/tcp  
+- [HTTP](HTTP.md) 80/tcp  
 
 **Tools:**  
 nmap, ffuf, feroxbuster, Burp Suite, curl, git‑dumper, git, unzip/zip, Python 3 (requests), sshpass  

@@ -1,5 +1,5 @@
 ```shell
-feroxbuster -u http://10.10.11.11 -x php
+feroxbuster -u http://10.10.11.55 -x php
 ```
 
 ```bash
@@ -9,3 +9,5 @@ ffuf -u http://10.10.11.11 -H "Host: FUZZ.board.htb" -w /opt/SecLists/Discovery/
 ```
 dirsearch -u http://10.10.11.11
 ```
+
+

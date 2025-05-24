@@ -11,7 +11,7 @@ nmap -sV -sC -oA scans/nmap-alltcp 10.10.10.226
 ```
 - **Open Ports:**
   - 22 (SSH)
-  - 5000 ([HTTP](HTTP) - Werkzeug server)
+  - 5000 ([HTTP](HTTP.md) - Werkzeug server)
 
 ```bash
 gobuster dir -u http://10.10.10.226:5000/ -w /usr/share/dirb/wordlists/small.txt

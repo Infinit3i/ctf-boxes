@@ -7,7 +7,7 @@
 
 ### Nmap Scan
 Identified open ports:
-- **TCP 80** [HTTP](HTTP)
+- **TCP 80** [HTTP](HTTP.md)
 - **TCP 1337** (discovered via source code comment)
 
 Performed additional scans:

@@ -28,7 +28,7 @@ nmap -p 80 -sCV 10.10.10.8
 
 ---
 
-## 🌐 [Web Recon – HFS](HTTP)
+## 🌐 [Web Recon – HFS](HTTP.md)
 
 ### 🕵️ Vulnerability Check
 ```bash

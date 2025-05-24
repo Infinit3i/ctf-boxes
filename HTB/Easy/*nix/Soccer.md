@@ -19,7 +19,7 @@ nmap -p 22,80,9091 -sCV 10.10.11.194
 ffuf -u http://10.10.11.194 -H "Host: FUZZ.soccer.htb" -w /opt/SecLists/Discovery/DNS/subdomains-top1million-20000.txt -mc all -ac
 ```
 
-### [Feroxbuster](HTTP)
+### [Feroxbuster](HTTP.md)
 ```bash
 feroxbuster -u http://soccer.htb
 ```

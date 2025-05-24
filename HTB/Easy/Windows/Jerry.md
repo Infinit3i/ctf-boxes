@@ -15,11 +15,11 @@ nmap -sT -p- --min-rate 5000 10.10.10.95
 ```bash
 nmap -sV -sC -p 8080 -oA nmap/initial 10.10.10.95
 ```
-- Port 8080 runs [Tomcat](HTTP): `Apache Tomcat/Coyote JSP engine 1.1`.
+- Port 8080 runs [Tomcat](HTTP.md): `Apache Tomcat/Coyote JSP engine 1.1`.
 
 ---
 
-## 🌐 [Web Discovery](HTTP)
+## 🌐 [Web Discovery](HTTP.md)
 
 ### 🔑 Tomcat Manager Login
 - Navigate to `http://10.10.10.95:8080`

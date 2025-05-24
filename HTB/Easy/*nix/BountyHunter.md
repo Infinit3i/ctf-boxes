@@ -14,7 +14,7 @@ nmap -p 22,80 -sCV -oA scans/nmap-tcpscripts <IP>
 
 ---
 
-## 🕵️ [Web Enumeration](HTTP)
+## 🕵️ [Web Enumeration](HTTP.md)
 ```bash
 # Add to /etc/hosts
 <IP> bountyhunter.htb

@@ -20,7 +20,7 @@ nmap -p 22,80 -sC -sV -oA scans/nmap-tcpscripts 10.10.10.171
 
 ---
 
-## 🌐 [Web Enumeration](HTTP)
+## 🌐 [Web Enumeration](HTTP.md)
 
 ### Gobuster
 

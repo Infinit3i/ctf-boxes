@@ -10,7 +10,7 @@
 nmap -sV -sC -oA scan/result $IP
 ```
 - Found services:
-  - [HTTP](HTTP) (80, 5000)
+  - [HTTP](HTTP.md) (80, 5000)
   - HTTPS
   - [SMB](SMB)
   - [MySQL](MySQL.md)

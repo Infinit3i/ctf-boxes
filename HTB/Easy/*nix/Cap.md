@@ -14,7 +14,7 @@ nmap -T4 -A -p- 10.10.10.245
 ### Ports Found
 - **21/tcp** → [FTP](FTP) (vsftpd 3.0.3)
 - **22/tcp** → [SSH](SSH) (OpenSSH 8.2p1)
-- **80/tcp** → [HTTP](HTTP) (gunicorn)
+- **80/tcp** → [HTTP](HTTP.md) (gunicorn)
 
 ---
 

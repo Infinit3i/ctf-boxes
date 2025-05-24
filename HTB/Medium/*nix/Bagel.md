@@ -4,7 +4,7 @@
 - Platform: [HTB](HTB)
 - Prep: [OSCP](OSCP.md)
 - **Exploits Used**:
-  - [HTTP](HTTP) File Read via Flask route `?page=`
+  - [HTTP](HTTP.md) File Read via Flask route `?page=`
   - Python `proc` analysis to leak source
   - DLL retrieval from .NET server 🎯
   - JSON.NET deserialization exploit in WebSocket 📡
@@ -14,8 +14,8 @@
 
 - **Open Ports**:
   - [SSH](SSH) (22)
-  - [HTTP](HTTP) (8000) – Flask
-  - [HTTP](HTTP) (5000) – WebSocket + .NET Core
+  - [HTTP](HTTP.md) (8000) – Flask
+  - [HTTP](HTTP.md) (5000) – WebSocket + .NET Core
 
 ---
 

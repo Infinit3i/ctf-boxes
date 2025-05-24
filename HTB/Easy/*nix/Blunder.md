@@ -30,7 +30,7 @@ ffuf -w /usr/share/wordlists/dirb/big.txt -u http://blunder.htb/FUZZ
 
 ---
 
-## 🌐 [Web Enumeration](HTTP)
+## 🌐 [Web Enumeration](HTTP.md)
 
 - Found `/admin` login panel.
 - Bludit version found in HTML source: `3.9.2`

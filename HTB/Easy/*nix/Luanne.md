@@ -5,7 +5,7 @@
 ### Recon
 
 **Nmap Scan:**
-- Open ports: 22 [SSH](SSH), 80 [HTTP](HTTP), 9001 (Supervisor Process Manager)
+- Open ports: 22 [SSH](SSH), 80 [HTTP](HTTP.md), 9001 (Supervisor Process Manager)
 - OS: NetBSD
 - TCP 9001 is running Supervisor Process Manager, protected by HTTP Basic Auth
 

@@ -24,7 +24,7 @@ curl -d '{"name":"0xdf0xdf","email":"dfdfdfdf@secret.com","password":"password"}
 curl -d '{"email":"dfdfdfdf@secret.com","password":"password"}' -X POST http://10.10.11.120/api/user/login -H 'Content-Type: Application/json'
 ```
 
-## 📁 [Directory Discovery](HTTP)
+## 📁 [Directory Discovery](HTTP.md)
 ```bash
 feroxbuster -u http://10.10.11.120
 ```

@@ -11,7 +11,7 @@
 nmap -p- --min-rate 10000 10.10.11.198
 nmap -p 22,80 -sCV 10.10.11.198
 ```
-- Ports open: 22 [SSH](SSH), 80 [HTTP](HTTP)
+- Ports open: 22 [SSH](SSH), 80 [HTTP](HTTP.md)
 - Hostname discovered: `haxtables.htb`
 
 ### Website Enumeration

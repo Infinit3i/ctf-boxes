@@ -10,7 +10,7 @@
   - File extension bypass via `.txt → .aspx`
   - Local PrivEsc using `Churrasco.exe`
 open ports ex.
-[HTTP](HTTP)
+[HTTP](HTTP.md)
 
 TLDR
 

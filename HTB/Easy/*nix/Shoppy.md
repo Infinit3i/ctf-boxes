@@ -21,7 +21,7 @@ wfuzz -u http://10.10.11.180 -H "Host: FUZZ.shoppy.htb" \
 -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt --hh 169
 ```
 
-### [Feroxbuster](HTTP)
+### [Feroxbuster](HTTP.md)
 ```bash
 feroxbuster -u http://shoppy.htb
 ```

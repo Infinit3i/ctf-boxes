@@ -16,7 +16,7 @@ nmap -p 22,80 -sCV 10.10.11.189
 echo "10.10.11.189 precious.htb" | sudo tee -a /etc/hosts
 ```
 
-### [FFUF](HTTP) Subdomain Fuzzing
+### [FFUF](HTTP.md) Subdomain Fuzzing
 ```bash
 ffuf -u http://10.10.11.189 -H "Host: FUZZ.precious.htb" -w /opt/SecLists/Discovery/DNS/subdomains-top1million-20000.txt -mc all -ac
 ```

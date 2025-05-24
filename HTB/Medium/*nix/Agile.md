@@ -4,14 +4,14 @@
 - Platform: [HTB](HTB)
 - Prep: [OSCP](OSCP.md)
 - **Exploits Used**:
-  - [HTTP](HTTP) File Read Vulnerability via `/download?fn=...`
+  - [HTTP](HTTP.md) File Read Vulnerability via `/download?fn=...`
   - Flask Debug Mode Code Execution via Werkzeug PIN Bypass
   - Database Credential Extraction 🐍
   - Chrome Remote Debugging Cookie Stealing 🥸
   - [Sudoedit](https://nvd.nist.gov/vuln/detail/CVE-2023-22809) via CVE-2023-22809 to escalate to root 🧨
 - **Open Ports**:
   - [SSH](SSH) (22)
-  - [HTTP](HTTP) (80)
+  - [HTTP](HTTP.md) (80)
 
 ---
 

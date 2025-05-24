@@ -21,7 +21,7 @@ nmap -p 135,5985,8080,29817,29819,29820 -sC -sV -oA scans/nmap-tcpscripts 10.10.
 
 ## 🌐 Web Enumeration
 
-**[HTTP](HTTP) on port 8080 prompts for auth:**  
+**[HTTP](HTTP.md) on port 8080 prompts for auth:**  
 > Realm: *Windows Device Portal*
 
 Add to `/etc/hosts`:

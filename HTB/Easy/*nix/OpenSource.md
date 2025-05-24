@@ -11,7 +11,7 @@ nmap -p 22,80 -sCV 10.10.11.164
 ```
 
 - `22/tcp`: [OpenSSH 7.6p1](SSH)
-- `80/tcp`: [HTTP](HTTP) – Werkzeug/2.1.2 Python/3.10.3
+- `80/tcp`: [HTTP](HTTP.md) – Werkzeug/2.1.2 Python/3.10.3
 - `3000/tcp`: Filtered (accessible later from container)
 
 **Website**

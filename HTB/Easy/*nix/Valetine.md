@@ -13,7 +13,7 @@ nmap -sC -sV -p- 10.10.10.79
 ```
 
 Identified open ports:
-- **80 [HTTP](HTTP)**: Apache/2.2.22 (Ubuntu)
+- **80 [HTTP](HTTP.md)**: Apache/2.2.22 (Ubuntu)
 - **443 (HTTPS)**: Vulnerable OpenSSL (Heartbleed, CVE-2014-0160)
 
 **Nmap Vuln Scripts:**

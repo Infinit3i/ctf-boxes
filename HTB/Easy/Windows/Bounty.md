@@ -18,7 +18,7 @@ rustscan --ulimit 5000 -a $IP -- -A -sC -oN recon/$IP.scan.rustscan.txt
 
 ---
 
-## 🌐 [Web Enumeration](HTTP)
+## 🌐 [Web Enumeration](HTTP.md)
 
 ### 📁 Directory Enumeration via ShortScan
 ```bash

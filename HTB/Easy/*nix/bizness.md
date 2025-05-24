@@ -10,7 +10,7 @@
 nmap -p- -T4 10.10.11.X
 ```
 
-> Port [80](HTTP) was open and used for further exploitation.
+> Port [80](HTTP.md) was open and used for further exploitation.
 
 ---
 

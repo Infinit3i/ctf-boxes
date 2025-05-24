@@ -26,7 +26,7 @@ sudo nmap -sU -top-ports=100 10.10.11.136
 feroxbuster -u http://10.10.11.136
 ```
 
-**[WFuzz](HTTP) Subdomain Discovery:**
+**[WFuzz](HTTP.md) Subdomain Discovery:**
 ```bash
 wfuzz -u http://panda.htb -H "Host: FUZZ.panda.htb" \
   -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt \
